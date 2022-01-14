@@ -6,12 +6,5 @@ repos:
     -   id: trailing-whitespace
     -   id: end-of-file-fixer
     -   id: check-added-large-files
+        args: ['--maxkb=2000']
     -   id: requirements-txt-fixer
--   repo: https://github.com/pre-commit/mirrors-csslint
-    rev: v1.0.5
-    hooks:
-    -   id: csslint
--   repo: https://github.com/pre-commit/mirrors-jshint
-    rev: v2.13.3
-    hooks:
-    -   id: jshint

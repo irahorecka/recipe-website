@@ -1,0 +1,7 @@
+_template: index.html
+---
+title: Welcome to recipe-website!
+---
+body:
+
+This is a simple recipe website.

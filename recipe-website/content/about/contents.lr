@@ -1,0 +1,7 @@
+_template: about.html
+---
+title: About Recipes Website
+---
+body:
+
+This is the abouts page for the Recipe Website.
