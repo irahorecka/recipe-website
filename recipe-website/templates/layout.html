@@ -25,43 +25,40 @@
 
 <body>
   <header>
-    {% block menu %}
-      <nav class="navbar fixed-top navbar-expand-md navbar-light">
-        <a class="navbar-brand d-block d-md-none" href="{{ '/'|url }}">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="{{ '/'|url }}">
           <img src="{{ '/images/recipe-website-logo-32px.png'|asseturl }}" alt="Home">
         </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse"
-                data-target="#navbar-nav" aria-controls="navbar-nav"
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbar-nav" aria-controls="navbar-nav"
                 aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbar-nav">
-          <ul class="navbar-nav mx-auto">
+          <ul class="navbar-nav mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="navbar-brand d-none d-md-block" href="{{ '/'|url }}">
-                <img src="{{ '/images/recipe-website-logo-32px.png'|asseturl }}" alt="Home">
-              </a>
+              <a class="nav-link active" href="{{ "/"|url }}">Home</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="{{ "/"|url }}">Home</a>
-            </li>
-            <li class="nav-item dropdown" href="#top" data-toggle="collapse" data-target=".navbar-collapse.show">
+            <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="{{ "/recipes"|url }}"
-                  id="navbar-alts-dropdown" role="button"
-                  aria-haspopup="true" aria-expanded="false">Recipes</a>
-              <div class="dropdown-menu" aria-labelledby="navbar-alts-dropdown">
-                <a class="dropdown-item" href="{{ ("/recipes/breakfast")|url }}">Breakfast</a>
-                <a class="dropdown-item" href="{{ "/recipes/lunch"|url }}">Lunch</a>
-                <a class="dropdown-item" href="{{ "/recipes/dinner"|url }}">Dinner</a>
-              </div>
+                 id="navbar-nav-dropdown" role="button"
+                 data-bs-toggle="dropdown" aria-expanded="false">
+                Recipes
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbar-nav-dropdown">
+                <li><a class="dropdown-item" href="{{ ("/recipes/breakfast")|url }}">Breakfast</a></li>
+                <li><a class="dropdown-item" href="{{ ("/recipes/lunch")|url }}">Lunch</a></li>
+                <li><a class="dropdown-item" href="{{ ("/recipes/dinner")|url }}">Dinner</a></li>
+              </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="{{ "/about"|url }}">About</a>
+              <a class="nav-link active" href="{{ "/about"|url }}">About</a>
             </li>
           </ul>
         </div>
-      </nav>
-    {% endblock %}
+      </div>
+    </nav>
   </header>
 
   <main>
