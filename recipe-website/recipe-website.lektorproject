@@ -1,2 +1,5 @@
 [project]
 name = recipe-website
+
+[servers.ghpages]
+target = ghpages://irahorecka/recipe-website
