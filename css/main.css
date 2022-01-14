@@ -12,6 +12,10 @@ body {
     background-color: white;
 }
 
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
 /* Allow hover navbar for drop-downs */
 .dropdown:hover .dropdown-menu {
     margin-top: 0px;
