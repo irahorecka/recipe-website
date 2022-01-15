@@ -26,7 +26,7 @@
 <body>
   <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid">
+      <div class="container-fluid px-3 navbar-content">
         <a class="navbar-brand" href="{{ '/'|url }}">
           <img src="{{ '/images/recipe-website-logo-32px.png'|asseturl }}" alt="Home">
         </a>
@@ -62,12 +62,71 @@
   </header>
 
   <main>
-    {% block heading %}
-    {% endblock %}
+    <div class="d-md-flex" style="min-height: 100vh;">
+      <aside class="col-md-4 col-lg-3 color-border-muted border-bottom hide-md hide-sm border-right color-bg-default" aria-label="Sidebar">
+        <div>
+          <img src="{{ '/images/recipe-website-logo.png'|asseturl }}" class="rounded-circle" style="max-width:100%; max-height:100%; padding:2rem; padding-top:0">
+          <div class="d-flex justify-content-center border-bottom color-border-muted py-3 mt-3 mb-4">
+            <button class="btn btn-primary rounded px-5" type="button"> Surprise me! </button>
+          </div>
+          <div class="px-5">
+            <h3 class="text-left pt-2 pb-3"> Simple and cheap </h3>
+            <div class="pb-2">
+              <h5 class="text-left pb-1 text-decoration-underline"> Meal </h5>
+              <ul class="list-unstyled">
+                <li class="">
+                  <div class="width-full d-flex justify-content-left mt-2">
+                    <a href="#"> Breakfast </a>
+                  </div>
+                </li>
+                <li class="">
+                  <div class="width-full d-flex justify-content-left mt-2">
+                    <a href="#"> Lunch </a>
+                  </div>
+                </li>
+                <li class="">
+                  <div class="width-full d-flex justify-content-left mt-2">
+                    <a href="#"> Dinner </a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h5 class="text-left pb-1 text-decoration-underline"> Recipe Origin </h5>
+              <ul class="list-unstyled">
+                <li class="">
+                  <div class="width-full d-flex justify-content-left mt-2">
+                    <a href="#"> Russia </a>
+                  </div>
+                </li>
+                <li class="">
+                  <div class="width-full d-flex justify-content-left mt-2">
+                    <a href="#"> Japan </a>
+                  </div>
+                </li>
+                <li class="">
+                  <div class="width-full d-flex justify-content-left mt-2">
+                    <a href="#"> India </a>
+                  </div>
+                </li>
+                <li class="">
+                  <div class="width-full d-flex justify-content-left mt-2">
+                    <a href="#"> Italy </a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </aside>
+      <div class="flex-auto col-md-8 col-lg-8 px-3 px-lg-5">
+        {% block heading %}
+        {% endblock %}
 
-    {% block content %}
-      {{ this.body }}
-    {% endblock %}
+        {% block content %}
+        {% endblock %}
+      </div>
+    </div>
   </main>
 
   <footer>
