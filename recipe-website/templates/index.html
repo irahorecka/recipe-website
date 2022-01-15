@@ -13,15 +13,15 @@
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
     </p>
     <hr class="my-4">
-    {% for i in range(10) %}
+    {%- for recipe in this.recipes.blocks -%}
     <!-- THIS IS A REPEATING CARD -->
     <div class="container justify-content-between border border-dark rounded p-3 my-3">
       <div class="row">
         <div class="col-12 col-md-4 pb-3">
-          <img src="{{ '/images/okonomiyaki.jpeg'|asseturl }}" alt="Okonomiyaki" class="img-fluid rounded border border-dark">
+          <img src="{{ recipe.img_url|asseturl }}" alt="{{ recipe.title }}" class="img-fluid rounded border border-dark">
         </div>
         <div class="col-12 col-md-8">
-          <h4> Okonomiyaki </h4>
+          <h4> {{ recipe.recipe_title }} </h4>
           <ul class="my-auto list-unstyled">
             <li>
               <div class="row justify-content-start">
@@ -30,8 +30,8 @@
                 </div>
                 <div class="col-8 col-md-9">
                   <div class="d-flex justify-content-start">
-                    <img src="{{ '/images/japanese-flag.png'|asseturl }}" alt="Japanese Flag" class="img-fluid rounded border border-dark my-auto" style="max-height:16px;">
-                    <p class="my-auto ps-2">Japan</p>
+                    <img src="{{ recipe.origin_img_url|asseturl }}" alt="Japanese Flag" class="img-fluid rounded border border-dark my-auto" style="max-height:16px;">
+                    <p class="my-auto ps-2"> {{ recipe.origin }} </p>
                   </div>
                 </div>
               </div>
@@ -42,7 +42,7 @@
                   <p class="my-0"><u>Meal:</u></p>
                 </div>
                 <div class="col-8 col-md-9">
-                  <p class="my-0">Lunch / Dinner</p>
+                  <p class="my-0"> {{ recipe.meal }} </p>
                 </div>
               </div>
             </li>
@@ -52,7 +52,7 @@
                   <p class="my-0"><u>Difficulty:</u></p>
                 </div>
                 <div class="col-8 col-md-9">
-                  <p class="my-0">Easy</p>
+                  <p class="my-0"> {{ recipe.difficulty }} </p>
                 </div>
               </div>
             </li>
@@ -63,7 +63,7 @@
                 </div>
                 <div class="col-8 col-md-9">
                   <p class="my-0">
-                    <small>Okonomiyaki is a traditinal Japanese dish that is enjoyed in a round-table setting. Savory and light, this dish is a healthy option for anyone curious in this traditional treat.</small>
+                    <small> {{ recipe.about }} </small>
                   </p>
                 </div>
               </div>
@@ -76,5 +76,5 @@
       </div>
     </div>
     <!-- END CARD -->
-    {% endfor %}
+    {%- endfor -%}
 {% endblock %}
