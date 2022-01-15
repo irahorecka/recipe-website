@@ -4,49 +4,68 @@
 {% endblock %}
 
 {% block content %}
-    <div class="row">
-      <div class="col-2">
-        <img src="{{ '/images/japanese-flag.png'|asseturl }}" alt="Japanese Flag" class="img-fluid rounded border border-dark">
-      </div>
-      <div class="col-10 my-auto">
-        <h1> Japanese Recipes </h1>
-      </div>
-    </div>
+    <h1> The Recipe Website </h1>
     <br>
     <br>
-    <h2> Okonomiyaki </h2>
+    <h2> Simple and cheap cooking for everyone </h2>
     <br>
     <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
     </p>
-    <div class="container justify-content-between px-0">
-      <h4 class="py-3"> Ingredients </h4>
-      <div class="row">
-        <div class="col-5">
-          <ul>
-            <li>3 packed cups finely shredded cabbage, about ½ medium*</li>
-            <li>1¼ cups chopped scallions, about 1 bunch</li>
-            <li>1 cup panko breadcrumbs</li>
-            <li>¾ teaspoon sea salt</li>
-            <li>3 eggs, beaten</li>
-            <li>Extra-virgin olive oil, for brushing</li>
-          </ul>
-        </div>
-        <div class="col-7">
+    {% for i in range(10) %}
+    <!-- THIS IS A REPEATING CARD -->
+    <div class="container justify-content-between border border-dark rounded p-3 my-3">
+      <div class="row pt-2">
+        <div class="col-4">
           <img src="{{ '/images/okonomiyaki.jpeg'|asseturl }}" alt="Okonomiyaki" class="img-fluid rounded border border-dark">
         </div>
-      </div>
-      <div>
-        <h4 class="py-3">Instructions</h4>
-        <div class="row">
-          <div class="col-10">
-            <ol>
-              <li>In a large bowl, combine the cabbage, scallions, panko, and salt. Gently mix in the eggs. (Note: the mixture will be very loose and cabbagey, not like a flour pancake batter. If it's very dry, let it sit for 10 minutes).</li>
-              <li>Heat a nonstick skillet over medium heat. Brush the skillet with olive oil and use a ¼ measuring cup to scoop the cabbage mixture into the skillet. (It's ok if it doesn't seem cohesive, it'll bind together as the egg cooks). Flatten gently with a spatula so that the mixture is about 1/2 inch thick. Cook 3 minutes per side, or until browned, turning the heat to low as needed. Repeat with the remaining mixture, wiping out the skillet and brushing more oil, as needed.</li>
-              <li>Drizzle the okonomiyaki with Worcestershire sauce and thin strips of squeezed mayo. Top with sesame seeds, pickled ginger, and nori. Sprinkle with microgreens, if desired. Serve hot.</li>
-            </ol>
+        <div class="col-8">
+          <h4 class="mb-0"> Okonomiyaki </h4>
+          <ul class="my-auto">
+            <li>
+              <div class="row justify-content-start">
+                <div class="col-3 col-lg-2 me-lg-0">Origin:</div>
+                <div class="col-9 col-lg-10">
+                  <div class="d-flex justify-content-start">
+                    <img src="{{ '/images/japanese-flag.png'|asseturl }}" alt="Japanese Flag" class="img-fluid rounded border border-dark my-auto" style="max-height:16px;">
+                    <p class="my-auto ps-2">Japan</p>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="row justify-content-start">
+                <div class="col-3 col-lg-2 me-lg-0">Meal:</div>
+                <div class="col-9 col-lg-10">
+                  <p class="my-0">Lunch / Dinner</p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="row justify-content-start">
+                <div class="col-3 col-lg-2 me-lg-0">Difficulty:</div>
+                <div class="col-9 col-lg-10">
+                  <p class="my-0">Easy</p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="row justify-content-start">
+                <div class="col-3 col-lg-2 me-lg-0">About:</div>
+                <div class="col-9 col-lg-10">
+                  <p class="my-0">
+                    <small>Okonomiyaki is a traditinal Japanese dish that is enjoyed in a round-table setting. Savory and light, this dish is a healthy option for anyone curious in this Japanese treat.</small>
+                  </p>
+                </div>
+              </div>
+            </li>
+          </ul>
+          <div class="d-flex justify-content-end">
+            <button class="btn btn-primary rounded mt-3 me-0 px-3" type="button"> I'm interested! </button>
           </div>
         </div>
       </div>
     </div>
+    <!-- END CARD -->
+    {% endfor %}
 {% endblock %}
