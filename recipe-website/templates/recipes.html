@@ -5,11 +5,11 @@
 
 {% block content %}
     <div class="row">
-      <div class="col-2">
+      <div class="col-2 my-auto">
         <img src="{{ '/images/japanese-flag.png'|asseturl }}" alt="Japanese Flag" class="img-fluid rounded border border-dark">
       </div>
       <div class="col-10 my-auto">
-        <h1> Japanese Recipes </h1>
+        <h1 class="mb-0"> Japanese Recipes </h1>
       </div>
     </div>
     <br>
@@ -20,10 +20,14 @@
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
     </p>
     <div class="container justify-content-between px-0">
+      <!-- Image for mobile -->
+      <div class="d-block d-sm-none col-12 py-3">
+        <img src="{{ '/images/okonomiyaki.jpeg'|asseturl }}" alt="Okonomiyaki" class="img-fluid rounded border border-dark">
+      </div>
       <h4 class="py-3"> Ingredients </h4>
       <div class="row">
-        <div class="col-5">
-          <ul>
+        <div class="col-12 col-md-5">
+          <ul class="ps-3 ps-sm-4">
             <li>3 packed cups finely shredded cabbage, about ½ medium*</li>
             <li>1¼ cups chopped scallions, about 1 bunch</li>
             <li>1 cup panko breadcrumbs</li>
@@ -32,15 +36,16 @@
             <li>Extra-virgin olive oil, for brushing</li>
           </ul>
         </div>
-        <div class="col-7">
+        <!-- Image for desktop -->
+        <div class="d-none d-sm-block col-md-7">
           <img src="{{ '/images/okonomiyaki.jpeg'|asseturl }}" alt="Okonomiyaki" class="img-fluid rounded border border-dark">
         </div>
       </div>
       <div>
         <h4 class="py-3">Instructions</h4>
         <div class="row">
-          <div class="col-9">
-            <ol>
+          <div class="col-12 col-md-9">
+            <ol class="ps-3 ps-sm-4">
               <li>In a large bowl, combine the cabbage, scallions, panko, and salt. Gently mix in the eggs. (Note: the mixture will be very loose and cabbagey, not like a flour pancake batter. If it's very dry, let it sit for 10 minutes).</li>
               <li>Heat a nonstick skillet over medium heat. Brush the skillet with olive oil and use a ¼ measuring cup to scoop the cabbage mixture into the skillet. (It's ok if it doesn't seem cohesive, it'll bind together as the egg cooks). Flatten gently with a spatula so that the mixture is about 1/2 inch thick. Cook 3 minutes per side, or until browned, turning the heat to low as needed. Repeat with the remaining mixture, wiping out the skillet and brushing more oil, as needed.</li>
               <li>Drizzle the okonomiyaki with Worcestershire sauce and thin strips of squeezed mayo. Top with sesame seeds, pickled ginger, and nori. Sprinkle with microgreens, if desired. Serve hot.</li>
