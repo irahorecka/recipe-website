@@ -5,15 +5,15 @@
 
 {% block content %}
     <div class="row">
-      {% if this.page_title_img_url == '' %}
-      <div class="col-12 my-auto">
-        <h1 class="mb-0"> {{ this.page_title }} </h1>
-      </div>
-      {% else %}
+      {% if this.page_title_img_url|length %}
       <div class="col-2 my-auto">
         <img src="{{ this.page_title_img_url|asseturl }}" alt="Japanese Flag" class="img-fluid rounded border border-dark">
       </div>
       <div class="col-10 my-auto">
+        <h1 class="mb-0"> {{ this.page_title }} </h1>
+      </div>
+      {% else %}
+      <div class="col-12 my-auto">
         <h1 class="mb-0"> {{ this.page_title }} </h1>
       </div>
       {% endif %}
