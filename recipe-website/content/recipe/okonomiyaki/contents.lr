@@ -8,6 +8,23 @@ img_url: /images/okonomiyaki.jpeg
 ---
 about: Okonomiyaki is a traditinal Japanese dish that is enjoyed in a round-table setting. Savory and light, this dish is a healthy option for anyone curious in this traditional treat.
 ---
+
+gallery:
+
+#### image ####
+url: /images/okonomiyaki.jpeg
+----
+thumbnail_url: /images/okonomiyaki.jpeg
+----
+description: Okonomiyaki photo #1
+#### image ####
+url: /images/okonomiyaki-2.jpeg
+----
+thumbnail_url: /images/okonomiyaki-2.jpeg
+----
+description: Okonomiyaki photo #2
+---
+
 ingredients:
 
 #### ingredient ####
@@ -16,17 +33,17 @@ header:
 ingredient:
 
 ##### sub_ingredient #####
-sub_ingredient: 3 packed cups finely shredded cabbage, about ½ medium*
+ingredient: 3 packed cups finely shredded cabbage, about ½ medium*
 ##### sub_ingredient #####
-sub_ingredient: 1¼ cups chopped scallions, about 1 bunch
+ingredient: 1¼ cups chopped scallions, about 1 bunch
 ##### sub_ingredient #####
-sub_ingredient: 1 cup panko breadcrumbs
+ingredient: 1 cup panko breadcrumbs
 ##### sub_ingredient #####
-sub_ingredient: ¾ teaspoon sea salt
+ingredient: ¾ teaspoon sea salt
 ##### sub_ingredient #####
-sub_ingredient: 3 eggs, beaten
+ingredient: 3 eggs, beaten
 ##### sub_ingredient #####
-sub_ingredient: Extra-virgin olive oil, for brushing
+ingredient: Extra-virgin olive oil, for brushing
 ---
 instructions:
 
@@ -38,8 +55,8 @@ sub_header:
 instruction:
 
 ##### sub_instruction #####
-sub_instruction: In a large bowl, combine the cabbage, scallions, panko, and salt. Gently mix in the eggs. (Note: the mixture will be very loose and cabbagey, not like a flour pancake batter. If it's very dry, let it sit for 10 minutes).
+instruction: In a large bowl, combine the cabbage, scallions, panko, and salt. Gently mix in the eggs. (Note: the mixture will be very loose and cabbagey, not like a flour pancake batter. If it's very dry, let it sit for 10 minutes).
 ##### sub_instruction #####
-sub_instruction: Heat a nonstick skillet over medium heat. Brush the skillet with olive oil and use a ¼ measuring cup to scoop the cabbage mixture into the skillet. (It's ok if it doesn't seem cohesive, it'll bind together as the egg cooks). Flatten gently with a spatula so that the mixture is about 1/2 inch thick. Cook 3 minutes per side, or until browned, turning the heat to low as needed. Repeat with the remaining mixture, wiping out the skillet and brushing more oil, as needed.
+instruction: Heat a nonstick skillet over medium heat. Brush the skillet with olive oil and use a ¼ measuring cup to scoop the cabbage mixture into the skillet. (It's ok if it doesn't seem cohesive, it'll bind together as the egg cooks). Flatten gently with a spatula so that the mixture is about 1/2 inch thick. Cook 3 minutes per side, or until browned, turning the heat to low as needed. Repeat with the remaining mixture, wiping out the skillet and brushing more oil, as needed.
 ##### sub_instruction #####
-sub_instruction: Test Drizzle the okonomiyaki with Worcestershire sauce and thin strips of squeezed mayo. Top with sesame seeds, pickled ginger, and nori. Sprinkle with microgreens, if desired. Serve hot.
+instruction: Test Drizzle the okonomiyaki with Worcestershire sauce and thin strips of squeezed mayo. Top with sesame seeds, pickled ginger, and nori. Sprinkle with microgreens, if desired. Serve hot.

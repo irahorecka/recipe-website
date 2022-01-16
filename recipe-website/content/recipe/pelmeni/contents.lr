@@ -8,46 +8,63 @@ img_url: /images/pelmeni.jpeg
 ---
 about: Pelmeni are dumplings of Russian cuisine that consist of a filling, which can be minced meat (pork, lamb, beef, fish) or mushrooms. Dive into a favorite winter classic.
 ---
+
+gallery:
+
+#### image ####
+url: /images/pelmeni.jpeg
+----
+thumbnail_url: /images/pelmeni.jpeg
+----
+description: Pelmeni photo #1
+#### image ####
+url: /images/pelmeni-2.jpeg
+----
+thumbnail_url: /images/pelmeni-2.jpeg
+----
+description: Pelmeni photo #2
+---
+
 ingredients:
 
 #### ingredient ####
 header: Dough
 ----
 ingredient:
+##### sub_ingredient #####
+ingredient: 3 cups flour
+##### sub_ingredient #####
+ingredient: 1 tbsp salt
+##### sub_ingredient #####
+ingredient: ⅔ cup lukewarm water
+##### sub_ingredient #####
+ingredient: 3 eggs
 
-##### sub_ingredient #####
-sub_ingredient: 3 cups flour
-##### sub_ingredient #####
-sub_ingredient: 1 tbsp salt
-##### sub_ingredient #####
-sub_ingredient: ⅔ cup lukewarm water
-##### sub_ingredient #####
-sub_ingredient: 3 eggs
 #### ingredient ####
 header: Mushroom filling option
 ----
 ingredient:
-
 ##### sub_ingredient #####
-sub_ingredient: 225g mushrooms, finely diced
+ingredient: 225g mushrooms, finely diced
 ##### sub_ingredient #####
-sub_ingredient: ½ yellow onion, finely diced
+ingredient: ½ yellow onion, finely diced
 ##### sub_ingredient #####
-sub_ingredient: Salt and pepper to taste
+ingredient: Salt and pepper to taste
 ##### sub_ingredient #####
-sub_ingredient: 1 tsp dried dill (optional)
+ingredient: 1 tsp dried dill (optional)
 #### ingredient ####
 header: Chicken filling option
 ----
 ingredient:
 
 ##### sub_ingredient #####
-sub_ingredient: 1 lb raw ground chicken
+ingredient: 1 lb raw ground chicken
 ##### sub_ingredient #####
-sub_ingredient: 1 yellow onion, finely diced
+ingredient: 1 yellow onion, finely diced
 ##### sub_ingredient #####
-sub_ingredient: 1 tbsp salt
+ingredient: 1 tbsp salt
 ---
+
 instructions:
 
 #### instruction ####
@@ -58,13 +75,13 @@ sub_header: Mushroom option
 instruction:
 
 ##### sub_instruction #####
-sub_instruction: In a large pan heat up 1 tbsp of oil then add onion.
+instruction: In a large pan heat up 1 tbsp of oil then add onion.
 ##### sub_instruction #####
-sub_instruction: Sauté on medium-low heat until onions soften and carmelize.
+instruction: Sauté on medium-low heat until onions soften and carmelize.
 ##### sub_instruction #####
-sub_instruction: Add mushrooms, salt, pepper and dried dill.
+instruction: Add mushrooms, salt, pepper and dried dill.
 ##### sub_instruction #####
-sub_instruction: Sauté until mushrooms are soft and aromatic then set aside.
+instruction: Sauté until mushrooms are soft and aromatic then set aside.
 #### instruction ####
 header:
 ----
@@ -73,7 +90,7 @@ sub_header: Chicken option
 instruction:
 
 ##### sub_instruction #####
-sub_instruction: Combine ground chicken, onion, and salt. This filling is not cooked ahead.
+instruction: Combine ground chicken, onion, and salt. This filling is not cooked ahead.
 #### instruction ####
 header: Dough
 ----
@@ -82,15 +99,15 @@ sub_header:
 instruction:
 
 ##### sub_instruction #####
-sub_instruction: Sift together flour and salt in a large bowl.
+instruction: Sift together flour and salt in a large bowl.
 ##### sub_instruction #####
-sub_instruction: In a cup, combine the water and eggs and whisk to combine.
+instruction: In a cup, combine the water and eggs and whisk to combine.
 ##### sub_instruction #####
-sub_instruction: Add water and egg mixture to the dough and mix with a spoon until mostly incorporated. When you can no longer use the spoon turn out dough onto a floured surface and knead together until an elastic dough forms.
+instruction: Add water and egg mixture to the dough and mix with a spoon until mostly incorporated. When you can no longer use the spoon turn out dough onto a floured surface and knead together until an elastic dough forms.
 ##### sub_instruction #####
-sub_instruction: Divide dough into 4 parts and roll out each part until thin but not see through. Add flour as needed to roll out.
+instruction: Divide dough into 4 parts and roll out each part until thin but not see through. Add flour as needed to roll out.
 ##### sub_instruction #####
-sub_instruction: Use a mason jar lid to cut out circles. For smaller pelmeni, choose a glass with a diameter of ~10cm.
+instruction: Use a mason jar lid to cut out circles. For smaller pelmeni, choose a glass with a diameter of ~10cm.
 #### instruction ####
 header: Assemble and cook the pelmeni
 ----
@@ -99,11 +116,11 @@ sub_header:
 instruction:
 
 ##### sub_instruction #####
-sub_instruction: Place 1/2 tsp of the filling onto each dough circle, then fold the dough over into a semi-circle. Take both ends of the dough and bring together around your index finger, making sure it is firmly sealed so no filling can escape. Press the corners together.
+instruction: Place 1/2 tsp of the filling onto each dough circle, then fold the dough over into a semi-circle. Take both ends of the dough and bring together around your index finger, making sure it is firmly sealed so no filling can escape. Press the corners together.
 ##### sub_instruction #####
-sub_instruction: Bring a large pot of salted water to boil, at the pelmeni and boil for approximately 8 minutes or when they rise to the top.
+instruction: Bring a large pot of salted water to boil, at the pelmeni and boil for approximately 8 minutes or when they rise to the top.
 ##### sub_instruction #####
-sub_instruction: Remove from water and serve with sour cream.
+instruction: Remove from water and serve with sour cream.
 #### instruction ####
 header: Freezing instructions
 ----
@@ -112,12 +129,12 @@ sub_header: Uncooked pelmeni freeze very well
 instruction:
 
 ##### sub_instruction #####
-sub_instruction: Once assembled, arrange pelmeni neatly on a piece of parchment on a baking sheet that can fit in the freezer. This will prevent them from sticking together later.
+instruction: Once assembled, arrange pelmeni neatly on a piece of parchment on a baking sheet that can fit in the freezer. This will prevent them from sticking together later.
 ##### sub_instruction #####
-sub_instruction: Put the pelmeni in the freezer for an hour up to overnight.
+instruction: Put the pelmeni in the freezer for an hour up to overnight.
 ##### sub_instruction #####
-sub_instruction: Move the frozen pelmeni to a freezer-proof container or bag.
+instruction: Move the frozen pelmeni to a freezer-proof container or bag.
 ##### sub_instruction #####
-sub_instruction: To cook, boil salted water and add frozen pelmeni. Cook 10 minutes, or until the pelmeni float.
+instruction: To cook, boil salted water and add frozen pelmeni. Cook 10 minutes, or until the pelmeni float.
 ##### sub_instruction #####
-sub_instruction: Remove from water and serve with sour cream.
+instruction: Remove from water and serve with sour cream.
