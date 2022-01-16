@@ -4,7 +4,10 @@ _model: index
 ---
 title: Welcome to recipe-website!
 ---
-
+page_title: The Recipe Website
+---
+page_title_img_url:
+---
 recipes:
 
 #### recipe ####
@@ -12,7 +15,7 @@ recipe_title: Okonomiyaki
 ----
 origin: Japan
 ----
-origin_img_url: /images/japanese-flag.png
+origin_img_url: /images/japan-flag.png
 ----
 meal: Lunch / Dinner
 ----
@@ -26,56 +29,20 @@ img_thumbnail_url: /images/okonomiyaki.jpeg
 ----
 recipe_url: /recipe/okonomiyaki
 #### recipe ####
-recipe_title: Okonomiyaki
+recipe_title: Pelmeni
 ----
-origin: Japan
+origin: Russia
 ----
-origin_img_url: /images/japanese-flag.png
-----
-meal: Lunch / Dinner
-----
-difficulty: Easy
-----
-about: Okonomiyaki is a traditinal Japanese dish that is enjoyed in a round-table setting. Savory and light, this dish is a healthy option for anyone curious in this traditional treat.
-----
-img_url: /images/okonomiyaki.jpeg
-----
-img_thumbnail_url: /images/okonomiyaki.jpeg
-----
-recipe_url: /recipe/okonomiyaki
-#### recipe ####
-recipe_title: Okonomiyaki
-----
-origin: Japan
-----
-origin_img_url: /images/japanese-flag.png
+origin_img_url: /images/russia-flag.png
 ----
 meal: Lunch / Dinner
 ----
-difficulty: Easy
+difficulty: Intermediate
 ----
-about: Okonomiyaki is a traditinal Japanese dish that is enjoyed in a round-table setting. Savory and light, this dish is a healthy option for anyone curious in this traditional treat.
+about: Pelmeni are dumplings of Russian cuisine that consist of a filling, which can be minced meat (pork, lamb, beef, fish) or mushrooms. Dive into a favorite winter classic.
 ----
-img_url: /images/okonomiyaki.jpeg
+img_url: /images/pelmeni.jpeg
 ----
-img_thumbnail_url: /images/okonomiyaki.jpeg
+img_thumbnail_url: /images/pelmeni.jpeg
 ----
-recipe_url: /recipe/okonomiyaki
-#### recipe ####
-recipe_title: Okonomiyaki
-----
-origin: Japan
-----
-origin_img_url: /images/japanese-flag.png
-----
-meal: Lunch / Dinner
-----
-difficulty: Easy
-----
-about: Okonomiyaki is a traditinal Japanese dish that is enjoyed in a round-table setting. Savory and light, this dish is a healthy option for anyone curious in this traditional treat.
-----
-img_url: /images/okonomiyaki.jpeg
-----
-img_thumbnail_url: /images/okonomiyaki.jpeg
-----
-recipe_url: /recipe/okonomiyaki
+recipe_url: /recipe/pelmeni

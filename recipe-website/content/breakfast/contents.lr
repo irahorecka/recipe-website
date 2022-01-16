@@ -4,7 +4,10 @@ _model: index
 ---
 title: Breakfast
 ---
-
+page_title: Breakfast Recipes
+---
+page_title_img_url:
+---
 recipes:
 
 #### recipe ####
@@ -12,7 +15,7 @@ recipe_title: Okonomiyaki
 ----
 origin: Japan
 ----
-origin_img_url: /images/japanese-flag.png
+origin_img_url: /images/japan-flag.png
 ----
 meal: Lunch / Dinner
 ----
@@ -30,7 +33,7 @@ recipe_title: Okonomiyaki
 ----
 origin: Japan
 ----
-origin_img_url: /images/japanese-flag.png
+origin_img_url: /images/japan-flag.png
 ----
 meal: Lunch / Dinner
 ----
@@ -48,7 +51,7 @@ recipe_title: Okonomiyaki
 ----
 origin: Japan
 ----
-origin_img_url: /images/japanese-flag.png
+origin_img_url: /images/japan-flag.png
 ----
 meal: Lunch / Dinner
 ----
@@ -66,7 +69,7 @@ recipe_title: Okonomiyaki
 ----
 origin: Japan
 ----
-origin_img_url: /images/japanese-flag.png
+origin_img_url: /images/japan-flag.png
 ----
 meal: Lunch / Dinner
 ----
@@ -78,4 +81,8 @@ img_url: /images/okonomiyaki.jpeg
 ----
 img_thumbnail_url: /images/okonomiyaki.jpeg
 ----
-recipe_url: /recipe/okonomiyaki
+recipe_url:
+
+/recipe/okonomiyaki
+
+recipes:

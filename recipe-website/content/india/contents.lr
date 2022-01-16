@@ -4,7 +4,10 @@ _model: index
 ---
 title: Dinner
 ---
-
+page_title: Indian Recipes
+---
+page_title_img_url: /images/india-flag.png
+---
 recipes:
 
 #### recipe ####
@@ -12,7 +15,7 @@ recipe_title: Okonomiyaki
 ----
 origin: Japan
 ----
-origin_img_url: /images/japanese-flag.png
+origin_img_url: /images/japan-flag.png
 ----
 meal: Lunch / Dinner
 ----
@@ -30,43 +33,7 @@ recipe_title: Okonomiyaki
 ----
 origin: Japan
 ----
-origin_img_url: /images/japanese-flag.png
-----
-meal: Lunch / Dinner
-----
-difficulty: Easy
-----
-about: Okonomiyaki is a traditinal Japanese dish that is enjoyed in a round-table setting. Savory and light, this dish is a healthy option for anyone curious in this traditional treat.
-----
-img_url: /images/okonomiyaki.jpeg
-----
-img_thumbnail_url: /images/okonomiyaki.jpeg
-----
-recipe_url: /recipe/okonomiyaki
-#### recipe ####
-recipe_title: Okonomiyaki
-----
-origin: Japan
-----
-origin_img_url: /images/japanese-flag.png
-----
-meal: Lunch / Dinner
-----
-difficulty: Easy
-----
-about: Okonomiyaki is a traditinal Japanese dish that is enjoyed in a round-table setting. Savory and light, this dish is a healthy option for anyone curious in this traditional treat.
-----
-img_url: /images/okonomiyaki.jpeg
-----
-img_thumbnail_url: /images/okonomiyaki.jpeg
-----
-recipe_url: /recipe/okonomiyaki
-#### recipe ####
-recipe_title: Okonomiyaki
-----
-origin: Japan
-----
-origin_img_url: /images/japanese-flag.png
+origin_img_url: /images/japan-flag.png
 ----
 meal: Lunch / Dinner
 ----
