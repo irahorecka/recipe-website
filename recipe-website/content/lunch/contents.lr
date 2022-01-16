@@ -2,7 +2,7 @@ _template: index.html
 ---
 _model: index
 ---
-title: Welcome to recipe-website!
+title: Lunch
 ---
 
 recipes:

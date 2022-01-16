@@ -1,4 +1,6 @@
-_template: recipes.html
+_template: recipe.html
+---
+_model: recipe
 ---
 title: Recipes
 ---
