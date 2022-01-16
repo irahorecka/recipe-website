@@ -5,9 +5,17 @@
   <title>Pelmeni | Recipe Website</title>
   <link rel="icon" type="image/png" href="../../images/recipe-website-logo-32px.png?h=a5625cbe"/>
   <link rel="stylesheet" href="../../external/bootstrap-5.0.2/css/bootstrap.min.css?h=33f53934">
-  <link rel="stylesheet" href="../../css/main.css?h=3ff6ccbb">
-  <link rel="stylesheet" href="../../css/latolatinfonts.css?h=718a7dc2"><script defer src="../../external/jquery-3.6.0.min.js?h=b82d238d"></script>
-  <script defer src="../../external/bootstrap-5.0.2/js/bootstrap.min.js?h=3d7df59c"></script><meta property="og:site_name" content="Recipe Website"/>
+  <link rel="stylesheet" href="../../css/main.css?h=aeb3034a">
+  <link rel="stylesheet" href="../../css/latolatinfonts.css?h=718a7dc2">
+  <link rel="stylesheet" href="../../external/photoswipe-4.1.3/photoswipe.css?h=a31fa495">
+  <link rel="stylesheet" href="../../external/photoswipe-4.1.3/default-skin/default-skin.css?h=6cfeec26">
+  <link rel="stylesheet" href="../../css/gallery.css?h=005d3659">
+<script src="../../external/jquery-3.6.0.min.js?h=b82d238d"></script>
+  <script defer src="../../external/bootstrap-5.0.2/js/bootstrap.min.js?h=3d7df59c"></script>
+  <script defer src="../../external/photoswipe-4.1.3/photoswipe.min.js?h=0aebc9ad"></script>
+  <script defer src="../../external/photoswipe-4.1.3/photoswipe-ui-default.min.js?h=bae8b3f0"></script>
+  <script defer src=../../external/slick-1.8.0/slick.js></script>
+  <script defer src="../../js/photoswipe-carousel.js"></script><meta property="og:site_name" content="Recipe Website"/>
   <meta property="og:title" content="Recipe Website - Fun and Simple Recipes"/>
   <meta property="og:description" content="Recipe Website hosts fun and simple recipes."/>
   <meta property="og:image" content="../../images/recipe-website-logo.png?h=a5c71fb4"/>
@@ -179,76 +187,160 @@
           </div>
         </div>
         
-    <h1> Pelmeni </h1>
-    <br>
-    <p>
-      Pelmeni are dumplings of Russian cuisine that consist of a filling, which can be minced meat (pork, lamb, beef, fish) or mushrooms. Dive into a favorite winter classic.
-    </p>
-    <div class="container justify-content-between px-0">
+  <h1 class="mb-4"> Pelmeni </h1>
+  <p class="mb-4">
+    Pelmeni are dumplings of Russian cuisine that consist of a filling, which can be minced meat (pork, lamb, beef, fish) or mushrooms. Dive into a favorite winter classic.
+  </p>
+  <div class="container justify-content-between px-0">
+    <div class="row">
       <!-- Image for mobile -->
-      <div class="d-block d-sm-none col py-3">
-        <img src="../../images/pelmeni.jpeg?h=5b7cdd9a" alt="Pelmeni" class="img-fluid rounded border border-dark">
-      </div>
-      <h3 class="pt-3 mb-3"><u> Ingredients </u></h3>
-      <div class="row mt-3">
-        <div class="col col-md-5">
-              
-                <h5><b> Dough </b></h5>
-              
-            
-            <ul class="ps-3 ps-sm-4"><li> 3 cups flour </li><li> 1 tbsp salt </li><li> ⅔ cup lukewarm water </li><li> 3 eggs </li></ul>
-              
-                <h5 class="mt-3"><b> Mushroom filling option </b></h5>
-              
-            
-            <ul class="ps-3 ps-sm-4"><li> 225g mushrooms, finely diced </li><li> ½ yellow onion, finely diced </li><li> Salt and pepper to taste </li><li> 1 tsp dried dill (optional) </li></ul>
-              
-                <h5 class="mt-3"><b> Chicken filling option </b></h5>
-              
-            
-            <ul class="ps-3 ps-sm-4"><li> 1 lb raw ground chicken </li><li> 1 yellow onion, finely diced </li><li> 1 tbsp salt </li></ul></div>
-        <!-- Image for desktop -->
-        <div class="d-none d-sm-block col-md-7">
-          <img src="../../images/pelmeni.jpeg?h=5b7cdd9a" alt="Pelmeni" class="img-fluid rounded border border-dark">
-        </div>
-      </div>
-      <h3 class="pt-3 mb-3"><u> Instructions </u></h3>
-      <div class="row mt-3">
-        <div class="col">
-              
-                <h5><b> Prepare choice of filling </b></h5>
-              
-            
-            
-              <h6 class="mt-2 mb-1"><i> Mushroom option </i></h6>
-            
-            <ol class="ps-3 ps-sm-4 mb-0"><li> In a large pan heat up 1 tbsp of oil then add onion. </li><li> Sauté on medium-low heat until onions soften and carmelize. </li><li> Add mushrooms, salt, pepper and dried dill. </li><li> Sauté until mushrooms are soft and aromatic then set aside. </li></ol>
-            
-              <h6 class="mt-2 mb-1"><i> Chicken option </i></h6>
-            
-            <ol class="ps-3 ps-sm-4 mb-0"><li> Combine ground chicken, onion, and salt. This filling is not cooked ahead. </li></ol>
-              
-                <h5 class="mt-3"><b> Dough </b></h5>
-              
-            
-            
-            <ol class="ps-3 ps-sm-4 mb-0"><li> Sift together flour and salt in a large bowl. </li><li> In a cup, combine the water and eggs and whisk to combine. </li><li> Add water and egg mixture to the dough and mix with a spoon until mostly incorporated. When you can no longer use the spoon turn out dough onto a floured surface and knead together until an elastic dough forms. </li><li> Divide dough into 4 parts and roll out each part until thin but not see through. Add flour as needed to roll out. </li><li> Use a mason jar lid to cut out circles. For smaller pelmeni, choose a glass with a diameter of ~10cm. </li></ol>
-              
-                <h5 class="mt-3"><b> Assemble and cook the pelmeni </b></h5>
-              
-            
-            
-            <ol class="ps-3 ps-sm-4 mb-0"><li> Place 1/2 tsp of the filling onto each dough circle, then fold the dough over into a semi-circle. Take both ends of the dough and bring together around your index finger, making sure it is firmly sealed so no filling can escape. Press the corners together. </li><li> Bring a large pot of salted water to boil, at the pelmeni and boil for approximately 8 minutes or when they rise to the top. </li><li> Remove from water and serve with sour cream. </li></ol>
-              
-                <h5 class="mt-3"><b> Freezing instructions </b></h5>
-              
-            
-            
-              <h6 class="mt-2 mb-1"><i> Uncooked pelmeni freeze very well </i></h6>
-            
-            <ol class="ps-3 ps-sm-4 mb-0"><li> Once assembled, arrange pelmeni neatly on a piece of parchment on a baking sheet that can fit in the freezer. This will prevent them from sticking together later. </li><li> Put the pelmeni in the freezer for an hour up to overnight. </li><li> Move the frozen pelmeni to a freezer-proof container or bag. </li><li> To cook, boil salted water and add frozen pelmeni. Cook 10 minutes, or until the pelmeni float. </li><li> Remove from water and serve with sour cream. </li></ol></div>
+      <div class="d-block d-md-none col">
+        <div class="gallery slider-main"><figure itemprop="associatedMedia" class="main">
+              <a href="../../images/pelmeni.jpeg?h=5b7cdd9a" data-med="../../images/pelmeni.jpeg?h=5b7cdd9a"
+                data-caption="Pelmeni photo #1<br><em class='text-muted'>© The Recipe Website</em>"
+                data-size="1200x800"
+                data-med-size="900x600"
+                itemprop="contentUrl">
+                <img src="../../images/pelmeni.jpeg?h=5b7cdd9a" alt="Pelmeni" class="thumbnail img-fluid rounded border border-dark"
+                  itemprop="thumbnail" alt="Pelmeni photo #1">
+              </a>
+            </figure><figure itemprop="associatedMedia" class="main">
+              <a href="../../images/pelmeni-2.jpeg?h=ff0d0ed2" data-med="../../images/pelmeni-2.jpeg?h=ff0d0ed2"
+                data-caption="Pelmeni photo #2<br><em class='text-muted'>© The Recipe Website</em>"
+                data-size="1200x800"
+                data-med-size="900x600"
+                itemprop="contentUrl">
+                <img src="../../images/pelmeni-2.jpeg?h=ff0d0ed2" alt="Pelmeni" class="thumbnail img-fluid rounded border border-dark"
+                  itemprop="thumbnail" alt="Pelmeni photo #2">
+              </a>
+            </figure></div>
+        <div class="gallery slider-nav"><figure itemprop="associatedMedia" class="nav me-2">
+            <img src="../../images/pelmeni.jpeg?h=5b7cdd9a" alt="Pelmeni" class="thumbnail img-fluid rounded"
+              itemprop="thumbnail" alt="Pelmeni photo #1">
+          </figure><figure itemprop="associatedMedia" class="nav me-2">
+            <img src="../../images/pelmeni-2.jpeg?h=ff0d0ed2" alt="Pelmeni" class="thumbnail img-fluid rounded"
+              itemprop="thumbnail" alt="Pelmeni photo #2">
+          </figure></div>
       </div>
     </div>
+    <div class="row mt-3">
+      <div class="col col-md-5">
+        <h3 class="mb-3"><u> Ingredients </u></h3>
+            
+              <h5><b> Dough </b></h5>
+            
+          
+          <ul class="ps-3 ps-sm-4"><li> 3 cups flour </li><li> 1 tbsp salt </li><li> ⅔ cup lukewarm water </li><li> 3 eggs </li></ul>
+            
+              <h5 class="mt-3"><b> Mushroom filling option </b></h5>
+            
+          
+          <ul class="ps-3 ps-sm-4"><li> 225g mushrooms, finely diced </li><li> ½ yellow onion, finely diced </li><li> Salt and pepper to taste </li><li> 1 tsp dried dill (optional) </li></ul>
+            
+              <h5 class="mt-3"><b> Chicken filling option </b></h5>
+            
+          
+          <ul class="ps-3 ps-sm-4"><li> 1 lb raw ground chicken </li><li> 1 yellow onion, finely diced </li><li> 1 tbsp salt </li></ul></div>
+      <!-- Image for desktop -->
+      <div class="d-none d-md-block col-md-7 pt-2">
+        <div class="gallery slider-main"><figure itemprop="associatedMedia" class="main">
+            <a href="../../images/pelmeni.jpeg?h=5b7cdd9a" data-med="../../images/pelmeni.jpeg?h=5b7cdd9a"
+              data-caption="Pelmeni photo #1<br><em class='text-muted'>© The Recipe Website</em>"
+              data-size="1200x800"
+              data-med-size="900x600"
+              itemprop="contentUrl">
+              <img src="../../images/pelmeni.jpeg?h=5b7cdd9a" alt="Pelmeni" class="thumbnail img-fluid rounded border border-dark"
+                itemprop="thumbnail" alt="Pelmeni photo #1">
+            </a>
+          </figure><figure itemprop="associatedMedia" class="main">
+            <a href="../../images/pelmeni-2.jpeg?h=ff0d0ed2" data-med="../../images/pelmeni-2.jpeg?h=ff0d0ed2"
+              data-caption="Pelmeni photo #2<br><em class='text-muted'>© The Recipe Website</em>"
+              data-size="1200x800"
+              data-med-size="900x600"
+              itemprop="contentUrl">
+              <img src="../../images/pelmeni-2.jpeg?h=ff0d0ed2" alt="Pelmeni" class="thumbnail img-fluid rounded border border-dark"
+                itemprop="thumbnail" alt="Pelmeni photo #2">
+            </a>
+          </figure></div>
+        <div class="gallery slider-nav"><figure itemprop="associatedMedia" class="nav me-2">
+              <img src="../../images/pelmeni.jpeg?h=5b7cdd9a" alt="Pelmeni" class="thumbnail img-fluid rounded"
+                itemprop="thumbnail" alt="Pelmeni photo #1">
+            </figure><figure itemprop="associatedMedia" class="nav me-2">
+              <img src="../../images/pelmeni-2.jpeg?h=ff0d0ed2" alt="Pelmeni" class="thumbnail img-fluid rounded"
+                itemprop="thumbnail" alt="Pelmeni photo #2">
+            </figure></div>
+      </div>
+    </div>
+    <h3 class="pt-3 mb-3"><u> Instructions </u></h3>
+    <div class="mt-3">
+          
+            <h5><b> Prepare choice of filling </b></h5>
+          
+        
+        
+          <h6 class="mt-2 mb-1"><i> Mushroom option </i></h6>
+        
+        <ol class="ps-3 ps-sm-4 mb-0"><li> In a large pan heat up 1 tbsp of oil then add onion. </li><li> Sauté on medium-low heat until onions soften and carmelize. </li><li> Add mushrooms, salt, pepper and dried dill. </li><li> Sauté until mushrooms are soft and aromatic then set aside. </li></ol>
+        
+          <h6 class="mt-2 mb-1"><i> Chicken option </i></h6>
+        
+        <ol class="ps-3 ps-sm-4 mb-0"><li> Combine ground chicken, onion, and salt. This filling is not cooked ahead. </li></ol>
+          
+            <h5 class="mt-3"><b> Dough </b></h5>
+          
+        
+        
+        <ol class="ps-3 ps-sm-4 mb-0"><li> Sift together flour and salt in a large bowl. </li><li> In a cup, combine the water and eggs and whisk to combine. </li><li> Add water and egg mixture to the dough and mix with a spoon until mostly incorporated. When you can no longer use the spoon turn out dough onto a floured surface and knead together until an elastic dough forms. </li><li> Divide dough into 4 parts and roll out each part until thin but not see through. Add flour as needed to roll out. </li><li> Use a mason jar lid to cut out circles. For smaller pelmeni, choose a glass with a diameter of ~10cm. </li></ol>
+          
+            <h5 class="mt-3"><b> Assemble and cook the pelmeni </b></h5>
+          
+        
+        
+        <ol class="ps-3 ps-sm-4 mb-0"><li> Place 1/2 tsp of the filling onto each dough circle, then fold the dough over into a semi-circle. Take both ends of the dough and bring together around your index finger, making sure it is firmly sealed so no filling can escape. Press the corners together. </li><li> Bring a large pot of salted water to boil, at the pelmeni and boil for approximately 8 minutes or when they rise to the top. </li><li> Remove from water and serve with sour cream. </li></ol>
+          
+            <h5 class="mt-3"><b> Freezing instructions </b></h5>
+          
+        
+        
+          <h6 class="mt-2 mb-1"><i> Uncooked pelmeni freeze very well </i></h6>
+        
+        <ol class="ps-3 ps-sm-4 mb-0"><li> Once assembled, arrange pelmeni neatly on a piece of parchment on a baking sheet that can fit in the freezer. This will prevent them from sticking together later. </li><li> Put the pelmeni in the freezer for an hour up to overnight. </li><li> Move the frozen pelmeni to a freezer-proof container or bag. </li><li> To cook, boil salted water and add frozen pelmeni. Cook 10 minutes, or until the pelmeni float. </li><li> Remove from water and serve with sour cream. </li></ol></div>
+  </div>
+  <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="pswp__bg"></div>
+  <div class="pswp__scroll-wrap">
+    <div class="pswp__container">
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+    </div>
+    <div class="pswp__ui pswp__ui--hidden">
+      <div class="pswp__top-bar">
+        <div class="pswp__counter"></div>
+        <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+        <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+        <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+        <div class="pswp__preloader">
+          <div class="pswp__preloader__icn">
+            <div class="pswp__preloader__cut">
+              <div class="pswp__preloader__donut"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+        <div class="pswp__share-tooltip"></div>
+      </div>
+      <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+      </button>
+      <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+      </button>
+      <div class="pswp__caption">
+        <div class="pswp__caption__center"></div>
+      </div>
+    </div>
+  </div>
+</div>
 
       </div>
     </div>
@@ -266,5 +358,29 @@
       </nav>
     </div>
   </footer>
+<script type="text/javascript">
+  // For gallery slideshow
+  $(document).ready(function() {
+    $('.slider-main').slick({
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      arrows: false,
+      fade: false,
+      asNavFor: '.slider-nav',
+      accessibility: false,
+      speed: 300
+    });
+    $('.slider-nav').slick({
+      // Add twice the length to extend only half of the thumbnail bar.
+      slidesToShow: 2 * 2,
+      slidesToScroll: 1,
+      asNavFor: '.slider-main',
+      dots: true,
+      focusOnSelect: true,
+      accessibility: false,
+      speed: 1
+    });
+  });
+</script>
 </body>
 </html>
