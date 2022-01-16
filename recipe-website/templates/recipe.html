@@ -1,17 +1,7 @@
 {% extends "layout.html" %}
 
 {% block content %}
-    <div class="row">
-      <div class="col-2 my-auto">
-        <img src="{{ '/images/japanese-flag.png'|asseturl }}" alt="Japanese Flag" class="img-fluid rounded border border-dark">
-      </div>
-      <div class="col-10 my-auto">
-        <h1 class="mb-0"> Japanese Recipes </h1>
-      </div>
-    </div>
-    <br>
-    <br>
-    <h2> {{ this.recipe_title }} </h2>
+    <h1> {{ this.recipe_title }} </h1>
     <br>
     <p>
       {{ this.about }}
@@ -21,7 +11,7 @@
       <div class="d-block d-sm-none col-12 py-3">
         <img src="{{ this.img_url|asseturl }}" alt="Okonomiyaki" class="img-fluid rounded border border-dark">
       </div>
-      <h4 class="py-3"> Ingredients </h4>
+      <h3 class="py-3"> Ingredients </h3>
       <div class="row">
         <div class="col-12 col-md-5">
           <ul class="ps-3 ps-sm-4">
@@ -36,7 +26,7 @@
         </div>
       </div>
       <div>
-        <h4 class="py-3">Instructions</h4>
+        <h3 class="py-3">Instructions</h3>
         <div class="row">
           <div class="col-12 col-md-9">
             <ol class="ps-3 ps-sm-4">
