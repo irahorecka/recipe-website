@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="{{ '/css/latolatinfonts.css'|asseturl }}">
   {%- block page_css -%}
   {%- endblock -%}
-  <script defer src="{{ '/external/jquery-3.6.0.min.js'|asseturl }}"></script>
+  <script src="{{ '/external/jquery-3.6.0.min.js'|asseturl }}"></script>
   <script defer src="{{ '/external/bootstrap-5.0.2/js/bootstrap.min.js'|asseturl }}"></script>
   {%- block page_js -%}
   {%- endblock -%}
@@ -202,5 +202,7 @@
       </nav>
     </div>
   </footer>
+  {%- block text_js -%}
+  {%- endblock -%}
 </body>
 </html>

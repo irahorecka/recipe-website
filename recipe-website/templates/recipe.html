@@ -1,60 +1,140 @@
 {% extends "layout.html" %}
 
+{% block page_css %}
+  <link rel="stylesheet" href="{{ '/external/photoswipe-4.1.3/photoswipe.css'|asseturl }}">
+  <link rel="stylesheet" href="{{ '/external/photoswipe-4.1.3/default-skin/default-skin.css'|asseturl }}">
+  <link rel="stylesheet" href="{{ '/css/gallery.css'|asseturl }}">
+{% endblock %}
+{% block page_js %}
+  <script defer src="{{ '/external/photoswipe-4.1.3/photoswipe.min.js'|asseturl }}"></script>
+  <script defer src="{{ '/external/photoswipe-4.1.3/photoswipe-ui-default.min.js'|asseturl }}"></script>
+  <script defer src={{ '/external/slick-1.8.0/slick.js'|url }}></script>
+  <script defer src="{{ '/js/photoswipe-carousel.js'|url }}"></script>
+{%- endblock -%}
+
 {% block content %}
-    <h1> {{ this.title }} </h1>
-    <br>
-    <p>
-      {{ this.about }}
-    </p>
-    <div class="container justify-content-between px-0">
+  <h1 class="mb-4"> {{ this.title }} </h1>
+  <p class="mb-4">
+    {{ this.about }}
+  </p>
+  <div class="container justify-content-between px-0">
+    <div class="row">
       <!-- Image for mobile -->
-      <div class="d-block d-sm-none col py-3">
-        <img src="{{ this.img_url|asseturl }}" alt="{{ this.title }}" class="img-fluid rounded border border-dark">
-      </div>
-      <h3 class="pt-3 mb-3"><u> Ingredients </u></h3>
-      <div class="row mt-3">
-        <div class="col col-md-5">
-          {%- for ingredient in this.ingredients.blocks -%}
-            {% if ingredient.header|length %}
-              {% if loop.index == 1 %}
-                <h5><b> {{ ingredient.header }} </b></h5>
-              {% else %}
-                <h5 class="mt-3"><b> {{ ingredient.header }} </b></h5>
-              {% endif %}
-            {% endif %}
-            <ul class="ps-3 ps-sm-4">
-              {%- for sub_ingredient in ingredient.ingredient.blocks -%}
-                <li> {{ sub_ingredient.sub_ingredient }} </li>
-              {%- endfor -%}
-            </ul>
+      <div class="d-block d-md-none col">
+        <div class="gallery slider-main">
+          {%- for image in this.gallery.blocks -%}
+            <figure itemprop="associatedMedia" class="main">
+              <a href="{{ image.url|asseturl }}" data-med="{{ image.url|asseturl }}"
+                data-caption="{{ image.description }}<br><em class='text-muted'>© The Recipe Website</em>"
+                data-size="1200x800"
+                data-med-size="900x600"
+                itemprop="contentUrl">
+                <img src="{{ image.url|asseturl }}" alt="{{ this.title }}" class="thumbnail img-fluid rounded border border-dark"
+                  itemprop="thumbnail" alt="{{ image.description }}">
+              </a>
+            </figure>
           {%- endfor -%}
         </div>
-        <!-- Image for desktop -->
-        <div class="d-none d-sm-block col-md-7">
-          <img src="{{ this.img_url|asseturl }}" alt="{{ this.title }}" class="img-fluid rounded border border-dark">
+        <div class="gallery slider-nav">
+        {%- for image in this.gallery.blocks -%}
+          <figure itemprop="associatedMedia" class="nav me-2">
+            <img src="{{ image.thumbnail_url|asseturl }}" alt="{{ this.title }}" class="thumbnail img-fluid rounded"
+              itemprop="thumbnail" alt="{{ image.description }}">
+          </figure>
+        {%- endfor -%}
         </div>
       </div>
-      <h3 class="pt-3 mb-3"><u> Instructions </u></h3>
-      <div class="row mt-3">
-        <div class="col">
-          {%- for instruction in this.instructions.blocks -%}
-            {% if instruction.header|length %}
-              {% if loop.index == 1 %}
-                <h5><b> {{ instruction.header }} </b></h5>
-              {% else %}
-                <h5 class="mt-3"><b> {{ instruction.header }} </b></h5>
-              {% endif %}
+    </div>
+    <div class="row mt-3">
+      <div class="col col-md-5">
+        <h3 class="mb-3"><u> Ingredients </u></h3>
+        {%- for ingredient in this.ingredients.blocks -%}
+          {% if ingredient.header|length %}
+            {% if loop.index == 1 %}
+              <h5><b> {{ ingredient.header }} </b></h5>
+            {% else %}
+              <h5 class="mt-3"><b> {{ ingredient.header }} </b></h5>
             {% endif %}
-            {% if instruction.sub_header|length %}
-              <h6 class="mt-2 mb-1"><i> {{ instruction.sub_header }} </i></h6>
-            {% endif %}
-            <ol class="ps-3 ps-sm-4 mb-0">
-              {%- for sub_instruction in instruction.instruction.blocks -%}
-                <li> {{ sub_instruction.sub_instruction }} </li>
-              {%- endfor -%}
-            </ol>
+          {% endif %}
+          <ul class="ps-3 ps-sm-4">
+            {%- for sub_ingredient in ingredient.ingredient.blocks -%}
+              <li> {{ sub_ingredient.ingredient }} </li>
+            {%- endfor -%}
+          </ul>
+        {%- endfor -%}
+      </div>
+      <!-- Image for desktop -->
+      <div class="d-none d-md-block col-md-7 pt-2">
+        <div class="gallery slider-main">
+        {%- for image in this.gallery.blocks -%}
+          <figure itemprop="associatedMedia" class="main">
+            <a href="{{ image.url|asseturl }}" data-med="{{ image.url|asseturl }}"
+              data-caption="{{ image.description }}<br><em class='text-muted'>© The Recipe Website</em>"
+              data-size="1200x800"
+              data-med-size="900x600"
+              itemprop="contentUrl">
+              <img src="{{ image.url|asseturl }}" alt="{{ this.title }}" class="thumbnail img-fluid rounded border border-dark"
+                itemprop="thumbnail" alt="{{ image.description }}">
+            </a>
+          </figure>
+        {%- endfor -%}
+        </div>
+        <div class="gallery slider-nav">
+          {%- for image in this.gallery.blocks -%}
+            <figure itemprop="associatedMedia" class="nav me-2">
+              <img src="{{ image.thumbnail_url|asseturl }}" alt="{{ this.title }}" class="thumbnail img-fluid rounded"
+                itemprop="thumbnail" alt="{{ image.description }}">
+            </figure>
           {%- endfor -%}
         </div>
       </div>
     </div>
+    <h3 class="pt-3 mb-3"><u> Instructions </u></h3>
+    <div class="mt-3">
+      {%- for instruction in this.instructions.blocks -%}
+        {% if instruction.header|length %}
+          {% if loop.index == 1 %}
+            <h5><b> {{ instruction.header }} </b></h5>
+          {% else %}
+            <h5 class="mt-3"><b> {{ instruction.header }} </b></h5>
+          {% endif %}
+        {% endif %}
+        {% if instruction.sub_header|length %}
+          <h6 class="mt-2 mb-1"><i> {{ instruction.sub_header }} </i></h6>
+        {% endif %}
+        <ol class="ps-3 ps-sm-4 mb-0">
+          {%- for sub_instruction in instruction.instruction.blocks -%}
+            <li> {{ sub_instruction.instruction }} </li>
+          {%- endfor -%}
+        </ol>
+      {%- endfor -%}
+    </div>
+  </div>
+  {% include "includes/photoswipe-root.html" %}
+{% endblock %}
+{% block text_js %}
+<script type="text/javascript">
+  // For gallery slideshow
+  $(document).ready(function() {
+    $('.slider-main').slick({
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      arrows: false,
+      fade: false,
+      asNavFor: '.slider-nav',
+      accessibility: false,
+      speed: 300
+    });
+    $('.slider-nav').slick({
+      // Add twice the length to extend only half of the thumbnail bar.
+      slidesToShow: {{this.gallery.blocks|length}} * 2,
+      slidesToScroll: 1,
+      asNavFor: '.slider-main',
+      dots: true,
+      focusOnSelect: true,
+      accessibility: false,
+      speed: 1
+    });
+  });
+</script>
 {% endblock %}
