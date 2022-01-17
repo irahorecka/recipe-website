@@ -1,0 +1,298 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Authors | Recipe Website</title>
+  <link rel="icon" type="image/png" href="../images/recipe-website-logo-32px.png?h=a5625cbe"/>
+  <link rel="stylesheet" href="../external/bootstrap-5.0.2/css/bootstrap.min.css?h=33f53934">
+  <link rel="stylesheet" href="../css/main.css?h=379c4b64">
+  <link rel="stylesheet" href="../css/latolatinfonts.css?h=718a7dc2"><script src="../external/jquery-3.6.0.min.js?h=b82d238d"></script>
+  <script defer src="../external/bootstrap-5.0.2/js/bootstrap.min.js?h=3d7df59c"></script><meta property="og:site_name" content="Recipe Website"/>
+  <meta property="og:title" content="Recipe Website - Fun and Simple Recipes"/>
+  <meta property="og:description" content="Recipe Website hosts fun and simple recipes."/>
+  <meta property="og:image" content="../images/recipe-website-logo.png?h=a5c71fb4"/>
+  <meta property="og:secure_url" content="../images/recipe-website-logo.png?h=a5c71fb4"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="../css/fork-awesome/fork-awesome.min.css?h=7ecae98b">
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-sm navbar-light bg-light">
+      <div class="container-fluid px-3 navbar-content">
+        <a class="navbar-brand" href="../">
+          <img src="../images/recipe-website-logo-32px.png?h=a5625cbe" alt="Home">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbar-nav" aria-controls="navbar-nav"
+                aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-nav">
+          <ul class="navbar-nav mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" href="../">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="../recipes"
+                 id="navbar-nav-dropdown" role="button"
+                 data-bs-toggle="dropdown" aria-expanded="false">
+                Recipes
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbar-nav-dropdown">
+                <li><a class="dropdown-item" href="../breakfast/">Breakfast</a></li>
+                <li><a class="dropdown-item" href="../lunch/">Lunch</a></li>
+                <li><a class="dropdown-item" href="../dinner/">Dinner</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="../russia/">Russia</a></li>
+                <li><a class="dropdown-item" href="../japan/">Japan</a></li>
+                <li><a class="dropdown-item" href="../india/">India</a></li>
+                <li><a class="dropdown-item" href="../italy/">Italy</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="../about/">About</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div class="d-flex justify-content-center justify-content-md-between" style="min-height: 100vh;">
+      <!-- Side bar for desktop -->
+      <aside class="d-none d-md-block col-md-4 col-lg-3 rounded" aria-label="Sidebar">
+        <div class="sticky-top py-3">
+          <div class="d-flex justify-content-center">
+            <img src="../images/recipe-website-logo.png?h=a5c71fb4" class="rounded-circle" style="max-width:100%; max-height:100%; padding:2rem; padding-top:0">
+          </div>
+          <div class="d-flex justify-content-center border-bottom color-border-muted py-3 mt-3 mb-4">
+            <button class="btn btn-primary rounded px-md-5" type="button"> Surprise me! </button>
+          </div>
+          <div class="px-5">
+            <h3 class="text-left pt-2 pb-3"> Simple and cheap </h3>
+            <div class="pb-2">
+              <h5 class="text-left pb-1 text-decoration-underline"> Meal </h5>
+              <ul class="list-unstyled">
+                <li class="">
+                  <div class="width-full d-flex justify-content-left mt-2">
+                    <a href="../breakfast/"> Breakfast </a>
+                  </div>
+                </li>
+                <li class="">
+                  <div class="width-full d-flex justify-content-left mt-2">
+                    <a href="../lunch/"> Lunch </a>
+                  </div>
+                </li>
+                <li class="">
+                  <div class="width-full d-flex justify-content-left mt-2">
+                    <a href="../dinner/"> Dinner </a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h5 class="text-left pb-1 text-decoration-underline"> Recipe Origin </h5>
+              <ul class="list-unstyled">
+                <li class="">
+                  <div class="width-full mt-2">
+                    <a href="../russia/"> Russia </a>
+                  </div>
+                </li>
+                <li class="">
+                  <div class="width-full mt-2">
+                    <a href="../japan/"> Japan </a>
+                  </div>
+                </li>
+                <li class="">
+                  <div class="width-full mt-2">
+                    <a href="../india/"> India </a>
+                  </div>
+                </li>
+                <li class="">
+                  <div class="width-full mt-2">
+                    <a href="../italy/"> Italy </a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </aside>
+      <div class="flex-auto col-md-8 px-3">
+        <!-- Side bar for mobile -->
+        <div class="d-block d-md-none py-3">
+          <div class="d-flex justify-content-center">
+            <img src="../images/recipe-website-logo.png?h=a5c71fb4" class="rounded-circle" style="max-width:160px; max-height:160px;">
+          </div>
+          <div class="d-flex justify-content-center border-bottom color-border-muted py-3 my-3">
+            <button class="btn btn-primary rounded px-5" type="button"> Surprise me! </button>
+          </div>
+          <div class="px-4">
+            <h3 class="text-center pt-2 pb-3"> Simple and cheap </h3>
+            <div class="row">
+              <div class="col-6 pb-2">
+                <h5 class="text-left text-decoration-underline"> Meal </h5>
+                <ul class="row list-unstyled">
+                  <li class="col-12">
+                    <div class="width-full mt-2">
+                      <a href="../breakfast/"> Breakfast </a>
+                    </div>
+                  </li>
+                  <li class="col-12">
+                    <div class="width-full mt-2">
+                      <a href="../lunch/"> Lunch </a>
+                    </div>
+                  </li>
+                  <li class="col-12">
+                    <div class="width-full mt-2">
+                      <a href="../dinner/"> Dinner </a>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-6">
+                <h5 class="text-left text-decoration-underline"> Recipe Origin </h5>
+                <ul class="row list-unstyled">
+                  <li class="col-6">
+                    <div class="width-full mt-2">
+                      <a href="../russia/"> Russia </a>
+                    </div>
+                  </li>
+                  <li class="col-6">
+                    <div class="width-full mt-2">
+                      <a href="../japan/"> Japan </a>
+                    </div>
+                  </li>
+                  <li class="col-6">
+                    <div class="width-full mt-2">
+                      <a href="../india/"> India </a>
+                    </div>
+                  </li>
+                  <li class="col-6">
+                    <div class="width-full mt-2">
+                      <a href="../italy/"> Italy </a>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+    <div class="row mb-5">
+      
+      <div class="col my-auto">
+        <h1 class="mb-0"> Authors </h1>
+      </div>
+      
+    </div>
+    <h2 class="mb-4">  </h2>
+    <p>
+      
+    </p>
+    <hr class="my-4"><!-- THIS IS A REPEATING CARD -->
+    <div class="container justify-content-between border border-dark rounded p-3 my-3">
+      <div class="row">
+        <div class="col-4 col-md-2 my-auto">
+          <img src="../images/russia-flag-150px-150px.png?h=261005e8" alt="Russia" class="img-profile-sm img-fluid rounded-circle border border-dark">
+        </div>
+        <!-- Card for desktop -->
+        <div class="d-none d-md-block col-12 col-md-10 my-auto">
+          <div class="d-flex justify-content-end justify-content-md-between">
+            <h2> Russia </h2>
+            <button onclick="location.href='../russia/'" type="button" class="btn btn-primary rounded me-0 px-3" type="button"> Show me! </button>
+          </div>
+        </div>
+        <!-- Card for mobile -->
+        <div class="d-block d-md-none col-8">
+          <div class="row justify-content-end">
+            <h3 class="col-12 ms-3"> Russia </h3>
+            <button onclick="location.href='../russia/'" type="button" class="col btn btn-primary rounded mx-3 px-3" type="button"> Show me! </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- END CARD --><!-- THIS IS A REPEATING CARD -->
+    <div class="container justify-content-between border border-dark rounded p-3 my-3">
+      <div class="row">
+        <div class="col-4 col-md-2 my-auto">
+          <img src="../images/japan-flag-150px-150px.png?h=7e599622" alt="Japan" class="img-profile-sm img-fluid rounded-circle border border-dark">
+        </div>
+        <!-- Card for desktop -->
+        <div class="d-none d-md-block col-12 col-md-10 my-auto">
+          <div class="d-flex justify-content-end justify-content-md-between">
+            <h2> Japan </h2>
+            <button onclick="location.href='../japan/'" type="button" class="btn btn-primary rounded me-0 px-3" type="button"> Show me! </button>
+          </div>
+        </div>
+        <!-- Card for mobile -->
+        <div class="d-block d-md-none col-8">
+          <div class="row justify-content-end">
+            <h3 class="col-12 ms-3"> Japan </h3>
+            <button onclick="location.href='../japan/'" type="button" class="col btn btn-primary rounded mx-3 px-3" type="button"> Show me! </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- END CARD --><!-- THIS IS A REPEATING CARD -->
+    <div class="container justify-content-between border border-dark rounded p-3 my-3">
+      <div class="row">
+        <div class="col-4 col-md-2 my-auto">
+          <img src="../images/india-flag-150px-150px.png?h=f2fb5d81" alt="India" class="img-profile-sm img-fluid rounded-circle border border-dark">
+        </div>
+        <!-- Card for desktop -->
+        <div class="d-none d-md-block col-12 col-md-10 my-auto">
+          <div class="d-flex justify-content-end justify-content-md-between">
+            <h2> India </h2>
+            <button onclick="location.href='../india/'" type="button" class="btn btn-primary rounded me-0 px-3" type="button"> Show me! </button>
+          </div>
+        </div>
+        <!-- Card for mobile -->
+        <div class="d-block d-md-none col-8">
+          <div class="row justify-content-end">
+            <h3 class="col-12 ms-3"> India </h3>
+            <button onclick="location.href='../india/'" type="button" class="col btn btn-primary rounded mx-3 px-3" type="button"> Show me! </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- END CARD --><!-- THIS IS A REPEATING CARD -->
+    <div class="container justify-content-between border border-dark rounded p-3 my-3">
+      <div class="row">
+        <div class="col-4 col-md-2 my-auto">
+          <img src="../images/italy-flag-150px-150px.png?h=3fbc8cbf" alt="Italy" class="img-profile-sm img-fluid rounded-circle border border-dark">
+        </div>
+        <!-- Card for desktop -->
+        <div class="d-none d-md-block col-12 col-md-10 my-auto">
+          <div class="d-flex justify-content-end justify-content-md-between">
+            <h2> Italy </h2>
+            <button onclick="location.href='../italy/'" type="button" class="btn btn-primary rounded me-0 px-3" type="button"> Show me! </button>
+          </div>
+        </div>
+        <!-- Card for mobile -->
+        <div class="d-block d-md-none col-8">
+          <div class="row justify-content-end">
+            <h3 class="col-12 ms-3"> Italy </h3>
+            <button onclick="location.href='../italy/'" type="button" class="col btn btn-primary rounded mx-3 px-3" type="button"> Show me! </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- END CARD -->
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="text-end px-3 pt-0 pb-4">
+      <a href="#top"> Scroll to top </a>
+    </div>
+  </footer>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $("a[href='#top']").click(function() {
+        $("html, body").animate({ scrollTop: 0 }, "slow");
+        return false;
+      });
+    });
+  </script></body>
+</html>
