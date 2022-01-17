@@ -1,3 +1,7 @@
+:root {
+    --max-width: 1280px;
+}
+
 /* Required for Slick bug on mobile */
 * {
     min-height: 0;
@@ -23,7 +27,7 @@ body {
 }
 
 .navbar-content {
-    max-width: 1280px;
+    max-width: var(--max-width);
 }
 
 /* Allow hover navbar for drop-downs */
@@ -39,7 +43,7 @@ body {
 main {
     margin: 55px auto 0;
     padding: 3rem 1rem;
-    max-width: 1280px;
+    max-width: var(--max-width);
 }
 
 /* Portrait phones and smaller */
@@ -49,34 +53,25 @@ main {
     }
 }
 
+span.anchor {
+    display: block;
+    visibility: hidden;
+    padding: 2rem 0 0;
+    margin: -2rem 0 0;
+}
+
+.img-profile {
+    max-height: 150px;
+    max-width: 150px;
+}
+
 /*===== END main =====*/
 
 /*===== START Footer =====*/
 
-body > footer nav {
-    border-top: 0.3rem dotted rgb(150,150,150);
-    padding: 3rem 0 6rem;
-    white-space: nowrap;
-    display: grid;
-    grid-gap: 20px;
-    grid-template-columns: repeat(auto-fill, minmax(12rem, 1fr));
-}
-
-body > footer nav ul {
-    margin: 0;
-    padding: 0;
-}
-
-body > footer nav ul li {
-    list-style: none;
-}
-
-body > footer nav ul li a {
-    color: rgb(64,196,75);
-}
-
-body > footer nav ul li a:hover {
-    color: rgb(47,153,56);
+footer {
+    max-width: var(--max-width);
+    margin: auto;
 }
 
 /*===== END Footer =====*/

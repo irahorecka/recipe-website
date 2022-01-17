@@ -5,7 +5,7 @@
   <title>Okonomiyaki | Recipe Website</title>
   <link rel="icon" type="image/png" href="../../images/recipe-website-logo-32px.png?h=a5625cbe"/>
   <link rel="stylesheet" href="../../external/bootstrap-5.0.2/css/bootstrap.min.css?h=33f53934">
-  <link rel="stylesheet" href="../../css/main.css?h=aeb3034a">
+  <link rel="stylesheet" href="../../css/main.css?h=92b33832">
   <link rel="stylesheet" href="../../css/latolatinfonts.css?h=718a7dc2">
   <link rel="stylesheet" href="../../external/photoswipe-4.1.3/photoswipe.css?h=a31fa495">
   <link rel="stylesheet" href="../../external/photoswipe-4.1.3/default-skin/default-skin.css?h=6cfeec26">
@@ -187,11 +187,12 @@
           </div>
         </div>
         
-  <h1 class="mb-4"> Okonomiyaki </h1>
-  <p class="mb-4">
-    Okonomiyaki is a traditinal Japanese dish that is enjoyed in a round-table setting. Savory and light, this dish is a healthy option for anyone curious in this traditional treat.
-  </p>
+  <span id="recipe" class="anchor"></span>
   <div class="container justify-content-between px-0">
+    <h1 class="mb-4"> Okonomiyaki </h1>
+    <p class="mb-4">
+      Okonomiyaki is a traditinal Japanese dish that is enjoyed in a round-table setting. Savory and light, this dish is a healthy option for anyone curious in this traditional treat.
+    </p>
     <div class="row">
       <!-- Image for mobile -->
       <div class="d-block d-md-none col mb-2">
@@ -261,6 +262,17 @@
     <div class="mt-3">
         
         <ol class="ps-3 ps-sm-4 mb-0"><li> In a large bowl, combine the cabbage, scallions, panko, and salt. Gently mix in the eggs. (Note: the mixture will be very loose and cabbagey, not like a flour pancake batter. If it&#39;s very dry, let it sit for 10 minutes). </li><li> Heat a nonstick skillet over medium heat. Brush the skillet with olive oil and use a ¼ measuring cup to scoop the cabbage mixture into the skillet. (It&#39;s ok if it doesn&#39;t seem cohesive, it&#39;ll bind together as the egg cooks). Flatten gently with a spatula so that the mixture is about 1/2 inch thick. Cook 3 minutes per side, or until browned, turning the heat to low as needed. Repeat with the remaining mixture, wiping out the skillet and brushing more oil, as needed. </li><li> Test Drizzle the okonomiyaki with Worcestershire sauce and thin strips of squeezed mayo. Top with sesame seeds, pickled ginger, and nori. Sprinkle with microgreens, if desired. Serve hot. </li></ol></div>
+    <div class="row mt-5">
+      <hr>
+      <h3 class="mt-2 mb-3"><u> Author </u></h3>
+      <div class="col-12 col-md-4 col-lg-3 my-3 text-center text-md-start">
+        <img src="../../images/ira-profile.png?h=d232ce78" alt="Ira Horecka" class="img-profile img-fluid rounded-circle border border-dark">
+      </div>
+      <div class="col-12 col-md-8 col-lg-9 my-0 my-sm-3 text-center text-lg-start">
+        <h4> Ira Horecka </h4>
+        <p> Ira is a first year PhD student studying computational biology at the University of Toronto. He likes to cook from time to time. </p>
+      </div>
+    </div>
   </div>
   <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
   <div class="pswp__bg"></div>
@@ -302,18 +314,18 @@
     </div>
   </main>
   <footer>
-    <div class="container">
-      <nav>
-        <section>
-          <h5>This is a demo header</h5>
-          <ul>
-            <li><a href="#">Demo 1</a></li>
-            <li><a href="#">Demo 2</a></li>
-          </ul>
-        </section>
-      </nav>
+    <div class="text-end px-3 pt-0 pb-4">
+      <a href="#top"> Scroll to top </a>
     </div>
   </footer>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $("a[href='#top']").click(function() {
+        $("html, body").animate({ scrollTop: 0 }, "slow");
+        return false;
+      });
+    });
+  </script>
 <script type="text/javascript">
   // For gallery slideshow
   $(document).ready(function() {

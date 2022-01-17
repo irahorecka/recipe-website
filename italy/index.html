@@ -5,7 +5,7 @@
   <title>Dinner | Recipe Website</title>
   <link rel="icon" type="image/png" href="../images/recipe-website-logo-32px.png?h=a5625cbe"/>
   <link rel="stylesheet" href="../external/bootstrap-5.0.2/css/bootstrap.min.css?h=33f53934">
-  <link rel="stylesheet" href="../css/main.css?h=aeb3034a">
+  <link rel="stylesheet" href="../css/main.css?h=92b33832">
   <link rel="stylesheet" href="../css/latolatinfonts.css?h=718a7dc2"><script src="../external/jquery-3.6.0.min.js?h=b82d238d"></script>
   <script defer src="../external/bootstrap-5.0.2/js/bootstrap.min.js?h=3d7df59c"></script><meta property="og:site_name" content="Recipe Website"/>
   <meta property="og:title" content="Recipe Website - Fun and Simple Recipes"/>
@@ -249,7 +249,7 @@
             </li>
           </ul>
           <div class="d-flex justify-content-end">
-            <button onclick="location.href='../recipe/okonomiyaki/'" type="button" class="btn btn-primary rounded mt-3 me-0 px-3" type="button"> I'm interested! </button>
+            <button onclick="location.href='../recipe/okonomiyaki/#recipe'" type="button" class="btn btn-primary rounded mt-3 me-0 px-3" type="button"> I'm interested! </button>
           </div>
         </div>
       </div>
@@ -259,16 +259,16 @@
     </div>
   </main>
   <footer>
-    <div class="container">
-      <nav>
-        <section>
-          <h5>This is a demo header</h5>
-          <ul>
-            <li><a href="#">Demo 1</a></li>
-            <li><a href="#">Demo 2</a></li>
-          </ul>
-        </section>
-      </nav>
+    <div class="text-end px-3 pt-0 pb-4">
+      <a href="#top"> Scroll to top </a>
     </div>
-  </footer></body>
+  </footer>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $("a[href='#top']").click(function() {
+        $("html, body").animate({ scrollTop: 0 }, "slow");
+        return false;
+      });
+    });
+  </script></body>
 </html>
