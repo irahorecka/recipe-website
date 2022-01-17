@@ -1,0 +1,51 @@
+{% extends "layout.html" %}
+
+{% block heading %}
+{% endblock %}
+
+{% block content %}
+    <div class="row mb-5">
+      {% if this.page_title_img_url|length %}
+      <div class="col-4 col-sm-6 col-md-2 my-auto">
+        <img src="{{ this.page_title_img_url|asseturl }}" alt="Japanese Flag" class="img-fluid rounded border border-dark">
+      </div>
+      <div class="col-8 col-sm-6 col-md-10 my-auto">
+        <h1 class="mb-0"> {{ this.page_title }} </h1>
+      </div>
+      {% else %}
+      <div class="col my-auto">
+        <h1 class="mb-0"> {{ this.page_title }} </h1>
+      </div>
+      {% endif %}
+    </div>
+    <h2 class="mb-4"> {{ this.page_header }} </h2>
+    <p>
+      {{ this.page_body }}
+    </p>
+    <hr class="my-4">
+    {%- for category in this.categories.blocks -%}
+    <!-- THIS IS A REPEATING CARD -->
+    <div class="container justify-content-between border border-dark rounded p-3 my-3">
+      <div class="row">
+        <div class="col-4 col-md-2 my-auto">
+          <img src="{{ category.img_url|asseturl }}" alt="{{ category.title }}" class="img-profile-sm img-fluid rounded-circle border border-dark">
+        </div>
+        <!-- Card for desktop -->
+        <div class="d-none d-md-block col-12 col-md-10 my-auto">
+          <div class="d-flex justify-content-end justify-content-md-between">
+            <h2> {{ category.title }} </h2>
+            <button onclick="location.href='{{ category.page_url|url }}'" type="button" class="btn btn-primary rounded me-0 px-3" type="button"> Show me! </button>
+          </div>
+        </div>
+        <!-- Card for mobile -->
+        <div class="d-block d-md-none col-8">
+          <div class="row justify-content-end">
+            <h3 class="col-12 ms-3"> {{ category.title }} </h3>
+            <button onclick="location.href='{{ category.page_url|url }}'" type="button" class="col btn btn-primary rounded mx-3 px-3" type="button"> Show me! </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- END CARD -->
+    {%- endfor -%}
+{% endblock %}
