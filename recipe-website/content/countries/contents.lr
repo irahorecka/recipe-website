@@ -1,0 +1,41 @@
+_template: index-slim.html
+---
+_model: index-slim
+---
+title: Countries
+---
+page_title: Countries
+---
+page_title_img_url:
+---
+page_header:
+---
+page_body:
+---
+
+categories:
+
+#### category ####
+title: Russia
+----
+img_url: /images/russia-flag-150px-150px.png
+----
+page_url: /russia
+#### category ####
+title: Japan
+----
+img_url: /images/japan-flag-150px-150px.png
+----
+page_url: /japan
+#### category ####
+title: India
+----
+img_url: /images/india-flag-150px-150px.png
+----
+page_url: /india
+#### category ####
+title: Italy
+----
+img_url: /images/italy-flag-150px-150px.png
+----
+page_url: /italy
