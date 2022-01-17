@@ -65,6 +65,11 @@ span.anchor {
     max-width: 150px;
 }
 
+.img-profile-sm {
+    max-height: 75px;
+    max-width: 75px;
+}
+
 /*===== END main =====*/
 
 /*===== START Footer =====*/
