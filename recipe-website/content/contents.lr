@@ -32,7 +32,7 @@ img_url: /images/okonomiyaki.jpeg
 ----
 img_thumbnail_url: /images/okonomiyaki.jpeg
 ----
-recipe_url: /recipe/okonomiyaki
+recipe_url: /recipe/okonomiyaki/#recipe
 #### recipe ####
 recipe_title: Pelmeni
 ----
@@ -50,4 +50,4 @@ img_url: /images/pelmeni.jpeg
 ----
 img_thumbnail_url: /images/pelmeni.jpeg
 ----
-recipe_url: /recipe/pelmeni
+recipe_url: /recipe/pelmeni/#recipe

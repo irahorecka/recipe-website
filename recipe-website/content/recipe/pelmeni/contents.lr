@@ -8,7 +8,6 @@ img_url: /images/pelmeni.jpeg
 ---
 about: Pelmeni are dumplings of Russian cuisine that consist of a filling, which can be minced meat (pork, lamb, beef, fish) or mushrooms. Dive into a favorite winter classic.
 ---
-
 gallery:
 
 #### image ####
@@ -23,14 +22,20 @@ url: /images/pelmeni-2.jpeg
 thumbnail_url: /images/pelmeni-2.jpeg
 ----
 description: Pelmeni photo #2
+#### image ####
+url: /images/pelmeni.jpeg
+----
+thumbnail_url: /images/pelmeni.jpeg
+----
+description: Pelmeni photo #2
 ---
-
 ingredients:
 
 #### ingredient ####
 header: Dough
 ----
 ingredient:
+
 ##### sub_ingredient #####
 ingredient: 3 cups flour
 ##### sub_ingredient #####
@@ -39,11 +44,11 @@ ingredient: 1 tbsp salt
 ingredient: ⅔ cup lukewarm water
 ##### sub_ingredient #####
 ingredient: 3 eggs
-
 #### ingredient ####
 header: Mushroom filling option
 ----
 ingredient:
+
 ##### sub_ingredient #####
 ingredient: 225g mushrooms, finely diced
 ##### sub_ingredient #####
@@ -64,7 +69,6 @@ ingredient: 1 yellow onion, finely diced
 ##### sub_ingredient #####
 ingredient: 1 tbsp salt
 ---
-
 instructions:
 
 #### instruction ####
@@ -138,3 +142,9 @@ instruction: Move the frozen pelmeni to a freezer-proof container or bag.
 instruction: To cook, boil salted water and add frozen pelmeni. Cook 10 minutes, or until the pelmeni float.
 ##### sub_instruction #####
 instruction: Remove from water and serve with sour cream.
+---
+author: Anna Axakova
+---
+author_bio: Anna is a third year PhD student studying molecular genetics at the University of Toronto. She likes to try new recipes and cuddle with her cat.
+---
+author_img_url: /images/anna-profile.jpeg
