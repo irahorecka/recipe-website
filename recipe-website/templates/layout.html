@@ -190,18 +190,18 @@
     </div>
   </main>
   <footer>
-    <div class="container">
-      <nav>
-        <section>
-          <h5>This is a demo header</h5>
-          <ul>
-            <li><a href="#">Demo 1</a></li>
-            <li><a href="#">Demo 2</a></li>
-          </ul>
-        </section>
-      </nav>
+    <div class="text-end px-3 pt-0 pb-4">
+      <a href="#top"> Scroll to top </a>
     </div>
   </footer>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $("a[href='#top']").click(function() {
+        $("html, body").animate({ scrollTop: 0 }, "slow");
+        return false;
+      });
+    });
+  </script>
   {%- block text_js -%}
   {%- endblock -%}
 </body>

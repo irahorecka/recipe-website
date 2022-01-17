@@ -13,11 +13,12 @@
 {%- endblock -%}
 
 {% block content %}
-  <h1 class="mb-4"> {{ this.title }} </h1>
-  <p class="mb-4">
-    {{ this.about }}
-  </p>
+  <span id="recipe" class="anchor"></span>
   <div class="container justify-content-between px-0">
+    <h1 class="mb-4"> {{ this.title }} </h1>
+    <p class="mb-4">
+      {{ this.about }}
+    </p>
     <div class="row">
       <!-- Image for mobile -->
       <div class="d-block d-md-none col mb-2">
@@ -108,6 +109,17 @@
           {%- endfor -%}
         </ol>
       {%- endfor -%}
+    </div>
+    <div class="row mt-5">
+      <hr>
+      <h3 class="mt-2 mb-3"><u> Author </u></h3>
+      <div class="col-12 col-md-4 col-lg-3 my-3 text-center text-md-start">
+        <img src="{{ this.author_img_url|asseturl }}" alt="{{ this.author }}" class="img-profile img-fluid rounded-circle border border-dark">
+      </div>
+      <div class="col-12 col-md-8 col-lg-9 my-0 my-sm-3 text-center text-lg-start">
+        <h4> {{ this.author }} </h4>
+        <p> {{ this.author_bio }} </p>
+      </div>
     </div>
   </div>
   {% include "includes/photoswipe-root.html" %}
