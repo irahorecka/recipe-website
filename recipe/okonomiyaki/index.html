@@ -5,7 +5,7 @@
   <title>Okonomiyaki | Recipe Website</title>
   <link rel="icon" type="image/png" href="../../images/recipe-website-logo-32px.png?h=a5625cbe"/>
   <link rel="stylesheet" href="../../external/bootstrap-5.0.2/css/bootstrap.min.css?h=33f53934">
-  <link rel="stylesheet" href="../../css/main.css?h=92b33832">
+  <link rel="stylesheet" href="../../css/main.css?h=379c4b64">
   <link rel="stylesheet" href="../../css/latolatinfonts.css?h=718a7dc2">
   <link rel="stylesheet" href="../../external/photoswipe-4.1.3/photoswipe.css?h=a31fa495">
   <link rel="stylesheet" href="../../external/photoswipe-4.1.3/default-skin/default-skin.css?h=6cfeec26">
@@ -68,7 +68,7 @@
   <main>
     <div class="d-flex justify-content-center justify-content-md-between" style="min-height: 100vh;">
       <!-- Side bar for desktop -->
-      <aside class="d-none d-md-block col-md-4 col-lg-3 rounded" aria-label="Sidebar">
+      <aside class="d-none d-md-block col-md-4 col-lg-3" aria-label="Sidebar">
         <div class="sticky-top py-3">
           <div class="d-flex justify-content-center">
             <img src="../../images/recipe-website-logo.png?h=a5c71fb4" class="rounded-circle" style="max-width:100%; max-height:100%; padding:2rem; padding-top:0">
@@ -126,7 +126,7 @@
           </div>
         </div>
       </aside>
-      <div class="flex-auto col-md-8 px-3">
+      <div class="col-md-8 px-3">
         <!-- Side bar for mobile -->
         <div class="d-block d-md-none py-3">
           <div class="d-flex justify-content-center">
@@ -187,7 +187,10 @@
           </div>
         </div>
         
-  <span id="recipe" class="anchor"></span>
+  <!-- Side bar for desktop -->
+  <span id="content" class="anchor d-block d-md-none"></span>
+  <!-- Side bar for mobile -->
+  <span class="anchor d-none d-md-block"></span>
   <div class="container justify-content-between px-0">
     <h1 class="mb-4"> Okonomiyaki </h1>
     <p class="mb-4">
@@ -277,12 +280,16 @@
     <div class="row mt-5">
       <hr>
       <h3 class="mt-2 mb-3"><u> Author </u></h3>
-      <div class="col-12 col-md-4 col-lg-3 my-3 text-center text-md-start">
-        <img src="../../images/ira-profile.png?h=d232ce78" alt="Ira Horecka" class="img-profile img-fluid rounded-circle border border-dark">
+      <div class="col-12 col-md-4 col-lg-3 my-3">
+        <div class="text-center text-md-start">
+          <img src="../../images/ira-profile.png?h=d232ce78" alt="Ira Horecka" class="img-profile img-fluid rounded-circle border border-dark">
+        </div>
       </div>
-      <div class="col-12 col-md-8 col-lg-9 my-0 my-sm-3 text-center text-lg-start">
-        <h4> Ira Horecka </h4>
-        <p> Ira is a first year PhD student studying computational biology at the University of Toronto. He likes to cook from time to time. </p>
+      <div class="col-12 col-md-8 col-lg-9 my-0 my-sm-3">
+        <div class="text-center text-lg-start">
+          <h4> Ira Horecka </h4>
+          <p> Ira is a first year PhD student studying computational biology at the University of Toronto. He likes to cook from time to time. </p>
+        </div>
       </div>
     </div>
   </div>
