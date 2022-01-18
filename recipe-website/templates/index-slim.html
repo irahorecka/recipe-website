@@ -23,29 +23,36 @@
       {{ this.page_body }}
     </p>
     <hr class="my-4">
-    {%- for category in this.categories.blocks -%}
-    <!-- THIS IS A REPEATING CARD -->
-    <div class="container justify-content-between border border-dark rounded p-3 my-3">
-      <div class="row">
-        <div class="col-4 col-md-2 my-auto">
-          <img src="{{ category.img_url|asseturl }}" alt="{{ category.title }}" class="img-profile-sm img-fluid rounded-circle border border-dark">
+    <div class="container px-0">
+      <div class="row justify-content-between">
+        {%- for category in this.categories.blocks -%}
+        <div class="justify-content-between col-12 col-sm-6">
+          <a href="{{ category.page_url }}" class="text-reset text-decoration-none">
+            <div class="col-12 border border-dark rounded p-3 my-3">
+              <div class="row">
+                <div class="col-5 col-lg-4 my-auto">
+                  <img src="{{ category.img_url|asseturl }}" alt="{{ category.title }}" class="img-profile-sm img-fluid rounded-circle border border-dark">
+                </div>
+                <div class="col-7 col-lg-8 my-auto">
+                  <!-- Adjust category title size conditional to its length -->
+                  {% set exceeds_len = [] -%}
+                  {% set sub_titles = category.title.split(' ') -%}
+                    {% for sub_title in sub_titles -%}
+                      {% if sub_title|length > 6 -%}
+                        {% do exceeds_len.append(1) -%}
+                      {% endif -%}
+                    {% endfor -%}
+                  {% if exceeds_len -%}
+                  <h4 class="col-12 mb-0"> {{ category.title }} </h4>
+                  {% else -%}
+                  <h3 class="col-12 mb-0"> {{ category.title }} </h3>
+                  {% endif -%}
+                </div>
+              </div>
+            </div>
+          </a>
         </div>
-        <!-- Card for desktop -->
-        <div class="d-none d-md-block col-12 col-md-10 my-auto">
-          <div class="d-flex justify-content-end justify-content-md-between">
-            <h2> {{ category.title }} </h2>
-            <button onclick="location.href='{{ category.page_url|url }}'" type="button" class="btn btn-primary rounded me-0 px-3" type="button"> Show me! </button>
-          </div>
-        </div>
-        <!-- Card for mobile -->
-        <div class="d-block d-md-none col-8">
-          <div class="row justify-content-end">
-            <h3 class="col-12 ms-3"> {{ category.title }} </h3>
-            <button onclick="location.href='{{ category.page_url|url }}'" type="button" class="col btn btn-primary rounded mx-3 px-3" type="button"> Show me! </button>
-          </div>
-        </div>
+        {%- endfor -%}
       </div>
     </div>
-    <!-- END CARD -->
-    {%- endfor -%}
 {% endblock %}
