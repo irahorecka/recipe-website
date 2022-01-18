@@ -12,5 +12,4 @@ do
     esac
 done
 
-HEIGHT=$(identify -ping -format '%h' ${path})
-echo $HEIGHT
+echo $(identify -ping -format '%h' ${path})

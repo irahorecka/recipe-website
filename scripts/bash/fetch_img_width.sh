@@ -12,5 +12,4 @@ do
     esac
 done
 
-WIDTH=$(identify -ping -format '%w' ${path})
-echo $WIDTH
+echo $(identify -ping -format '%w' ${path})
