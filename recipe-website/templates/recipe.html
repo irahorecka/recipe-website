@@ -14,7 +14,7 @@
 
 {% block content %}
   <!-- Side bar for desktop -->
-  <span id="content" class="anchor d-block d-md-none"></span>
+  <span id="recipe" class="anchor d-block d-md-none"></span>
   <!-- Side bar for mobile -->
   <span class="anchor d-none d-md-block"></span>
   <div class="container justify-content-between px-0">
@@ -113,15 +113,15 @@
         </ol>
       {%- endfor %}
     </div>
-    <div class="row mt-5">
-      <hr>
+    <hr class="mt-5">
+    <div class="row">
       <h3 class="mt-2 mb-3"><u> Author </u></h3>
-      <div class="col-12 col-md-4 col-lg-3 my-3">
+      <div class="col-12 col-md-4 col-lg-3 my-3 ps-4 pt-1">
         <div class="text-center text-md-start">
           <img src="{{ this.author_img_url|asseturl }}" alt="{{ this.author }}" class="img-profile img-fluid rounded-circle border border-dark">
         </div>
       </div>
-      <div class="col-12 col-md-8 col-lg-9 my-0 my-sm-3">
+      <div class="col-12 col-md-8 col-lg-9 my-0 my-sm-3 pe-4 pt-1">
         <div class="text-center text-lg-start">
           <h4> {{ this.author }} </h4>
           <p> {{ this.author_bio }} </p>
