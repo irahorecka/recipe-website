@@ -41,7 +41,7 @@ body {
 /*===== START main =====*/
 
 main {
-    margin: 55px auto 0;
+    margin: 35px auto 0;
     padding: 3rem 1rem;
     max-width: var(--max-width);
 }
@@ -68,6 +68,10 @@ span.anchor {
 .img-profile-sm {
     max-height: 75px;
     max-width: 75px;
+}
+
+.scroll-top {
+    padding-bottom: 4rem;
 }
 
 /*===== END main =====*/
