@@ -61,13 +61,11 @@ span.anchor {
 }
 
 .img-profile {
-    max-height: 150px;
-    max-width: 150px;
+    flex-basis: 150px;
 }
 
 .img-profile-sm {
-    max-height: 75px;
-    max-width: 75px;
+    flex-basis: 75px;
 }
 
 .scroll-top {
