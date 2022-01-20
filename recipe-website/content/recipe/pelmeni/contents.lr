@@ -3,7 +3,7 @@ _template: recipe.html
 _model: recipe
 ---
 title: Pelmeni
-------
+---
 author: Anna Axakova
 ---
 author_bio: Anna is a third year PhD student studying molecular genetics at the University of Toronto. She likes to try new recipes and cuddle with her cat.
