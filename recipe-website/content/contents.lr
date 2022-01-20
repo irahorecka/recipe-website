@@ -18,6 +18,10 @@ recipes:
 #### recipe ####
 recipe_title: Okonomiyaki
 ----
+author: Ira Horecka
+----
+author_url: /author/ira-horecka
+----
 origin: Japan
 ----
 origin_img_url: /images/japan-flag-30px-20px.png
@@ -35,6 +39,10 @@ img_thumbnail_url: /images/okonomiyaki.jpeg
 recipe_url: /recipe/okonomiyaki/#recipe
 #### recipe ####
 recipe_title: Pelmeni
+----
+author: Anna Axakova
+----
+author_url: /author/anna-axakova
 ----
 origin: Russia
 ----

@@ -3,6 +3,14 @@ _template: recipe.html
 _model: recipe
 ---
 title: Pelmeni
+------
+author: Anna Axakova
+---
+author_bio: Anna is a third year PhD student studying molecular genetics at the University of Toronto. She likes to try new recipes and cuddle with her cat.
+---
+author_url: /author/anna-axakova
+---
+author_img_url: /images/anna-profile.jpeg
 ---
 img_url: /images/pelmeni.jpeg
 ---
@@ -142,9 +150,3 @@ instruction: Move the frozen pelmeni to a freezer-proof container or bag.
 instruction: To cook, boil salted water and add frozen pelmeni. Cook 10 minutes, or until the pelmeni float.
 ##### sub_instruction #####
 instruction: Remove from water and serve with sour cream.
----
-author: Anna Axakova
----
-author_bio: Anna is a third year PhD student studying molecular genetics at the University of Toronto. She likes to try new recipes and cuddle with her cat.
----
-author_img_url: /images/anna-profile.jpeg

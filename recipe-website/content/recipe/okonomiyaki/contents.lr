@@ -4,6 +4,14 @@ _model: recipe
 ---
 title: Okonomiyaki
 ---
+author: Ira Horecka
+---
+author_bio: Ira is a first year PhD student studying computational biology at the University of Toronto. He likes to cook from time to time.
+---
+author_url: /author/ira-horecka
+---
+author_img_url: /images/ira-profile.png
+---
 img_url: /images/okonomiyaki.jpeg
 ---
 about: Okonomiyaki is a traditinal Japanese dish that is enjoyed in a round-table setting. Savory and light, this dish is a healthy option for anyone curious in this traditional treat.
@@ -60,9 +68,3 @@ instruction: In a large bowl, combine the cabbage, scallions, panko, and salt. G
 instruction: Heat a nonstick skillet over medium heat. Brush the skillet with olive oil and use a ¼ measuring cup to scoop the cabbage mixture into the skillet. (It's ok if it doesn't seem cohesive, it'll bind together as the egg cooks). Flatten gently with a spatula so that the mixture is about 1/2 inch thick. Cook 3 minutes per side, or until browned, turning the heat to low as needed. Repeat with the remaining mixture, wiping out the skillet and brushing more oil, as needed.
 ##### sub_instruction #####
 instruction: Test Drizzle the okonomiyaki with Worcestershire sauce and thin strips of squeezed mayo. Top with sesame seeds, pickled ginger, and nori. Sprinkle with microgreens, if desired. Serve hot.
----
-author: Ira Horecka
----
-author_bio: Ira is a first year PhD student studying computational biology at the University of Toronto. He likes to cook from time to time.
----
-author_img_url: /images/ira-profile.png
