@@ -5,7 +5,7 @@
   <title>Authors | Recipe Website</title>
   <link rel="icon" type="image/png" href="../images/recipe-website-logo-32px.png?h=a5625cbe"/>
   <link rel="stylesheet" href="../external/bootstrap-5.0.2/css/bootstrap.min.css?h=33f53934">
-  <link rel="stylesheet" href="../css/main.css?h=acc43c43">
+  <link rel="stylesheet" href="../css/main.css?h=4289f3a7">
   <link rel="stylesheet" href="../css/latolatinfonts.css?h=718a7dc2"><script src="../external/jquery-3.6.0.min.js?h=b82d238d"></script>
   <script defer src="../external/bootstrap-5.0.2/js/bootstrap.min.js?h=3d7df59c"></script><meta property="og:site_name" content="Recipe Website"/>
   <meta property="og:title" content="Recipe Website - Fun and Simple Recipes"/>
@@ -43,10 +43,10 @@
                 <li><a class="dropdown-item" href="../lunch/">Lunch</a></li>
                 <li><a class="dropdown-item" href="../dinner/">Dinner</a></li>
                 <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="../russia/">Russia</a></li>
-                <li><a class="dropdown-item" href="../japan/">Japan</a></li>
-                <li><a class="dropdown-item" href="../india/">India</a></li>
-                <li><a class="dropdown-item" href="../italy/">Italy</a></li>
+                <li><a class="dropdown-item" href="../country/russia/">Russia</a></li>
+                <li><a class="dropdown-item" href="../country/japan/">Japan</a></li>
+                <li><a class="dropdown-item" href="../country/india/">India</a></li>
+                <li><a class="dropdown-item" href="../country/italy/">Italy</a></li>
               </ul>
             </li>
             <li class="nav-item">
@@ -60,15 +60,17 @@
   <main>
     <div class="d-flex justify-content-center justify-content-md-between" style="min-height: 100vh;">
       <!-- Side bar for desktop -->
-      <aside class="d-none d-md-block col-md-4 col-lg-3" aria-label="Sidebar">
-        <div class="sticky-top py-3">
-          <div class="d-flex justify-content-center">
-            <img src="../images/recipe-website-logo.png?h=a5c71fb4" class="rounded-circle" style="max-width:100%; max-height:100%; padding:2rem; padding-top:0">
-          </div>
+      <aside class="d-none d-md-block col-md-3 col-lg-2" aria-label="Sidebar">
+        <div class="sticky-top py-3 px-3 px-lg-0">
+          <a href="../">
+            <div class="d-flex justify-content-center">
+              <img src="../images/recipe-website-logo.png?h=a5c71fb4" class="rounded-circle" style="max-width:100%; max-height:100%; padding:2rem; padding-top:0">
+            </div>
+          </a>
           <div class="d-flex justify-content-center border-bottom color-border-muted py-3 mt-3 mb-4">
-            <button class="btn btn-primary rounded px-md-5" type="button"> Surprise me! </button>
+            <button class="btn btn-primary rounded w-100" type="button"> Surprise me! </button>
           </div>
-          <div class="px-5">
+          <div class="px-5 px-md-3">
             <h3 class="text-left pt-2 pb-3"> Simple and cheap </h3>
             <div class="pb-2">
               <h5 class="text-left pb-1 text-decoration-underline"> Meal </h5>
@@ -95,22 +97,22 @@
               <ul class="list-unstyled">
                 <li class="">
                   <div class="width-full mt-2">
-                    <a href="../russia/"> Russia </a>
+                    <a href="../country/russia/"> Russia </a>
                   </div>
                 </li>
                 <li class="">
                   <div class="width-full mt-2">
-                    <a href="../japan/"> Japan </a>
+                    <a href="../country/japan/"> Japan </a>
                   </div>
                 </li>
                 <li class="">
                   <div class="width-full mt-2">
-                    <a href="../india/"> India </a>
+                    <a href="../country/india/"> India </a>
                   </div>
                 </li>
                 <li class="">
                   <div class="width-full mt-2">
-                    <a href="../italy/"> Italy </a>
+                    <a href="../country/italy/"> Italy </a>
                   </div>
                 </li>
               </ul>
@@ -118,12 +120,14 @@
           </div>
         </div>
       </aside>
-      <div class="col-md-8 px-3">
+      <div class="col-md-9 px-3">
         <!-- Side bar for mobile -->
         <div class="d-block d-md-none py-3">
-          <div class="d-flex justify-content-center">
-            <img src="../images/recipe-website-logo.png?h=a5c71fb4" class="rounded-circle" style="max-width:160px; max-height:160px;">
-          </div>
+          <a href="../">
+            <div class="d-flex justify-content-center">
+              <img src="../images/recipe-website-logo.png?h=a5c71fb4" class="rounded-circle" style="max-width:160px; max-height:160px;">
+            </div>
+          </a>
           <div class="d-flex justify-content-center border-bottom color-border-muted py-3 my-3">
             <button class="btn btn-primary rounded px-5" type="button"> Surprise me! </button>
           </div>
@@ -155,22 +159,22 @@
                 <ul class="row list-unstyled">
                   <li class="col-6">
                     <div class="width-full mt-2">
-                      <a href="../russia/"> Russia </a>
+                      <a href="../country/russia/"> Russia </a>
                     </div>
                   </li>
                   <li class="col-6">
                     <div class="width-full mt-2">
-                      <a href="../japan/"> Japan </a>
+                      <a href="../country/japan/"> Japan </a>
                     </div>
                   </li>
                   <li class="col-6">
                     <div class="width-full mt-2">
-                      <a href="../india/"> India </a>
+                      <a href="../country/india/"> India </a>
                     </div>
                   </li>
                   <li class="col-6">
                     <div class="width-full mt-2">
-                      <a href="../italy/"> Italy </a>
+                      <a href="../country/italy/"> Italy </a>
                     </div>
                   </li>
                 </ul>
@@ -193,11 +197,11 @@
     <hr class="my-4">
     <div class="container px-0">
       <div class="row justify-content-between"><div class="justify-content-between col-12 col-sm-6">
-          <a href="/author/anna-axakova" class="text-reset text-decoration-none">
+          <a href="../author/anna-axakova/" class="text-reset text-decoration-none">
             <div class="col-12 border border-dark rounded p-3 my-3">
               <div class="row">
                 <div class="col-5 col-lg-4 my-auto">
-                  <img src="../images/anna-profile.jpeg?h=580738f3" alt="Anna Axakova" class="img-profile-sm img-fluid rounded-circle border border-dark">
+                  <img src="../images/anna-profile.jpeg?h=c69e96d8" alt="Anna Axakova" class="img-profile-sm img-fluid rounded-circle border border-dark">
                 </div>
                 <div class="col-7 col-lg-8 my-auto">
                   <!-- Adjust category title size conditional to its length -->
@@ -207,11 +211,11 @@
             </div>
           </a>
         </div><div class="justify-content-between col-12 col-sm-6">
-          <a href="/author/ira-horecka" class="text-reset text-decoration-none">
+          <a href="../author/ira-horecka/" class="text-reset text-decoration-none">
             <div class="col-12 border border-dark rounded p-3 my-3">
               <div class="row">
                 <div class="col-5 col-lg-4 my-auto">
-                  <img src="../images/ira-profile.png?h=d232ce78" alt="Ira Horecka" class="img-profile-sm img-fluid rounded-circle border border-dark">
+                  <img src="../images/ira-profile.png?h=11f00251" alt="Ira Horecka" class="img-profile-sm img-fluid rounded-circle border border-dark">
                 </div>
                 <div class="col-7 col-lg-8 my-auto">
                   <!-- Adjust category title size conditional to its length -->
