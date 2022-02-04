@@ -2,13 +2,13 @@ _template: index.html
 ---
 _model: index
 ---
-title: Dinner
+title: Japan
 ---
-page_title: Dinner Recipes
+page_title: Japanese Recipes
 ---
-page_title_img_url:
+page_title_img_url: /images/japan-flag-150px-100px.png
 ---
-is_img_url_profile:
+is_img_url_profile: false
 ---
 page_header:
 ---

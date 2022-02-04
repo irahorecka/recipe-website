@@ -2,15 +2,15 @@ _template: index.html
 ---
 _model: index
 ---
-title: Anna Axakova
+title: Breakfast
 ---
-page_title: Anna Axakova
+page_title: Russian Recipes
 ---
-page_title_img_url: /images/anna-profile.jpeg
+page_title_img_url: /images/russia-flag-150px-100px.png
 ---
-is_img_url_profile: true
+is_img_url_profile: false
 ---
-page_header: Bio for Anna.
+page_header:
 ---
 page_body:
 ---
@@ -19,10 +19,6 @@ recipes:
 
 #### recipe ####
 recipe_title: Pelmeni
-----
-author: Anna Axakova
-----
-author_url: /author/anna-axakova
 ----
 origin: Russia
 ----

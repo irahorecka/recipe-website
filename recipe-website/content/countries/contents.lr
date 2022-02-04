@@ -8,6 +8,8 @@ page_title: Countries
 ---
 page_title_img_url:
 ---
+is_img_url_profile:
+---
 page_header:
 ---
 page_body:
@@ -20,22 +22,22 @@ title: Russia
 ----
 img_url: /images/russia-flag-150px-150px.png
 ----
-page_url: /russia
+page_url: /country/russia
 #### category ####
 title: Japan
 ----
 img_url: /images/japan-flag-150px-150px.png
 ----
-page_url: /japan
+page_url: /country/japan
 #### category ####
 title: India
 ----
 img_url: /images/india-flag-150px-150px.png
 ----
-page_url: /india
+page_url: /country/india
 #### category ####
 title: Italy
 ----
 img_url: /images/italy-flag-150px-150px.png
 ----
-page_url: /italy
+page_url: /country/italy

@@ -4,25 +4,24 @@ _model: index
 ---
 title: Dinner
 ---
-page_title: Dinner Recipes
+page_title: Indian Recipes
 ---
-page_title_img_url:
+page_title_img_url: /images/india-flag-150px-100px.png
 ---
-is_img_url_profile:
+is_img_url_profile: false
 ---
 page_header:
 ---
 page_body:
 ---
-
 recipes:
 
 #### recipe ####
 recipe_title: Okonomiyaki
 ----
-origin: Japan
+origin: India
 ----
-origin_img_url: /images/japan-flag-30px-20px.png
+origin_img_url: /images/india-flag-30px-20px.png
 ----
 meal: Lunch / Dinner
 ----
