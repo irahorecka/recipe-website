@@ -7,7 +7,11 @@
     <div class="row mb-5">
       {% if this.page_title_img_url|length %}
       <div class="col-4 col-sm-6 col-md-2 my-auto">
-        <img src="{{ this.page_title_img_url|asseturl }}" alt="Japanese Flag" class="img-fluid rounded border border-dark">
+        {% if this.is_img_url_profile == 'true' %}
+        <img src="{{ this.page_title_img_url|asseturl }}" alt="{{ this.page_title }}" class="img-fluid rounded-circle border border-dark">
+        {% else %}
+        <img src="{{ this.page_title_img_url|asseturl }}" alt="{{ this.page_title }}" class="img-fluid rounded border border-dark">
+        {% endif %}
       </div>
       <div class="col-8 col-sm-6 col-md-10 my-auto">
         <h1 class="mb-0"> {{ this.page_title }} </h1>
@@ -27,7 +31,7 @@
       <div class="row justify-content-between">
         {%- for category in this.categories.blocks -%}
         <div class="justify-content-between col-12 col-sm-6">
-          <a href="{{ category.page_url }}" class="text-reset text-decoration-none">
+          <a href="{{ category.page_url|url }}" class="text-reset text-decoration-none">
             <div class="col-12 border border-dark rounded p-3 my-3">
               <div class="row">
                 <div class="col-5 col-lg-4 my-auto">

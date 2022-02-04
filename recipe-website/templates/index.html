@@ -7,7 +7,11 @@
     <div class="row mb-5">
       {% if this.page_title_img_url|length %}
       <div class="col-4 col-md-3 my-auto">
+        {% if this.is_img_url_profile == 'true' %}
         <img src="{{ this.page_title_img_url|asseturl }}" alt="{{ this.page_title }}" class="img-profile img-fluid rounded-circle border border-dark">
+        {% else %}
+        <img src="{{ this.page_title_img_url|asseturl }}" alt="{{ this.page_title }}" class="img-profile img-fluid rounded border border-dark">
+        {% endif %}
       </div>
       <div class="col-8 col-md-9 my-auto">
         <h1 class="mb-0"> {{ this.page_title }} </h1>
