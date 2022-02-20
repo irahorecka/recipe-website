@@ -14,6 +14,7 @@ This is a TODO.md file for the Recipe Website.
 - [ ] Add recipes
   - [ ] Johnfavour's recipe
 - [ ] Update /about page
+- [ ] Add more gallery (Photoswipe-like) photos throughout the recipe (step-by-step instruction)
 
 ### In Progress
 
