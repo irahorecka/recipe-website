@@ -22,4 +22,4 @@ This is a TODO.md file for the Recipe Website.
 
 ### Done ✓
 
-- [ ]
+- [x] Compartmentalize assets/images/ folder
