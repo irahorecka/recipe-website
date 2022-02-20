@@ -1,5 +1,6 @@
 :root {
     --max-width: 1280px;
+    --text-gray: rgb(100,100,100)
 }
 
 /* Required for Slick bug on mobile */
@@ -8,9 +9,16 @@
     min-width: 0;
 }
 
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
 body {
     font-family: "LatoLatinWeb";
-    color: rgb(100,100,100);
+    color: var(--text-gray);
     background: rgb(255,255,255);
 }
 
@@ -58,6 +66,11 @@ span.anchor {
     visibility: hidden;
     padding: 2rem 0 0;
     margin: -2rem 0 0;
+}
+
+.hover-underline:hover {
+    /* color: var(--text-gray); */
+    text-decoration: underline;
 }
 
 .img-profile {
