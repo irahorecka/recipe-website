@@ -6,7 +6,7 @@ title: Anna Axakova
 ---
 page_title: Anna Axakova
 ---
-page_title_img_url: /images/anna-profile.jpeg
+page_title_img_url: /images/profiles/anna-profile.jpeg
 ---
 is_img_url_profile: true
 ---
@@ -26,7 +26,7 @@ author_url: /author/anna-axakova
 ----
 origin: Russia
 ----
-origin_img_url: /images/russia-flag-30px-20px.png
+origin_img_url: /images/flags/russia/30px-20px.png
 ----
 meal: Lunch / Dinner
 ----
@@ -34,8 +34,8 @@ difficulty: Intermediate
 ----
 about: Pelmeni are dumplings of Russian cuisine that consist of a filling, which can be minced meat (pork, lamb, beef, fish) or mushrooms. Dive into a favorite winter classic.
 ----
-img_url: /images/pelmeni.jpeg
+img_url: /images/recipes/pelmeni/pelmeni-1.jpeg
 ----
-img_thumbnail_url: /images/pelmeni.jpeg
+img_thumbnail_url: /images/recipes/pelmeni/pelmeni-1.jpeg
 ----
-recipe_url: /recipe/pelmeni/#recipe
+recipe_url: /recipe/pelmeni/#content

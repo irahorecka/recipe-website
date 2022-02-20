@@ -6,7 +6,7 @@ title: Ira Horecka
 ---
 page_title: Ira Horecka
 ---
-page_title_img_url: /images/ira-profile.png
+page_title_img_url: /images/profiles/ira-profile.png
 ---
 is_img_url_profile: true
 ---
@@ -25,7 +25,7 @@ author_url: /author/ira-horecka
 ----
 origin: Japan
 ----
-origin_img_url: /images/japan-flag-30px-20px.png
+origin_img_url: /images/flags/japan/30px-20px.png
 ----
 meal: Lunch / Dinner
 ----
@@ -33,8 +33,8 @@ difficulty: Easy
 ----
 about: Okonomiyaki is a traditinal Japanese dish that is enjoyed in a round-table setting. Savory and light, this dish is a healthy option for anyone curious in this traditional treat.
 ----
-img_url: /images/okonomiyaki.jpeg
+img_url: /images/recipes/okonomiyaki/okonomiyaki-1.jpeg
 ----
-img_thumbnail_url: /images/okonomiyaki.jpeg
+img_thumbnail_url: /images/recipes/okonomiyaki/okonomiyaki-1.jpeg
 ----
-recipe_url: /recipe/okonomiyaki/#recipe
+recipe_url: /recipe/okonomiyaki/#content
