@@ -55,4 +55,10 @@ imagemagick-resize-150-100:
 ## Resizes image to specified width and height. Sets overflow background to white.
 # E.g. $ make imagemagick-resize W=30 H=20 IN=recipe-website/assets/images/test-flag-1200px-800px.png OUT=recipe-website/assets/images/test-flag-30px-20px.png
 imagemagick-resize:
-	convert $(IN) -resize $(W)x$(H) -background white -gravity center -extent $(W)x$(H) $(OUT)
+	convert $(IN) -resize $(W)x$(H) -background white -gravity center $(OUT)
+
+### Alter Image Background ###
+## Removes white backgroudn from image.
+## E.g. $ make transparent IN=recipe-website/assets/images/food-img.png OUT=recipe-website/assets/images/foog-img-transparent.png
+imagemagick-transparent:
+	convert $(IN) -transparent white $(OUT);
