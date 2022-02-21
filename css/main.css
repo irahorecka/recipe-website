@@ -68,11 +68,6 @@ span.anchor {
     margin: -2rem 0 0;
 }
 
-.hover-underline:hover {
-    /* color: var(--text-gray); */
-    text-decoration: underline;
-}
-
 .img-profile {
     flex-basis: 150px;
 }
