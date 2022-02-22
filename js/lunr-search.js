@@ -42,6 +42,10 @@ function addKeyDownHandler(e, ac) {
     e.addEventListener('keydown', (e) => {
         const topDropdownItem = ac.dropdown._menu.children[0];
         if (e.key === 'Enter') {
+            // If input field is empty, don't search the top dropdown item
+            if (ac.field.value === "") {
+                return;
+            }
             ac.dropdown._menu.hidden = true;
             topDropdownItem?.click();
             return;
