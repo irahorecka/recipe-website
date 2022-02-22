@@ -1,0 +1,12 @@
+/* TEAM */
+  Website creator, designer, and developer: Ira Horecka
+  Contact: ira.horecka [at] yahoo.com
+  Website: irahorecka.com
+  From: Toronto, Ontario, Canada
+
+  Site owner: Ira Horecka
+  Website: irahorecka.github.io/recipe-website
+
+/* SITE */
+  Language: English
+  Doctype: HTML5
