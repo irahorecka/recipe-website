@@ -1,7 +1,6 @@
 const DEFAULTS = {
   maximumItems: 5,
-  highlightTyped: true,
-  highlightClass: 'text-primary',
+  highlightTyped: false,
   label: 'label',
 };
 
@@ -82,7 +81,7 @@ class Autocomplete {
           value: this.options.value ? entry[this.options.value] : entry
       };
 
-      if (removeDiacritics(item.label).toLowerCase().indexOf(removeDiacritics(lookup).toLowerCase()) >= 0) {
+      if (removeDiacritics(item.label).toLowerCase().indexOf(removeDiacritics(lookup).toLowerCase()) >= -1) {
         items.appendChild(this.createItem(lookup, item));
         if (this.options.maximumItems > 0 && ++count >= this.options.maximumItems)
           break;
