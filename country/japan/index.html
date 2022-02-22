@@ -5,8 +5,9 @@
   <title>Japan | Recipe Website</title>
   <link rel="icon" type="image/png" href="../../images/logos/recipe-website-logo-32px.png?h=8acf1ede"/>
   <link rel="stylesheet" href="../../external/bootstrap-5.0.2/css/bootstrap.min.css?h=33f53934">
-  <link rel="stylesheet" href="../../css/main.css?h=05109cd2">
-  <link rel="stylesheet" href="../../css/latolatinfonts.css?h=718a7dc2"><script src="../../external/jquery-3.6.0.min.js?h=b82d238d"></script>
+  <link rel="stylesheet" href="../../css/main.css?h=133fedf6">
+  <link rel="stylesheet" href="../../css/latolatinfonts.css?h=718a7dc2">
+  <link rel="stylesheet" href="../../css/fork-awesome.min.css?h=740986d1"><script src="../../external/jquery-3.6.0.min.js?h=b82d238d"></script>
   <script src="../../external/bootstrap-5.0.2/js/bootstrap.bundle.min.js?h=70898d2c"></script>
   <script src="../../external/lunr-2.3.9.min.js?h=1d1ba011"></script><meta property="og:site_name" content="Recipe Website"/>
   <meta property="og:title" content="Recipe Website - Fun and Simple Recipes"/>
@@ -14,7 +15,6 @@
   <meta property="og:image" content="../../images/logos/recipe-website-logo.png?h=5592df63"/>
   <meta property="og:secure_url" content="../../images/logos/recipe-website-logo.png?h=5592df63"/>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="stylesheet" href="../../css/fork-awesome/fork-awesome.min.css?h=7ecae98b">
 </head>
 <body>
   <header>
@@ -278,7 +278,7 @@
       <a href="#top"> Scroll to top </a>
     </div>
   </footer>
-  <script src="../../js/autocomplete-search.js?h=a9437608"></script>
+  <script src="../../js/autocomplete-search.js?h=4a0a5041"></script>
   <script src="../../js/lunr-search.js?h=2f681d72"></script>
   <script type="text/javascript">
     $(document).ready(function() {
@@ -287,7 +287,21 @@
         return false;
       });
       
-      window.store = {"authors": {"label": "Authors", "tags": ["Authors",], "url": "../../authors/"},"lunch": {"label": "Lunch", "tags": ["Lunch",], "url": "../../lunch/"},"dinner": {"label": "Dinner", "tags": ["Dinner",], "url": "../../dinner/"},"about": {"label": "About", "tags": ["About",], "url": "../../about/"},"countries": {"label": "Countries", "tags": ["Countries",], "url": "../../countries/"},"breakfast": {"label": "Breakfast", "tags": ["Breakfast",], "url": "../../breakfast/"},"ira-horecka": {"label": "Ira Horecka", "tags": ["Ira Horecka",], "url": "../../author/ira-horecka/"},"anna-axakova": {"label": "Anna Axakova", "tags": ["Anna Axakova",], "url": "../../author/anna-axakova/"},"russia": {"label": "Russia", "tags": ["Russia",], "url": "../russia/"},"japan": {"label": "Japan", "tags": ["Japan",], "url": "./"},"india": {"label": "India", "tags": ["India",], "url": "../india/"},"italy": {"label": "Italy", "tags": ["Italy",], "url": "../italy/"},"pelmeni": {"label": "Pelmeni", "tags": ["Pelmeni",], "url": "../../recipe/pelmeni/"},"okonomiyaki": {"label": "Okonomiyaki", "tags": ["Okonomiyaki",], "url": "../../recipe/okonomiyaki/"},}
+      window.store = {
+          "authors": {"label": "Authors", "tags": ["Authors",], "url": "../../authors/", "class": "authors"},
+          "lunch": {"label": "Lunch", "tags": ["Lunch",], "url": "../../lunch/", "class": "lunch"},
+          "dinner": {"label": "Dinner", "tags": ["Dinner",], "url": "../../dinner/", "class": "dinner"},
+          "about": {"label": "About", "tags": ["About",], "url": "../../about/", "class": "about"},
+          "countries": {"label": "Countries", "tags": ["Countries",], "url": "../../countries/", "class": "countries"},
+          "breakfast": {"label": "Breakfast", "tags": ["Breakfast",], "url": "../../breakfast/", "class": "breakfast"},
+          "ira-horecka": {"label": "Ira Horecka", "tags": ["Ira Horecka",], "url": "../../author/ira-horecka/", "class": "author"},
+          "anna-axakova": {"label": "Anna Axakova", "tags": ["Anna Axakova",], "url": "../../author/anna-axakova/", "class": "author"},
+          "russia": {"label": "Russia", "tags": ["Russia",], "url": "../russia/", "class": "country"},
+          "japan": {"label": "Japan", "tags": ["Japan",], "url": "./", "class": "country"},
+          "india": {"label": "India", "tags": ["India",], "url": "../india/", "class": "country"},
+          "italy": {"label": "Italy", "tags": ["Italy",], "url": "../italy/", "class": "country"},
+          "pelmeni": {"label": "Pelmeni", "tags": ["Pelmeni",], "url": "../../recipe/pelmeni/", "class": "recipe"},
+          "okonomiyaki": {"label": "Okonomiyaki", "tags": ["Okonomiyaki",], "url": "../../recipe/okonomiyaki/", "class": "recipe"},}
     });
   </script></body>
 </html>

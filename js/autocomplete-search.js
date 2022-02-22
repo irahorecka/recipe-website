@@ -16,7 +16,7 @@ class Autocomplete {
     field.setAttribute('data-bs-toggle', 'dropdown');
     field.classList.add('dropdown-toggle');
 
-    const dropdown = ce(`<div class="dropdown-menu w-full"></div>`);
+    const dropdown = ce(`<div class="dropdown-menu"></div>`);
     if (this.options.dropdownClass)
       dropdown.classList.add(this.options.dropdownClass);
     insertAfter(dropdown, field);
@@ -50,8 +50,15 @@ class Autocomplete {
     } else {
       label = item.label;
     }
-
-    return ce(`<a href="${item.value.url}#content" class="dropdown-item w-full">${label}</a>`);
+    let iconClass = {
+      'author': 'fa-user-circle-o',
+      'authors': 'fa-user-circle-o',
+      'country': 'fa-globe-e',
+      'countries': 'fa-globe-e',
+      'recipe': 'fa-cutlery',
+      'recipes': 'fa-cutlery',
+    }
+    return ce(`<a href="${item.value.url}#content" class="dropdown-item"><i class="fa ${iconClass[item.value.class]} pe-2" aria-hidden="true"></i>${label}</a>`);
   }
 
   createItems() {
