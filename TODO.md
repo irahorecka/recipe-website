@@ -8,6 +8,7 @@ This is a TODO.md file for the Recipe Website.
 - [ ] Add more gallery (photoswipe-like) photos throughout the recipe (e.g., step-by-step instruction images)
 - [ ] Ensure all tags are closed in every HTML file
 - [ ] Update /about page
+- [ ] Add error pages
 - [ ] Add lettering to logo
 - [ ] Add recipes
   - [ ] Johnfavour's recipe
@@ -32,3 +33,4 @@ This is a TODO.md file for the Recipe Website.
   - [x] Enable general querying capabilities
   - [x] Ensure functionality for both desktop and mobile sidebars
 - [x] Establish a good href ID link to page content (especially helpful for mobile devices)
+- [x] Add humans.txt page
