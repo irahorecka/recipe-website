@@ -17,10 +17,8 @@ class Autocomplete {
     field.classList.add('dropdown-toggle');
 
     const dropdown = ce(`<div class="dropdown-menu"></div>`);
-    
     if (this.options.dropdownClass)
       dropdown.classList.add(this.options.dropdownClass);
-
     insertAfter(dropdown, field);
 
     this.dropdown = new bootstrap.Dropdown(field, this.options.dropdownOptions);
@@ -52,7 +50,7 @@ class Autocomplete {
     } else {
       label = item.label;
     }
-  
+
     return ce(`<a href="${item.value.url}#content" class="dropdown-item">${label}</a>`);
   }
 
