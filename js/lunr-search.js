@@ -73,6 +73,7 @@ function updateResults (ac, results, store) {
 
 function updateSearch(e, ac) {
     // Returns false if search failed and true if search successful
+    // Escape space(s) if found in query
     const query = e.target.value.replace(/ /g,"\\ ");
     if (query.length === 0) {
         ac.dropdown._menu.hidden = true;
