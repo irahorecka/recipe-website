@@ -50,8 +50,15 @@ class Autocomplete {
     } else {
       label = item.label;
     }
-
-    return ce(`<a href="${item.value.url}#content" class="dropdown-item">${label}</a>`);
+    const iconClass = {
+      'author': 'fa-user-circle-o',
+      'authors': 'fa-user-circle-o',
+      'country': 'fa-globe-e',
+      'countries': 'fa-globe-e',
+      'recipe': 'fa-cutlery',
+      'recipes': 'fa-cutlery',
+    }
+    return ce(`<a href="${item.value.url}#content" class="dropdown-item"><i class="fa ${iconClass[item.value.class]} pe-2" aria-hidden="true"></i>${label}</a>`);
   }
 
   createItems() {
