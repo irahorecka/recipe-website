@@ -40,14 +40,16 @@ function addClickHandler(e, ac) {
 
 function addKeyDownHandler(e, ac) {
     e.addEventListener('keydown', (e) => {
-        const topDropdownItem = ac.dropdown._menu.children[0];
         if (e.key === 'Enter') {
             // Don't search if input field is empty
             if (ac.field.value === "") {
                 return;
             }
             ac.dropdown._menu.hidden = true;
-            topDropdownItem?.click();
+            // Allow user to select top selection if search results found
+            let foundResults = updateSearch(e, ac);
+            if (foundResults)
+                ac.dropdown._menu.children[0]?.click();
             return;
         }
         if (e.key === 'Escape') {
@@ -57,7 +59,7 @@ function addKeyDownHandler(e, ac) {
     });
 }
 
-function displayResults (ac, results, store) {
+function updateResults (ac, results, store) {
     if (results.length) {
         let resultList = [];
         // Iterate and build result list elements
@@ -70,10 +72,11 @@ function displayResults (ac, results, store) {
 }
 
 function updateSearch(e, ac) {
-    const query = e.target.value;
+    // Returns false if search failed and true if search successful
+    const query = e.target.value.replace(/ /g,"\\ ");
     if (query.length === 0) {
         ac.dropdown._menu.hidden = true;
-        return;
+        return false;
     }
     const idx = lunr(function () {
         this.ref('id');
@@ -95,9 +98,9 @@ function updateSearch(e, ac) {
     const results = idx.search(`${query}* ${query}~2`);
     // No results - hide dropdown menu
     if (results.length === 0) {
-        return;
+        return false;
     }
     ac.dropdown._menu.hidden = false;
-    // Update the list with results
-    displayResults(ac, results, window.store);
+    updateResults(ac, results, window.store);
+    return true;
 }
