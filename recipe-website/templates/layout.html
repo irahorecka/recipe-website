@@ -26,7 +26,7 @@
   <header>
     <nav class="navbar navbar-expand-sm navbar-light bg-light">
       <div class="container-fluid px-3 navbar-content">
-        <a class="navbar-brand" href="{{ "/#content"|url }}">
+        <a class="navbar-brand" href="{{ "/"|url }}">
           <img src="{{ '/images/logos/recipe-website-logo-32px.png'|asseturl }}" alt="Home">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -37,23 +37,21 @@
         <div class="collapse navbar-collapse" id="navbar-nav">
           <ul class="navbar-nav mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" href="{{ "/#content"|url }}">Home</a>
+              <a class="nav-link active" href="{{ "/"|url }}">Home</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="{{ "#"|url }}"
                  id="navbar-nav-dropdown" role="button"
                  data-bs-toggle="dropdown" aria-expanded="false">
-                Recipes
+                Menu
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbar-nav-dropdown">
                 <li><a class="dropdown-item" href="{{ "/breakfast/#content"|url }}">Breakfast</a></li>
                 <li><a class="dropdown-item" href="{{ "/lunch/#content"|url }}">Lunch</a></li>
                 <li><a class="dropdown-item" href="{{ "/dinner/#content"|url }}">Dinner</a></li>
                 <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="{{ "/country/russia/#content"|url }}">Russia</a></li>
-                <li><a class="dropdown-item" href="{{ "/country/japan/#content"|url }}">Japan</a></li>
-                <li><a class="dropdown-item" href="{{ "/country/india/#content"|url }}">India</a></li>
-                <li><a class="dropdown-item" href="{{ "/country/italy/#content"|url }}">Italy</a></li>
+                <li><a class="dropdown-item" href="{{ "/authors/#content"|url }}">Authors</a></li>
+                <li><a class="dropdown-item" href="{{ "/countries/#content"|url }}">Countries</a></li>
               </ul>
             </li>
             <li class="nav-item">
@@ -69,7 +67,7 @@
       <!-- Side bar for desktop -->
       <aside class="d-none d-md-block col-md-3 col-lg-2" aria-label="Sidebar">
         <div class="sticky-top py-3 px-3 px-lg-0">
-          <a href="{{ "/#content"|url }}">
+          <a href="{{ "/"|url }}">
             <div class="d-flex justify-content-center">
               <img src="{{ '/images/logos/recipe-website-logo.png'|asseturl }}" class="rounded" style="max-width:100%; max-height:100%; padding:2rem; padding-top:0">
             </div>
@@ -103,26 +101,16 @@
               </ul>
             </div>
             <div>
-              <h5 class="text-left pb-1 text-decoration-underline"> Recipe Origin </h5>
+              <h5 class="text-left pb-1 text-decoration-underline"> Categories </h5>
               <ul class="list-unstyled">
                 <li class="">
                   <div class="width-full mt-1">
-                    <a href="{{ "/country/russia/#content"|url }}"> Russia </a>
+                    <a href="{{ "/authors/#content"|url }}"> Authors </a>
                   </div>
                 </li>
                 <li class="">
                   <div class="width-full mt-1">
-                    <a href="{{ "/country/japan/#content"|url }}"> Japan </a>
-                  </div>
-                </li>
-                <li class="">
-                  <div class="width-full mt-1">
-                    <a href="{{ "/country/india/#content"|url }}"> India </a>
-                  </div>
-                </li>
-                <li class="">
-                  <div class="width-full mt-1">
-                    <a href="{{ "/country/italy/#content"|url }}"> Italy </a>
+                    <a href="{{ "/countries/#content"|url }}"> Countries </a>
                   </div>
                 </li>
               </ul>
@@ -133,7 +121,7 @@
       <div class="col-md-9 px-3">
         <!-- Side bar for mobile -->
         <div class="d-block d-md-none py-3">
-          <a href="{{ "/#content"|url }}">
+          <a href="{{ "/"|url }}">
             <div class="d-flex justify-content-center">
               <img src="{{ '/images/logos/recipe-website-logo.png'|asseturl }}" class="rounded" style="max-width:160px; max-height:160px;">
             </div>
@@ -168,26 +156,16 @@
                 </ul>
               </div>
               <div class="col-6">
-                <h5 class="text-left text-decoration-underline"> Recipe Origin </h5>
+                <h5 class="text-left text-decoration-underline"> Categories </h5>
                 <ul class="row list-unstyled">
                   <li class="col-6">
                     <div class="width-full mt-2">
-                      <a href="{{ "/country/russia/#content"|url }}"> Russia </a>
+                      <a href="{{ "/authors/#content"|url }}"> Authors </a>
                     </div>
                   </li>
                   <li class="col-6">
                     <div class="width-full mt-2">
-                      <a href="{{ "/country/japan/#content"|url }}"> Japan </a>
-                    </div>
-                  </li>
-                  <li class="col-6">
-                    <div class="width-full mt-2">
-                      <a href="{{ "/country/india/#content"|url }}"> India </a>
-                    </div>
-                  </li>
-                  <li class="col-6">
-                    <div class="width-full mt-2">
-                      <a href="{{ "/country/italy/#content"|url }}"> Italy </a>
+                      <a href="{{ "/countries/#content"|url }}"> Countries </a>
                     </div>
                   </li>
                 </ul>
