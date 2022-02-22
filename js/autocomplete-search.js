@@ -52,8 +52,11 @@ class Autocomplete {
     const iconClass = {
       'author': 'fa-user-circle-o',
       'authors': 'fa-user-circle-o',
+      'breakfast': 'fa-cutlery',
+      'dinner': 'fa-cutlery',
       'country': 'fa-globe-e',
       'countries': 'fa-globe-e',
+      'lunch': 'fa-cutlery',
       'recipe': 'fa-cutlery',
       'recipes': 'fa-cutlery',
     }
