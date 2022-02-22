@@ -4,10 +4,6 @@ This is a TODO.md file for the Recipe Website.
 
 ### Todo
 
-- [ ] BUG :: Persistent lunr features even with wrong keyword
-  - E.g., Type 'Anna' --> (feaure) 'Anna Axakova' --> Delete 'Anna' then type '/' (no feature) --> Press ENTER --> Route to Anna's page
-- [ ] BUG :: Incorrect placement of search dropdown menu if parsing failed in initial search followed by good search
-  - E.g., Type '/Ira' --> (hidden feature) --> Delete '/Ira' then type 'Ira' (feature) --> 'Ira' in dropdown item located @ bottom of page
 - [ ] Give functionality to 'Surprise me!' button
 - [ ] Add more gallery (photoswipe-like) photos throughout the recipe (e.g., step-by-step instruction images)
 - [ ] Ensure all tags are closed in every HTML file
@@ -38,3 +34,7 @@ This is a TODO.md file for the Recipe Website.
   - [x] Ensure functionality for both desktop and mobile sidebars
 - [x] Establish a good href ID link to page content (especially helpful for mobile devices)
 - [x] Add humans.txt page
+- [x] BUG :: Persistent lunr features even with wrong keyword
+  - E.g., Type 'Anna' --> (feaure) 'Anna Axakova' --> Delete 'Anna' then type '/' (no feature) --> Press ENTER --> Route to Anna's page
+- [x] BUG :: Incorrect placement of search dropdown menu if parsing failed in initial search followed by good search
+  - E.g., Type '/Ira' --> (hidden feature) --> Delete '/Ira' then type 'Ira' (feature) --> 'Ira' in dropdown item located @ bottom of page
