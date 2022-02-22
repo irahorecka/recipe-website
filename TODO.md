@@ -4,6 +4,8 @@ This is a TODO.md file for the Recipe Website.
 
 ### Todo
 
+- [ ] BUG :: Persistent lunr features even with wrong keyword
+  - E.g., Type 'Anna' --> (feaure) 'Anna Axakova' --> Delete 'Anna' then type '/' (no feature) --> Press ENTER --> Route to Anna's page
 - [ ] Give functionality to 'Surprise me!' button
 - [ ] Add more gallery (photoswipe-like) photos throughout the recipe (e.g., step-by-step instruction images)
 - [ ] Ensure all tags are closed in every HTML file
