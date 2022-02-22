@@ -16,7 +16,7 @@ class Autocomplete {
     field.setAttribute('data-bs-toggle', 'dropdown');
     field.classList.add('dropdown-toggle');
 
-    const dropdown = ce(`<div class="dropdown-menu"></div>`);
+    const dropdown = ce(`<div class="dropdown-menu w-full"></div>`);
     if (this.options.dropdownClass)
       dropdown.classList.add(this.options.dropdownClass);
     insertAfter(dropdown, field);
@@ -51,7 +51,7 @@ class Autocomplete {
       label = item.label;
     }
 
-    return ce(`<a href="${item.value.url}#content" class="dropdown-item">${label}</a>`);
+    return ce(`<a href="${item.value.url}#content" class="dropdown-item w-full">${label}</a>`);
   }
 
   createItems() {
