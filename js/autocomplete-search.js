@@ -50,7 +50,7 @@ class Autocomplete {
     } else {
       label = item.label;
     }
-    let iconClass = {
+    const iconClass = {
       'author': 'fa-user-circle-o',
       'authors': 'fa-user-circle-o',
       'country': 'fa-globe-e',

@@ -1,6 +1,7 @@
 :root {
     --max-width: 1280px;
-    --text-gray: rgb(100,100,100)
+    --text-gray: rgb(100,100,100,1);
+    --text-black: rgba(0,0,0,.9)
 }
 
 /* Required for Slick bug on mobile */
@@ -44,6 +45,10 @@ body {
     display: block;
 }
 
+#navbar-nav-dropdown {
+    color: var(--text-black);
+}
+
 /*===== END Header =====*/
 
 /*===== START main =====*/
@@ -61,16 +66,17 @@ main {
     }
 }
 
+/* Dropdown results for search bar */
+main .dropdown-menu {
+    min-width: 0;
+    width: 100%;
+}
+
 span.anchor {
     display: block;
     visibility: hidden;
     padding: 2rem 0 0;
     margin: -2rem 0 0;
-}
-
-.dropdown-menu {
-    min-width: 0;
-    width: 100%;
 }
 
 .img-profile {
