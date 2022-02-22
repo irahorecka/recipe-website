@@ -4,22 +4,31 @@ This is a TODO.md file for the Recipe Website.
 
 ### Todo
 
-- [ ] Fix sidebar format
-  - [ ] Update hyperlinks - sync with header nav bar
+- [ ] Give functionality to 'Surprise me!' button
+- [ ] Add more gallery (photoswipe-like) photos throughout the recipe (e.g., step-by-step instruction images)
+- [ ] Ensure all tags are closed in every HTML file
+- [ ] Update /about page
+- [ ] Add lettering to logo
 - [ ] Add recipes
   - [ ] Johnfavour's recipe
-- [ ] Update /about page
-- [ ] Add more gallery (Photoswipe-like) photos throughout the recipe (step-by-step instruction)
-- [ ] Establish a good href link to page content
+  - [ ] Mapo tofu recipe
+  - [ ] Chinese sausage fried rice recipe
 
 ### In Progress
 
-- [ ] Add search bar
-  - [ ] Find frontend library for static page searching
-  - [ ] Enable general querying capabilities
-  - [ ] Create model files for search tags
+- [ ] Mine keywords from contents.lr for search
+  - [ ] Gather ingredients from recipes
+  - [ ] Create model field for tags - every contents.lr file
 
 ### Done ✓
 
 - [x] Compartmentalize assets/images/ folder
 - [x] Update logo
+- [x] Fix sidebar and navbar format
+  - [x] Update hyperlinks
+- [x] Add search bar to sidebar
+  - [x] Find frontend library for static page searching
+  - [x] Enable fast auto-complete suggestions when searching
+  - [x] Enable general querying capabilities
+  - [x] Ensure functionality for both desktop and mobile sidebars
+- [x] Establish a good href ID link to page content (especially helpful for mobile devices)
