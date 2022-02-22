@@ -5,9 +5,9 @@ const desktopAC = new Autocomplete(desktopField, {
     maximumItems: 5,
     threshold: 1,
 });
+desktopAC.dropdown._menu.hidden = true;
 addInputHandler(desktopField, desktopAC);
 addClickHandler(desktopField, desktopAC);
-addMouseOverHandler(desktopField, desktopAC);
 addKeyDownHandler(desktopField, desktopAC);
 
 // MOBILE SEARCH HANDLER
@@ -17,9 +17,9 @@ const mobileAC = new Autocomplete(mobileField, {
     maximumItems: 5,
     threshold: 1,
 });
+mobileAC.dropdown._menu.hidden = true;
 addInputHandler(mobileField, mobileAC);
 addClickHandler(mobileField, mobileAC);
-addMouseOverHandler(mobileField, mobileAC);
 addKeyDownHandler(mobileField, mobileAC);
 
 
@@ -35,12 +35,6 @@ function addClickHandler(e, ac) {
             e.stopPropagation();
             ac.dropdown._menu.hidden = true;
         }
-  });
-}
-
-function addMouseOverHandler(e, ac) {
-    e.addEventListener('mouseover', (e) => {
-        ac.dropdown._menu.hidden = true;
   });
 }
 
