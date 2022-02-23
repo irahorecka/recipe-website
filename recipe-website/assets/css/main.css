@@ -1,7 +1,8 @@
 :root {
     --max-width: 1280px;
+    --text-black: rgba(0,0,0,.9);
     --text-gray: rgb(100,100,100,1);
-    --text-black: rgba(0,0,0,.9)
+    --pale-blue: rgba(13,110,253,0.2);
 }
 
 /* Required for Slick bug on mobile */
@@ -43,6 +44,13 @@ body {
 .dropdown:hover .dropdown-menu {
     margin-top: 0px;
     display: block;
+}
+
+/* For both navbar and searchbar */
+.dropdown-item:focus,
+.dropdown-item:hover {
+    background-color: var(--pale-blue);
+    text-decoration: underline;
 }
 
 #navbar-nav-dropdown {
