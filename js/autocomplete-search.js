@@ -1,7 +1,19 @@
 const DEFAULTS = {
   maximumItems: 5,
-  highlightTyped: false,
+  highlightTyped: true,
   label: 'label',
+};
+
+const ICONCLASS = {
+  'author': 'fa-user-circle-o',
+  'authors': 'fa-user-circle-o',
+  'breakfast': 'fa-cutlery',
+  'dinner': 'fa-cutlery',
+  'country': 'fa-globe-e',
+  'countries': 'fa-globe-e',
+  'lunch': 'fa-cutlery',
+  'recipe': 'fa-cutlery',
+  'recipes': 'fa-cutlery',
 };
 
 class Autocomplete {
@@ -49,18 +61,7 @@ class Autocomplete {
     } else {
       label = item.label;
     }
-    const iconClass = {
-      'author': 'fa-user-circle-o',
-      'authors': 'fa-user-circle-o',
-      'breakfast': 'fa-cutlery',
-      'dinner': 'fa-cutlery',
-      'country': 'fa-globe-e',
-      'countries': 'fa-globe-e',
-      'lunch': 'fa-cutlery',
-      'recipe': 'fa-cutlery',
-      'recipes': 'fa-cutlery',
-    }
-    return ce(`<a href="${item.value.url}#content" class="dropdown-item"><i class="fa ${iconClass[item.value.class]} pe-2" aria-hidden="true"></i>${label}</a>`);
+    return ce(`<a href="${item.value.url}#content" class="dropdown-item"><i class="fa ${ICONCLASS[item.value.class]} pe-2" aria-hidden="true"></i>${label}</a>`);
   }
 
   createItems() {
