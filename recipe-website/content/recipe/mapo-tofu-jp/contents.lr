@@ -1,0 +1,113 @@
+_template: recipe.html
+---
+_model: recipe
+---
+title: Japanese Mapo Tofu
+---
+author: Ira Horecka
+---
+author_bio: Ira is a first year PhD student studying computational biology at the University of Toronto. He likes to cook from time to time.
+---
+author_url: /author/ira-horecka
+---
+author_img_url: /images/profiles/ira-profile.png
+---
+img_url: /images/recipes/mapo-tofu-jp/mapo-tofu-jp-1.jpeg
+---
+about:
+
+ The Japanese Mapo Tofu is incredibly flavorful but less spicy than the Sichuan-style.
+---
+tags: japan, japanese, tofu, pork
+---
+gallery:
+
+#### image ####
+url: /images/recipes/mapo-tofu-jp/mapo-tofu-jp-1.jpeg
+----
+thumbnail_url: /images/recipes/mapo-tofu-jp/mapo-tofu-jp-1.jpeg
+----
+description: Japanese Mapo Tofu photo #1
+#### image ####
+url: /images/recipes/mapo-tofu-jp/mapo-tofu-jp-2.jpeg
+----
+thumbnail_url: /images/recipes/mapo-tofu-jp/mapo-tofu-jp-2.jpeg
+----
+description: Japanese Mapo Tofu photo #2
+---
+ingredients:
+
+#### ingredient ####
+header:
+----
+ingredient:
+
+##### sub_ingredient #####
+ingredient: 1 soft tofu (cubed)
+##### sub_ingredient #####
+ingredient: ½ lb ground pork
+##### sub_ingredient #####
+ingredient: Dash of sesame oil
+##### sub_ingredient #####
+ingredient: 1 tsp chili bean paste (Toban Djan)
+#### ingredient ####
+header: Group A
+----
+ingredient:
+
+##### sub_ingredient #####
+ingredient: 1 garlic clove
+##### sub_ingredient #####
+ingredient: ½ thumb-sized ginger
+##### sub_ingredient #####
+ingredient: 1 green onion (minced)
+#### ingredient ####
+header: Group B
+----
+ingredient:
+
+##### sub_ingredient #####
+ingredient: 100mL chicken stock
+##### sub_ingredient #####
+ingredient: 1 tsp sugar
+##### sub_ingredient #####
+ingredient: 1 tbsp sake (regular or cooking)
+##### sub_ingredient #####
+ingredient: 1 tbsp soy sauce
+##### sub_ingredient #####
+ingredient: 2 tbsp miso
+#### ingredient ####
+header: Group C
+----
+ingredient:
+
+##### sub_ingredient #####
+ingredient: 1 tsp potato starch
+##### sub_ingredient #####
+ingredient: 1 tsp water
+---
+instructions:
+
+#### instruction ####
+header:
+----
+sub_header:
+----
+instruction:
+
+##### sub_instruction #####
+instruction: Combine Group A, B, C in individual bowls. Set aside half of the green onion for later.
+##### sub_instruction #####
+instruction: Drain the tofu and wrap in a sheet of paper towel. Microwave for 2 minutes then cube (small / medium).
+##### sub_instruction #####
+instruction: Sauté the chili bean paste with Group in a dash of hot vegetable oil
+##### sub_instruction #####
+instruction: Add the ground pork and sauté until the pork is just cooked.
+##### sub_instruction #####
+instruction: Mix in Group B until it just begins to simmer.
+##### sub_instruction #####
+instruction: Add the cubed tofu and cook for 3 another minutes.
+##### sub_instruction #####
+instruction: Mix in Group C until the stew slightly thickens.
+##### sub_instruction #####
+instruction: Gently fold in the remaining green onion and sesame oil (don't overdo this step).

@@ -8,7 +8,7 @@ author: Anna Axakova
 ---
 author_bio: Anna is a third year PhD student studying molecular genetics at the University of Toronto. She likes to try new recipes and cuddle with her cat.
 ---
-author_url: /author/anna-axakova/#content
+author_url: /author/anna-axakova
 ---
 author_img_url: /images/profiles/anna-profile.jpeg
 ---
@@ -16,6 +16,9 @@ img_url: /images/recipes/pelmeni/pelmeni-1.jpeg
 ---
 about: Pelmeni are dumplings of Russian cuisine that consist of a filling, which can be minced meat (pork, lamb, beef, fish) or mushrooms. Dive into a favorite winter classic.
 ---
+tags: russia, russian, dumplings
+---
+
 gallery:
 
 #### image ####

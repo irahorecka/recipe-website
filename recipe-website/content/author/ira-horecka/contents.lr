@@ -14,6 +14,8 @@ page_header: Bio for Ira.
 ---
 page_body:
 ---
+tags: student, toronto
+---
 
 recipes:
 #### recipe ####
@@ -21,7 +23,7 @@ recipe_title: Okonomiyaki
 ----
 author: Ira Horecka
 ----
-author_url: /author/ira-horecka/#content
+author_url: /author/ira-horecka
 ----
 origin: Japan
 ----
@@ -37,4 +39,4 @@ img_url: /images/recipes/okonomiyaki/okonomiyaki-1.jpeg
 ----
 img_thumbnail_url: /images/recipes/okonomiyaki/okonomiyaki-1.jpeg
 ----
-recipe_url: /recipe/okonomiyaki/#content
+recipe_url: /recipe/okonomiyaki

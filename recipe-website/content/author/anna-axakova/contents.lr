@@ -14,6 +14,8 @@ page_header: Bio for Anna.
 ---
 page_body:
 ---
+tags: student, toronto
+---
 
 recipes:
 
@@ -22,7 +24,7 @@ recipe_title: Pelmeni
 ----
 author: Anna Axakova
 ----
-author_url: /author/anna-axakova/#content
+author_url: /author/anna-axakova
 ----
 origin: Russia
 ----
@@ -38,4 +40,4 @@ img_url: /images/recipes/pelmeni/pelmeni-1.jpeg
 ----
 img_thumbnail_url: /images/recipes/pelmeni/pelmeni-1.jpeg
 ----
-recipe_url: /recipe/pelmeni/#content
+recipe_url: /recipe/pelmeni

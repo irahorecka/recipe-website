@@ -14,7 +14,8 @@ page_header: Simple and cheap recipes for everyone
 ---
 page_body: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 ---
-
+tags:
+---
 recipes:
 
 #### recipe ####
@@ -22,7 +23,7 @@ recipe_title: Okonomiyaki
 ----
 author: Ira Horecka
 ----
-author_url: /author/ira-horecka/#content
+author_url: /author/ira-horecka
 ----
 origin: Japan
 ----
@@ -38,13 +39,13 @@ img_url: /images/recipes/okonomiyaki/okonomiyaki-1.jpeg
 ----
 img_thumbnail_url: /images/recipes/okonomiyaki/okonomiyaki-1.jpeg
 ----
-recipe_url: /recipe/okonomiyaki/#content
+recipe_url: /recipe/okonomiyaki
 #### recipe ####
 recipe_title: Pelmeni
 ----
 author: Anna Axakova
 ----
-author_url: /author/anna-axakova/#content
+author_url: /author/anna-axakova
 ----
 origin: Russia
 ----
@@ -60,4 +61,26 @@ img_url: /images/recipes/pelmeni/pelmeni-1.jpeg
 ----
 img_thumbnail_url: /images/recipes/pelmeni/pelmeni-1.jpeg
 ----
-recipe_url: /recipe/pelmeni/#content
+recipe_url: /recipe/pelmeni
+#### recipe ####
+recipe_title: Mapo Tofu
+----
+author: Ira Horecka
+----
+author_url: /author/ira-horecka
+----
+origin: Japan
+----
+origin_img_url: /images/flags/japan/30px-20px.png
+----
+meal: Lunch / Dinner
+----
+difficulty: Easy
+----
+about: The Japanese Mapo Tofu is incredibly flavorful but less spicy than the Sichuan-style.
+----
+img_url: /images/recipes/mapo-tofu-jp/mapo-tofu-jp-1.jpeg
+----
+img_thumbnail_url: /images/recipes/mapo-tofu-jp/mapo-tofu-jp-1.jpeg
+----
+recipe_url: /recipe/mapo-tofu-jp
