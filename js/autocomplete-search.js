@@ -1,6 +1,6 @@
 const DEFAULTS = {
   maximumItems: 5,
-  highlightTyped: true,
+  highlightTyped: false,
   label: 'label',
 };
 
@@ -61,7 +61,7 @@ class Autocomplete {
     } else {
       label = item.label;
     }
-    return ce(`<a href="${item.value.url}#content" class="dropdown-item"><i class="fa ${ICONCLASS[item.value.class]} pe-2" aria-hidden="true"></i>${label}</a>`);
+    return ce(`<a href="${item.value.url}#content" class="dropdown-item text-wrap"><i class="fa ${ICONCLASS[item.value.class]} pe-2" aria-hidden="true"></i>${label}</a>`);
   }
 
   createItems() {

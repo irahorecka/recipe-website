@@ -5,7 +5,7 @@
   <title>Dinner | Recipe Website</title>
   <link rel="icon" type="image/png" href="../images/logos/recipe-website-logo-32px.png?h=8acf1ede"/>
   <link rel="stylesheet" href="../external/bootstrap-5.0.2/css/bootstrap.min.css?h=33f53934">
-  <link rel="stylesheet" href="../css/main.css?h=dc9d2135">
+  <link rel="stylesheet" href="../css/main.css?h=a6c17a90">
   <link rel="stylesheet" href="../css/latolatinfonts.css?h=718a7dc2">
   <link rel="stylesheet" href="../css/fork-awesome/fork-awesome.min.css?h=11d227c1"><script src="../external/jquery-3.6.0.min.js?h=b82d238d"></script>
   <script src="../external/bootstrap-5.0.2/js/bootstrap.bundle.min.js?h=70898d2c"></script>
@@ -237,7 +237,7 @@
             </li>
           </ul>
           <div class="d-flex justify-content-end">
-            <button onclick="location.href='../recipe/okonomiyaki/#content'" type="button" class="btn btn-primary rounded mt-3 me-0 px-3" type="button"> I'm interested! </button>
+            <button onclick="location.href='../recipe/okonomiyaki/#content#context'" type="button" class="btn btn-primary rounded mt-3 me-0 px-3" type="button"> I'm interested! </button>
           </div>
         </div>
       </div>
@@ -251,8 +251,8 @@
       <a href="#top"> Scroll to top </a>
     </div>
   </footer>
-  <script src="../js/autocomplete-search.js?h=dc9e3e58"></script>
-  <script src="../js/lunr-search.js?h=d88af972"></script>
+  <script src="../js/autocomplete-search.js?h=a1bbee07"></script>
+  <script src="../js/lunr-search.js?h=0bd1013d"></script>
   <script type="text/javascript">
     $(document).ready(function() {
       $("a[href='#top']").click(function() {
@@ -261,20 +261,21 @@
       });
       
       window.store = {
-          "authors": {"label": "Authors", "tags": ["Authors",], "url": "../authors/", "class": "authors"},
-          "lunch": {"label": "Lunch", "tags": ["Lunch",], "url": "../lunch/", "class": "lunch"},
-          "dinner": {"label": "Dinner", "tags": ["Dinner",], "url": "./", "class": "dinner"},
-          "about": {"label": "About", "tags": ["About",], "url": "../about/", "class": "about"},
-          "countries": {"label": "Countries", "tags": ["Countries",], "url": "../countries/", "class": "countries"},
-          "breakfast": {"label": "Breakfast", "tags": ["Breakfast",], "url": "../breakfast/", "class": "breakfast"},
-          "ira-horecka": {"label": "Ira Horecka", "tags": ["Ira Horecka",], "url": "../author/ira-horecka/", "class": "author"},
-          "anna-axakova": {"label": "Anna Axakova", "tags": ["Anna Axakova",], "url": "../author/anna-axakova/", "class": "author"},
-          "russia": {"label": "Russia", "tags": ["Russia",], "url": "../country/russia/", "class": "country"},
-          "japan": {"label": "Japan", "tags": ["Japan",], "url": "../country/japan/", "class": "country"},
-          "india": {"label": "India", "tags": ["India",], "url": "../country/india/", "class": "country"},
-          "italy": {"label": "Italy", "tags": ["Italy",], "url": "../country/italy/", "class": "country"},
-          "pelmeni": {"label": "Pelmeni", "tags": ["Pelmeni",], "url": "../recipe/pelmeni/", "class": "recipe"},
-          "okonomiyaki": {"label": "Okonomiyaki", "tags": ["Okonomiyaki",], "url": "../recipe/okonomiyaki/", "class": "recipe"},}
+          "authors": {"label": "Authors", "tags": [''], "url": "../authors/", "class": "authors"},
+          "lunch": {"label": "Lunch", "tags": [''], "url": "../lunch/", "class": "lunch"},
+          "dinner": {"label": "Dinner", "tags": [''], "url": "./", "class": "dinner"},
+          "about": {"label": "About", "tags": [''], "url": "../about/", "class": "about"},
+          "countries": {"label": "Countries", "tags": [''], "url": "../countries/", "class": "countries"},
+          "breakfast": {"label": "Breakfast", "tags": [''], "url": "../breakfast/", "class": "breakfast"},
+          "ira-horecka": {"label": "Ira Horecka", "tags": ['student,', 'toronto'], "url": "../author/ira-horecka/", "class": "author"},
+          "anna-axakova": {"label": "Anna Axakova", "tags": ['student,', 'toronto'], "url": "../author/anna-axakova/", "class": "author"},
+          "russia": {"label": "Russia", "tags": [''], "url": "../country/russia/", "class": "country"},
+          "japan": {"label": "Japan", "tags": [''], "url": "../country/japan/", "class": "country"},
+          "india": {"label": "India", "tags": [''], "url": "../country/india/", "class": "country"},
+          "italy": {"label": "Italy", "tags": [''], "url": "../country/italy/", "class": "country"},
+          "mapo-tofu-jp": {"label": "Japanese Mapo Tofu", "tags": ['japan,', 'japanese,', 'tofu,', 'pork'], "url": "../recipe/mapo-tofu-jp/", "class": "recipe"},
+          "pelmeni": {"label": "Pelmeni", "tags": ['russia,', 'russian,', 'dumplings'], "url": "../recipe/pelmeni/", "class": "recipe"},
+          "okonomiyaki": {"label": "Okonomiyaki", "tags": ['japan,', 'japanese,', 'pancake'], "url": "../recipe/okonomiyaki/", "class": "recipe"},}
     });
   </script></body>
 </html>
