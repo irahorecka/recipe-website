@@ -100,7 +100,7 @@
           {%- endif %}
         {%- endif %}
         {%- if instruction.sub_header|length %}
-          <h6 class="mt-2 mb-1"><i> {{ instruction.sub_header }} </i></h6>
+          <h6 class="mt-2 mb-1"><u> {{ instruction.sub_header }} </u></h6>
         {%- endif %}
         <ol class="ps-3 ps-sm-4 mb-0">
           {%- for sub_instruction in instruction.instruction.blocks %}
@@ -113,7 +113,7 @@
     <div class="row">
       <h3 class="mt-2 mb-3"><u> Author </u></h3>
       <div class="col-12 col-md-4 col-lg-3 my-3 ps-md-4 pt-1">
-        <a href="{{ this.author_url|url }}" class="text-reset text-decoration-none">
+        <a href="{{ this.author_url|url }}#content" class="text-reset text-decoration-none">
           <div class="text-center text-md-start">
             <img src="{{ this.author_img_url|asseturl }}" alt="{{ this.author }}" class="img-profile img-fluid rounded-circle border border-dark">
           </div>
@@ -121,7 +121,7 @@
       </div>
       <div class="col-12 col-md-8 col-lg-9 my-0 my-sm-3 pe-md-4 pt-1">
         <div class="text-center text-lg-start">
-          <a href="{{ this.author_url|url }}"><h4> {{ this.author }} </h4></a>
+          <a href="{{ this.author_url|url }}#content"><h4> {{ this.author }} </h4></a>
           <p> {{ this.author_bio }} </p>
         </div>
       </div>

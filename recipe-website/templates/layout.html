@@ -193,14 +193,17 @@
         $("html, body").animate({ scrollTop: 0 }, "slow");
         return false;
       });
-      {% set endpoints = ['/', '/about', '/author', '/country', '/recipe'] %}
+      {% set endpoints = ['/', '/author', '/country', '/recipe'] %}
       window.store = {
       {%- for endpoint in endpoints -%}
         {% set pages = site.query(endpoint).include_undiscoverable(false).all() %}
         {%- for page in pages -%}
           {#- Get parent of url path. E.g., /recipe/okonomiyaki --> recipe -#}
-          {% set class = page._path.split('/')[1]|safe %}
-          "{{ page._id }}": {"label": "{{ page.title }}", "tags": ["{{ page.title }}",], "url": "{{ page._path|url }}", "class": "{{ class }}"},
+          {%- set class = page._path.split('/')[1]|safe -%}
+          {#- Replace commonly used delimiters to comma -#}
+          {%- set tags = page.tags | replace(";", ",") -%}
+          {% set tags_list = tags.split(' ')|safe %}
+          "{{ page._id }}": {"label": "{{ page.title }}", "tags": {{ tags_list }}, "url": "{{ page._path|url }}", "class": "{{ class }}"},
         {%- endfor -%}
       {%- endfor -%}
       }
