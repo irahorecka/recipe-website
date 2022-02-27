@@ -85,13 +85,13 @@ function updateSearch(e, ac) {
             boost: 15
         });
         this.field('tags', {
-            boost: 10
+            boost: 5
         });
         for (const key in window.store) {
             this.add({
                 id: key,
                 label: window.store[key].label,
-                tags: window.store[key].category,
+                tags: window.store[key].tags,
             });
         }
     })
