@@ -96,18 +96,18 @@ sub_header:
 instruction:
 
 ##### sub_instruction #####
-instruction: Combine Group A, B, C in individual bowls. Set aside half of the green onion for later.
+instruction: Combine Group A, B, C in individual bowls. Set aside half of the green onion.
 ##### sub_instruction #####
 instruction: Drain the tofu and wrap in a sheet of paper towel. Microwave for 2 minutes then cube (small / medium).
 ##### sub_instruction #####
-instruction: Sauté the chili bean paste with Group in a dash of hot vegetable oil
+instruction: Sauté the chili bean paste with Group A in a dash of hot vegetable oil.
 ##### sub_instruction #####
-instruction: Add the ground pork and sauté until the pork is just cooked.
+instruction: Add the ground pork and sauté until pork is just cooked.
 ##### sub_instruction #####
-instruction: Mix in Group B until it just begins to simmer.
+instruction: Mix in Group B and wait just until the mixture simmers.
 ##### sub_instruction #####
 instruction: Add the cubed tofu and cook for 3 another minutes.
 ##### sub_instruction #####
-instruction: Mix in Group C until the stew slightly thickens.
+instruction: Mix in Group C and stir until the mixture slightly thickens.
 ##### sub_instruction #####
 instruction: Gently fold in the remaining green onion and sesame oil (don't overdo this step).
