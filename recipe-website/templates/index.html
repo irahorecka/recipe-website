@@ -35,7 +35,9 @@
     <div class="container justify-content-between border border-dark rounded p-3 my-3">
       <div class="row">
         <div class="col-12 col-md-4 pb-3">
-          <img src="{{ recipe.img_url|asseturl }}" alt="{{ recipe.title }}" class="img-fluid rounded border border-dark">
+          <a href="{{ recipe.recipe_url|url }}#content" class="text-reset text-decoration-none">
+            <img src="{{ recipe.img_url|asseturl }}" alt="{{ recipe.title }}" class="img-fluid rounded border border-dark">
+          </a>
         </div>
         <div class="col-12 col-md-8">
           <h4> {{ recipe.recipe_title }} </h4>
