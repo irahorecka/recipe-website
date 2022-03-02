@@ -11,7 +11,7 @@ This is a TODO.md file for the Recipe Website.
 - [ ] Add lettering to logo
 - [ ] NICE-TO-HAVE :: Ability to query ingredients in search bar
 - [ ] POTENTIAL FEATURE :: Ingredients page for uncommon ingredients
-- Add recipes
+- [ ] Add recipes
   - [ ] Johnfavour's chicken
   - [ ] Chinese sausage fried rice
 
@@ -37,6 +37,6 @@ This is a TODO.md file for the Recipe Website.
 - [x] BUG :: Incorrect placement of search dropdown menu if parsing failed in initial search followed by good search
   - E.g., Type '/Ira' --> (hidden feature) --> Delete '/Ira' then type 'Ira' (feature) --> 'Ira' in dropdown item located @ bottom of page
 - [x] Create model field for search tags for every contents.lr file
-- Add recipes
+- [x] Add recipes
   - [x] Japanese mapo tofu
   - [x] Sautéed shishito peppers
