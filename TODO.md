@@ -4,22 +4,20 @@ This is a TODO.md file for the Recipe Website.
 
 ### Todo
 
-- [ ] Give functionality to 'Surprise me!' button
 - [ ] Add more gallery (photoswipe-like) photos throughout the recipe (e.g., step-by-step instruction images)
 - [ ] Ensure all tags are closed in every HTML file
 - [ ] Update /about page
 - [ ] Add error pages
 - [ ] Add lettering to logo
-- [ ] Add recipes
-  - [ ] Johnfavour's recipe
-  - [ ] Mapo tofu recipe
-  - [ ] Chinese sausage fried rice recipe
+- [ ] NICE-TO-HAVE :: Ability to query ingredients in search bar
+- [ ] POTENTIAL FEATURE :: Ingredients page for uncommon ingredients
+- Add recipes
+  - [ ] Johnfavour's chicken
+  - [ ] Chinese sausage fried rice
 
 ### In Progress
 
-- [ ] Mine keywords from contents.lr for search
-  - [ ] Gather ingredients from recipes
-  - [ ] Create model field for tags - every contents.lr file
+- [ ] Give functionality to 'Surprise me!' button
 
 ### Done ✓
 
@@ -38,3 +36,7 @@ This is a TODO.md file for the Recipe Website.
   - E.g., Type 'Anna' --> (feaure) 'Anna Axakova' --> Delete 'Anna' then type '/' (no feature) --> Press ENTER --> Route to Anna's page
 - [x] BUG :: Incorrect placement of search dropdown menu if parsing failed in initial search followed by good search
   - E.g., Type '/Ira' --> (hidden feature) --> Delete '/Ira' then type 'Ira' (feature) --> 'Ira' in dropdown item located @ bottom of page
+- [x] Create model field for search tags for every contents.lr file
+- Add recipes
+  - [x] Japanese mapo tofu
+  - [x] Sautéed shishito peppers
