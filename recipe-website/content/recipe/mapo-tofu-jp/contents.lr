@@ -56,9 +56,9 @@ header: Group A
 ingredient:
 
 ##### sub_ingredient #####
-ingredient: 1 garlic clove
+ingredient: 1 garlic clove (minced)
 ##### sub_ingredient #####
-ingredient: ½ thumb-sized ginger
+ingredient: ½ thumb-sized ginger (minced)
 ##### sub_ingredient #####
 ingredient: 1 green onion (minced)
 #### ingredient ####
@@ -89,7 +89,7 @@ ingredient: 1 tsp water
 instructions:
 
 #### instruction ####
-header:
+header: Prep
 ----
 sub_header:
 ----
@@ -99,6 +99,13 @@ instruction:
 instruction: Combine Group A, B, C in individual bowls. Set aside half of the green onion.
 ##### sub_instruction #####
 instruction: Drain the tofu and wrap in a sheet of paper towel. Microwave for 2 minutes then cube (small / medium).
+#### instruction ####
+header: Cook
+----
+sub_header:
+----
+instruction:
+
 ##### sub_instruction #####
 instruction: Sauté the chili bean paste with Group A in a dash of hot vegetable oil.
 ##### sub_instruction #####
