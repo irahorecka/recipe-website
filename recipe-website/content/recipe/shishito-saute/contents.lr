@@ -1,0 +1,76 @@
+_template: recipe.html
+---
+_model: recipe
+---
+title: Sautéed Shishito Peppers
+---
+author: Ira Horecka
+---
+author_bio: Ira is a first year PhD student studying computational biology at the University of Toronto. He likes to cook from time to time.
+---
+author_url: /author/ira-horecka
+---
+author_img_url: /images/profiles/ira-profile.png
+---
+img_url: /images/recipes/shishito-saute/shishito-saute-1.jpeg
+---
+about:
+
+ Sautéed shishito peppers is a great option for a light and healthy snack. Usually mild in flavor, this appetizer is a fun option for group gatherings.
+---
+tags: japan, japanese, peppers, saute, healthy
+---
+gallery:
+
+#### image ####
+url: /images/recipes/shishito-saute/shishito-saute-1.jpeg
+----
+thumbnail_url: /images/recipes/shishito-saute/shishito-saute-1.jpeg
+----
+description: Sautéed Shishito Peppers photo #1
+#### image ####
+url: /images/recipes/shishito-saute/shishito-saute-2.jpeg
+----
+thumbnail_url: /images/recipes/shishito-saute/shishito-saute-2.jpeg
+----
+description: Sautéed Shishito Peppers photo #2
+---
+ingredients:
+
+#### ingredient ####
+header:
+----
+ingredient:
+
+##### sub_ingredient #####
+ingredient: Dash of olive oil
+##### sub_ingredient #####
+ingredient: ½ lb shishito peppers
+##### sub_ingredient #####
+ingredient: 1 tsp kosher salt
+##### sub_ingredient #####
+ingredient: ½ tsp freshly ground black pepper
+##### sub_ingredient #####
+ingredient: ½ lime (optional)
+---
+instructions:
+
+#### instruction ####
+header:
+----
+sub_header:
+----
+instruction:
+
+##### sub_instruction #####
+instruction: Heat olive oil in a large sauté over medium-high heat.
+##### sub_instruction #####
+instruction: When the oil is hot, add the shishito peppers (whole) in one layer.
+##### sub_instruction #####
+instruction: Sprinkle kosher salt and black pepper over peppers.
+##### sub_instruction #####
+instruction: Sauté for an additional 4 to 6 minutes until peppers are blistered and browned, making sure to toss the peppers frequently.
+##### sub_instruction #####
+instruction: Take pan off the heat and squeeze lime juice over the peppers. Sprinkle additional salt if desired.
+##### sub_instruction #####
+instruction: Transfer peppers to a serving dish and serve hot.
