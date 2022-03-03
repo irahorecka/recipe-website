@@ -14,11 +14,11 @@ clean:
 ## Flag images MUST come at a 3:2 aspect ratio (commonly 1200x800) and have keyword 'flag' in filepath.
 # E.g. $ make render-flag-images IN=recipe-website/assets/images/test-flag-1200px-800px.png
 render-flag-images:
-	$(eval BASE_FILEPATH := $(shell bash scripts/bash/fetch_path_before_keyword.sh -p $(IN) -k flag)flag)
+	$(eval BASE_FILEPATH := $(shell bash scripts/bash/fetch_path_before_keyword.sh -p $(IN) -k /)/)
 	$(eval FILE_EXT := $(shell bash scripts/bash/fetch_file_extension.sh -p $(IN)))
-	make imagemagick-resize-30-20 IN=$(IN) OUT="$(BASE_FILEPATH)-30px-20px.${FILE_EXT}"
-	make imagemagick-resize-150-100 IN=$(IN) OUT=$(BASE_FILEPATH)-150px-100px.${FILE_EXT}
-	make imagemagick-crop-150-150 IN=$(IN) OUT=$(BASE_FILEPATH)-150px-150px.${FILE_EXT}
+	make imagemagick-resize-30-20 IN=$(IN) OUT="$(BASE_FILEPATH)30px-20px.${FILE_EXT}"
+	make imagemagick-resize-150-100 IN=$(IN) OUT=$(BASE_FILEPATH)150px-100px.${FILE_EXT}
+	make imagemagick-crop-150-150 IN=$(IN) OUT=$(BASE_FILEPATH)150px-150px.${FILE_EXT}
 
 
 #### Image Manipulation ####

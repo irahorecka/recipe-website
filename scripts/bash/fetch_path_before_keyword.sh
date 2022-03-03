@@ -1,6 +1,6 @@
 #!/bin/bash
 
-## Takes input path with keyword 'flag' and returns string with and everything before 'flag'
+## Takes input path with keyword and returns string with and everything before keyword
 ## E.g.
 ## $ bash fetch_path_before_keyword.sh -p 'path/to/this-flag-boop.png' -k 'boop'
 ## > path/to/this-flag-
@@ -13,4 +13,4 @@ do
     esac
 done
 
-echo ${path%%${keyword}*}
+echo ${path%${keyword}*}
