@@ -1,0 +1,78 @@
+_template: recipe.html
+---
+_model: recipe
+---
+title: Garlic Bok Choy
+---
+author: Ira Horecka
+---
+author_bio: Ira is a first year PhD student studying computational biology at the University of Toronto. He likes to cook from time to time.
+---
+author_url: /author/ira-horecka
+---
+author_img_url: /images/profiles/ira-profile.png
+---
+img_url: /images/recipes/garlic-bok-choy/garlic-bok-choy-1.jpeg
+---
+about:
+
+ Garlic bok choy is a savory and healthy dish. It is a commonly favorite vegetable dish among households and restaurants.
+---
+tags: china, chinese, garlic, bok choy, healthy
+---
+gallery:
+
+#### image ####
+url: /images/recipes/garlic-bok-choy/garlic-bok-choy-1.jpeg
+----
+thumbnail_url: /images/recipes/garlic-bok-choy/garlic-bok-choy-1.jpeg
+----
+description: Garlic Bok Choy photo #1
+#### image ####
+url: /images/recipes/garlic-bok-choy/garlic-bok-choy-2.jpeg
+----
+thumbnail_url: /images/recipes/garlic-bok-choy/garlic-bok-choy-2.jpeg
+----
+description: Garlic Bok Choy photo #2
+---
+ingredients:
+
+#### ingredient ####
+header:
+----
+ingredient:
+
+##### sub_ingredient #####
+ingredient: 3 garlic cloves (minced)
+##### sub_ingredient #####
+ingredient: 1 tbsp vegetable oil
+##### sub_ingredient #####
+ingredient: 1 lb bok choy
+##### sub_ingredient #####
+ingredient: 1 ½ tbsp oyster sauce
+##### sub_ingredient #####
+ingredient: 1 tsp cooking wine
+##### sub_ingredient #####
+ingredient: 1 tsp soy sauce
+##### sub_ingredient #####
+ingredient: Ground black pepper to taste
+---
+instructions:
+
+#### instruction ####
+header:
+----
+sub_header:
+----
+instruction:
+
+##### sub_instruction #####
+instruction: Bring a pot of salted water to boil.
+##### sub_instruction #####
+instruction: Add bok choy and boil for 1 minute. Drain and rinse bok choy under cold water. Drain, again, and set aside.
+##### sub_instruction #####
+instruction: In a pan over high heat, add vegetable oil and cook garlic for 1 minute.
+##### sub_instruction #####
+instruction: Add bok choy, oyster sauce, soy sauce, cooking wine, and black pepper. Cook for 1 minute.
+##### sub_instruction #####
+instruction: Take pan off the heat and and transfer bok choy to a serving dish. Serve hot.
