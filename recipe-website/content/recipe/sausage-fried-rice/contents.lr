@@ -1,0 +1,107 @@
+_template: recipe.html
+---
+_model: recipe
+---
+title: Sausage Fried Rice
+---
+author: Ira Horecka
+---
+author_bio: Ira is a first year PhD student studying computational biology at the University of Toronto. He likes to cook from time to time.
+---
+author_url: /author/ira-horecka
+---
+author_img_url: /images/profiles/ira-profile.png
+---
+img_url: /images/recipes/sausage-fried-rice/sausage-fried-rice-1.jpeg
+---
+about:
+
+ The Chinese sausage fried rice is a delicious and savory dish. It's one of my favorites to make - image how kickass it'd be to bring this to a party.
+---
+tags: china, chinese, sausage, rice, fried, fried rice
+---
+gallery:
+
+#### image ####
+url: /images/recipes/sausage-fried-rice/sausage-fried-rice-1.jpeg
+----
+thumbnail_url: /images/recipes/sausage-fried-rice/sausage-fried-rice-1.jpeg
+----
+description: Sausage Fried Rice photo #1
+#### image ####
+url: /images/recipes/sausage-fried-rice/sausage-fried-rice-2.jpeg
+----
+thumbnail_url: /images/recipes/sausage-fried-rice/sausage-fried-rice-2.jpeg
+----
+description: Sausage Fried Rice photo #2
+---
+ingredients:
+
+#### ingredient ####
+header:
+----
+ingredient:
+
+##### sub_ingredient #####
+ingredient: Half-pack of Chinese sausages (chopped)
+##### sub_ingredient #####
+ingredient: 1 large onion (thinly diced)
+##### sub_ingredient #####
+ingredient: 4 eggs
+##### sub_ingredient #####
+ingredient: ¼ tsp salt
+##### sub_ingredient #####
+ingredient: 2/3 cup frozen green peas (thawed)
+##### sub_ingredient #####
+ingredient: 3 green onions (chopped)
+##### sub_ingredient #####
+ingredient: 2 cups uncooked white rice
+##### sub_ingredient #####
+ingredient: Vegetable oil
+##### sub_ingredient #####
+ingredient: 1 tsp Chinese cooking wine [optional]
+#### ingredient ####
+header: Sauce
+----
+ingredient:
+
+##### sub_ingredient #####
+ingredient: 1½ tsp salt
+##### sub_ingredient #####
+ingredient: ½ tsp sugar
+##### sub_ingredient #####
+ingredient: 4 tsp hot water
+##### sub_ingredient #####
+ingredient: ½ tsp sesame oil
+##### sub_ingredient #####
+ingredient: 3 tsp soy sauce
+##### sub_ingredient #####
+ingredient: ¼ tsp white pepper
+---
+instructions:
+
+#### instruction ####
+header:
+----
+sub_header:
+----
+instruction:
+
+##### sub_instruction #####
+instruction: Cook white rice with 1½ cups of water to give it a dryer quality.
+##### sub_instruction #####
+instruction: Make the sauce in a small bowl, combining everything. Set aside.
+##### sub_instruction #####
+instruction: After the rice has finished cooking, heat your pot over medium-high heat and add vegetable oil. Scramble your eggs with salt and cook until just done. Transfer back into the bowl you used to beat them. Set aside.
+##### sub_instruction #####
+instruction: Heat you pot again and add a dash of vegetable oil. Add the chopped sausages and stir-fry until the white marbled fat becomes clear.
+##### sub_instruction #####
+instruction: Add the diced onion and stir fry for a minute or two until the onion becomes translucent.
+##### sub_instruction #####
+instruction: Turn the heat to high, and add the rice. Mix the rice with the fried sausage and onion in a scooping motion until the rice is evenly distributed.
+##### sub_instruction #####
+instruction: Pour over the sauce and mix for about two minutes or until the rice is evenly coated. There should be no clumps of rice.
+##### sub_instruction #####
+instruction: Add the cooked egg and thawed frozen peas. Break the egg up with your spoon as you mix and stir fry for a minute.
+##### sub_instruction #####
+instruction: Finally, add the green onions and the cooking wine. Stir fry for 30 seconds.
