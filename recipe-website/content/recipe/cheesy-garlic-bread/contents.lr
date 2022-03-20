@@ -1,0 +1,90 @@
+_template: recipe.html
+---
+_model: recipe
+---
+title: Cheesy Garlic Bread
+---
+author: Ira Horecka
+---
+author_bio: Ira is a first year PhD student studying computational biology at the University of Toronto. He likes to cook from time to time.
+---
+author_url: /author/ira-horecka
+---
+author_img_url: /images/profiles/ira-profile.png
+---
+img_url: /images/recipes/cheesy-garlic-bread/cheesy-garlic-bread-1.jpeg
+---
+about:
+
+ You can't go wrong with cheesy garlic bread. There is a cult following for this dish, and it's no surprise that it holds up to its delicious reputation.
+---
+tags: america, united states, garlic, cheese, appetizer, party
+---
+gallery:
+
+#### image ####
+url: /images/recipes/cheesy-garlic-bread/cheesy-garlic-bread-1.jpeg
+----
+thumbnail_url: /images/recipes/cheesy-garlic-bread/cheesy-garlic-bread-1.jpeg
+----
+description: Cheesy Garlic Bread photo #1
+#### image ####
+url: /images/recipes/cheesy-garlic-bread/cheesy-garlic-bread-2.jpeg
+----
+thumbnail_url: /images/recipes/cheesy-garlic-bread/cheesy-garlic-bread-2.jpeg
+----
+description: Cheesy Garlic Bread photo #2
+#### image ####
+url: /images/recipes/cheesy-garlic-bread/cheesy-garlic-bread-3.jpeg
+----
+thumbnail_url: /images/recipes/cheesy-garlic-bread/cheesy-garlic-bread-3.jpeg
+----
+description: Cheesy Garlic Bread photo #3
+---
+ingredients:
+
+#### ingredient ####
+header:
+----
+ingredient:
+
+##### sub_ingredient #####
+ingredient: 1 loaf French or Italian bread
+##### sub_ingredient #####
+ingredient: ¼ cup salted butter (softened)
+##### sub_ingredient #####
+ingredient: 2 tbsp olive oil
+##### sub_ingredient #####
+ingredient: 1 tbsp garlic (minced)
+##### sub_ingredient #####
+ingredient: salt and freshly ground black pepper for taste
+##### sub_ingredient #####
+ingredient: 1¼ cups shredded mozarella cheese
+##### sub_ingredient #####
+ingredient: ⅓ cup parmesan cheese (grated or shredded)
+##### sub_ingredient #####
+ingredient: 1 tbsp finely chopped fresh parsley
+---
+instructions:
+
+#### instruction ####
+header:
+----
+sub_header:
+----
+instruction:
+
+##### sub_instruction #####
+instruction: Preheat oven to 400°F.
+##### sub_instruction #####
+instruction: Slice bread in half lengthwise (along the long side of the bread). On a baking sheet, grab two sheets of aluminum foil and place bread slices cut-side up on foil.
+##### sub_instruction #####
+instruction: In a mixing bowl, stir together butter, olive oil, garlic, salt, and pepper. If you're using unsalted butter, add a little more salt to the mixture.
+##### sub_instruction #####
+instruction: Spoon the mixture evenly over the slices of bread. Make sure to coat the edges to prevent them from burning.
+##### sub_instruction #####
+instruction: Wrap foil over the bread, crimping the edges to form a nice seal. Note: this would make a good stopping point if you're looking to freeze your bread for later. Bake for 10 minutes.
+##### sub_instruction #####
+instruction: Remove from oven, open foil, and sprinkle bread with cheese. Return to oven, bake uncovered for 5 to 6 minutes. Tip: You can broil the bread during the last minute for an extra crunch.
+##### sub_instruction #####
+instruction: Sprinkle tops evenly with parsley. Cut into slices and serve warm.

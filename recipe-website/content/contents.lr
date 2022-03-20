@@ -150,3 +150,25 @@ img_url: /images/recipes/sausage-fried-rice/sausage-fried-rice-1.jpeg
 img_thumbnail_url: /images/recipes/sausage-fried-rice/sausage-fried-rice-1.jpeg
 ----
 recipe_url: /recipe/sausage-fried-rice
+#### recipe ####
+recipe_title: Cheesy Garlic Bread
+----
+author: Ira Horecka
+----
+author_url: /author/ira-horecka
+----
+origin: United States
+----
+origin_img_url: /images/flags/united-states/30px-20px.png
+----
+meal: Lunch / Dinner
+----
+difficulty: Easy
+----
+about: You can't go wrong with cheesy garlic bread. There is a cult following for this dish, and it's no surprise that it holds up to its delicious reputation.
+----
+img_url: /images/recipes/cheesy-garlic-bread/cheesy-garlic-bread-1.jpeg
+----
+img_thumbnail_url: /images/recipes/sausage-fried-rice/sausage-fried-rice-1.jpeg
+----
+recipe_url: /recipe/cheesy-garlic-bread
