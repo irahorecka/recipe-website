@@ -53,9 +53,9 @@ ingredient: 1 pound boneless chicken thighs (with skin)
 ##### sub_ingredient #####
 ingredient: 3 green onions (sliced to 1-inch segments)
 ##### sub_ingredient #####
-ingredient: 1 tbsp saké (regular or cooking)
+ingredient: 2 tbsp saké (regular or cooking)
 ##### sub_ingredient #####
-ingredient: ½ tsp salt
+ingredient: 1 tsp salt
 ##### sub_ingredient #####
 ingredient: ¼ tsp potato starch
 #### ingredient ####
@@ -82,11 +82,13 @@ sub_header:
 instruction:
 
 ##### sub_instruction #####
-instruction: Combine saké and salt under <b><u>Chicken</u></b> and ingredients under <b><u>Teriyaki sauce</u></b> in separate bowls.
+instruction: Combine saké and salt in section <b><u>Chicken</u></b> in a bowl and set aside.
 ##### sub_instruction #####
-instruction: Trim excess fat and flatten thighs by scoring the non-skin side.
+instruction: Make the <b><u>Teriyaki sauce</u></b> by combining all of its ingredients.
 ##### sub_instruction #####
-instruction: Puncture skin repeatedly with a fork. Wash the thighs in the saké & salt mixture and place on a sheet of paper towel. <i>This is a good step to place your chicken in the fridge if you plan to finish cooking at a later time.</i>
+instruction: Trim excess fat from the thighs and flatten by scoring the non-skin side.
+##### sub_instruction #####
+instruction: Puncture skin repeatedly with a fork. Wash the thighs in the saké & salt mixture and place on a sheet of paper towel. <i>This is a good step to store your chicken in the fridge if you plan to finish cooking at a later time.</i>
 #### instruction ####
 header: Cook
 ----
