@@ -81,7 +81,7 @@ ingredient: ¼ tsp white pepper
 instructions:
 
 #### instruction ####
-header:
+header: Prep
 ----
 sub_header:
 ----
@@ -91,6 +91,13 @@ instruction:
 instruction: Cook white rice with 1½ cups of water to give it a dryer quality.
 ##### sub_instruction #####
 instruction: Make the sauce in a small bowl, combining everything. Set aside.
+#### instruction ####
+header: Cook
+----
+sub_header:
+----
+instruction:
+
 ##### sub_instruction #####
 instruction: After the rice has finished cooking, heat your pot over medium-high heat and add vegetable oil. Scramble your eggs with salt and cook until just done. Transfer back into the bowl you used to beat them. Set aside.
 ##### sub_instruction #####

@@ -60,7 +60,7 @@ ingredient: 1 garlic clove (minced)
 ##### sub_ingredient #####
 ingredient: ½ thumb-sized ginger (minced)
 ##### sub_ingredient #####
-ingredient: 1 green onion (minced)
+ingredient: 1 green onion (chopped)
 #### ingredient ####
 header: Group B
 ----
@@ -71,7 +71,7 @@ ingredient: 100mL chicken stock
 ##### sub_ingredient #####
 ingredient: 1 tsp sugar
 ##### sub_ingredient #####
-ingredient: 1 tbsp sake (regular or cooking)
+ingredient: 1 tbsp saké (regular or cooking)
 ##### sub_ingredient #####
 ingredient: 1 tbsp soy sauce
 ##### sub_ingredient #####
@@ -96,7 +96,7 @@ sub_header:
 instruction:
 
 ##### sub_instruction #####
-instruction: Combine Group A, B, C in individual bowls. Set aside half of the green onion.
+instruction: Combine <b><u>Group A</u></b>, <b><u>Group B</u></b>, <b><u>Group C</u></b> in separate bowls. Set aside half of the green onion.
 ##### sub_instruction #####
 instruction: Drain the tofu and wrap in a sheet of paper towel. Microwave for 2 minutes then cube (small / medium).
 #### instruction ####
@@ -107,14 +107,14 @@ sub_header:
 instruction:
 
 ##### sub_instruction #####
-instruction: Sauté the chili bean paste with Group A in a dash of hot vegetable oil.
+instruction: Sauté the chili bean paste with <u><b>Group A</u></b> in a dash of hot vegetable oil.
 ##### sub_instruction #####
 instruction: Add the ground pork and sauté until pork is just cooked.
 ##### sub_instruction #####
-instruction: Mix in Group B and wait just until the mixture simmers.
+instruction: Mix in <u><b>Group B</u></b> and wait just until the mixture simmers.
 ##### sub_instruction #####
 instruction: Add the cubed tofu and cook for 3 another minutes.
 ##### sub_instruction #####
-instruction: Mix in Group C and stir until the mixture slightly thickens.
+instruction: Mix in <u><b>Group C</u></b> and stir until the mixture slightly thickens.
 ##### sub_instruction #####
 instruction: Gently fold in the remaining green onion and sesame oil (don't overdo this step).
