@@ -13,7 +13,8 @@ This is a TODO.md file for the Recipe Website.
 - [ ] POTENTIAL FEATURE :: Ingredients page for uncommon ingredients
 - [ ] Add recipes
   - [ ] Johnfavour's chicken
-  - [ ] Chinese sausage fried rice
+  - [x] Chinese sausage fried rice
+  - [ ] Teriyaki chicken recipe
 
 ### In Progress
 
