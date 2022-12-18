@@ -86,7 +86,7 @@ instruction: Combine saké and salt under <b><u>Chicken</u></b> and ingredients 
 ##### sub_instruction #####
 instruction: Trim excess fat and flatten thighs by scoring the non-skin side.
 ##### sub_instruction #####
-instruction: Puncture skin repeatedly with a fork. Wash the thighs in the saké & salt mixture and place on top of a paper towel. <i>This is a good step to place your chicken in the fridge if you are planning to finish cooking at a later time.</i>
+instruction: Puncture skin repeatedly with a fork. Wash the thighs in the saké & salt mixture and place on a sheet of paper towel. <i>This is a good step to place your chicken in the fridge if you plan to finish cooking at a later time.</i>
 #### instruction ####
 header: Cook
 ----
