@@ -62,8 +62,8 @@ body {
 /*===== START main =====*/
 
 main {
-    margin: 35px auto 0;
-    padding: 3rem 1rem;
+    margin: 15px auto 0;
+    padding: 1rem;
     max-width: var(--max-width);
 }
 

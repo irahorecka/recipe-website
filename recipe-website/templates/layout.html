@@ -66,7 +66,7 @@
     <div class="d-flex justify-content-center justify-content-md-between" style="min-height: 100vh;">
       <!-- Side bar for desktop -->
       <aside class="d-none d-md-block col-md-3 col-lg-2" aria-label="Sidebar">
-        <div class="sticky-top py-3 px-3 px-lg-0">
+        <div class="sticky-top pt-5 px-3 px-lg-0">
           <a href="{{ "/"|url }}">
             <div class="d-flex justify-content-center">
               <img src="{{ '/images/logos/recipe-website-logo.png'|asseturl }}" class="rounded" style="max-width:100%; max-height:100%; padding:2rem; padding-top:0">
@@ -175,8 +175,10 @@
         </div>
         <span id="content" class="anchor d-block d-md-none"></span>
         <span class="anchor d-none d-md-block"></span>
-        {% block content %}
-        {% endblock %}
+        <div class="container pt-5">
+          {% block content %}
+          {% endblock %}
+        </div>
       </div>
     </div>
   </main>
