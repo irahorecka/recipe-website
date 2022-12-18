@@ -1,0 +1,110 @@
+_template: recipe.html
+---
+_model: recipe
+---
+title: Teriyaki Chicken
+---
+author: Ira Horecka
+---
+author_bio: Ira is a first year PhD student studying computational biology at the University of Toronto. He likes to cook from time to time.
+---
+author_url: /author/ira-horecka
+---
+author_img_url: /images/profiles/ira-profile.png
+---
+img_url: /images/recipes/teriyaki-chicken/teriyaki-chicken-1.jpeg
+---
+about:
+
+ Teriyaki chicken is one of the simpler dishes you can make with boneless chicken thighs. Why not impress your friends with a classic home-cooked Japanese dish?
+---
+tags: japan, japanese, chicken, teriyaki, lunch, dinner
+---
+gallery:
+
+#### image ####
+url: /images/recipes/teriyaki-chicken/teriyaki-chicken-1.jpeg
+----
+thumbnail_url: /images/recipes/teriyaki-chicken/teriyaki-chicken-1.jpeg
+----
+description: Teriyaki Chicken photo #1
+#### image ####
+url: /images/recipes/teriyaki-chicken/teriyaki-chicken-2.jpeg
+----
+thumbnail_url: /images/recipes/teriyaki-chicken/teriyaki-chicken-2.jpeg
+----
+description: Teriyaki Chicken photo #2
+#### image ####
+url: /images/recipes/teriyaki-chicken/teriyaki-chicken-3.jpeg
+----
+thumbnail_url: /images/recipes/teriyaki-chicken/teriyaki-chicken-3.jpeg
+----
+description: Teriyaki Chicken photo #3
+---
+ingredients:
+
+#### ingredient ####
+header: Chicken
+----
+ingredient:
+
+##### sub_ingredient #####
+ingredient: 1 pound boneless chicken thighs (with skin)
+##### sub_ingredient #####
+ingredient: 3 green onions (sliced to 1-inch segments)
+##### sub_ingredient #####
+ingredient: 1 tbsp saké (regular or cooking)
+##### sub_ingredient #####
+ingredient: ½ tsp salt
+##### sub_ingredient #####
+ingredient: ¼ tsp potato starch
+#### ingredient ####
+header: Teriyaki sauce
+----
+ingredient:
+
+##### sub_ingredient #####
+ingredient: 5 tbsp saké (regular or cooking)
+##### sub_ingredient #####
+ingredient: 2½ tbsp soy sauce
+##### sub_ingredient #####
+ingredient: 1½ tbsp mirin
+##### sub_ingredient #####
+ingredient: 1 tbsp sugar
+---
+instructions:
+
+#### instruction ####
+header: Prep
+----
+sub_header:
+----
+instruction:
+
+##### sub_instruction #####
+instruction: Combine saké and salt under <b><u>Chicken</u></b> and ingredients under <b><u>Teriyaki sauce</u></b> in separate bowls.
+##### sub_instruction #####
+instruction: Trim excess fat and flatten thighs by scoring the non-skin side.
+##### sub_instruction #####
+instruction: Puncture skin repeatedly with a fork. Wash the thighs in the saké & salt mixture and place on top of a paper towel. <i>This is a good step to place your chicken in the fridge if you are planning to finish cooking at a later time.</i>
+#### instruction ####
+header: Cook
+----
+sub_header:
+----
+instruction:
+
+##### sub_instruction #####
+instruction: Coat the chicken evenly in potato startch, and heat a skillet on medium heat without oil.
+##### sub_instruction #####
+instruction: Once the skillet reaches temperature, add the green onions around the perimeter and fry the thighs skin-side down with the lid on for 6 to 8 minutes. Open the lid every so often to dab out excess oil with a paper towel.
+##### sub_instruction #####
+instruction: When the bottom is nicely brown, flip the thighs and cook on low for 1 minute with the lid removed.
+##### sub_instruction #####
+instruction: Add the sauce around the thighs and cook for an additional 1½ minutes.
+##### sub_instruction #####
+instruction: Remove the chicken and slice into strips (about 4-5 per thigh). Allow the sauce to continue simmering in the skillet.
+##### sub_instruction #####
+instruction: Add the sliced thighs back into the skillet and coat with sauce on high heat for an additional minute.
+##### sub_instruction #####
+instruction: Remove from heat, add a little sauce on the thighs, and serve. The goal is to have a crispy skin!

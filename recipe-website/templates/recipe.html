@@ -104,7 +104,7 @@
         {%- endif %}
         <ol class="ps-3 ps-sm-4 mb-0">
           {%- for sub_instruction in instruction.instruction.blocks %}
-            <li> {{ sub_instruction.instruction }} </li>
+            <li> {{ sub_instruction.instruction|safe }} </li>
           {%- endfor %}
         </ol>
       {%- endfor %}

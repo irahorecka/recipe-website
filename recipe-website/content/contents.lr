@@ -169,6 +169,28 @@ about: You can't go wrong with cheesy garlic bread. There is a cult following fo
 ----
 img_url: /images/recipes/cheesy-garlic-bread/cheesy-garlic-bread-1.jpeg
 ----
-img_thumbnail_url: /images/recipes/sausage-fried-rice/sausage-fried-rice-1.jpeg
+img_thumbnail_url: /images/recipes/cheesy-garlic-bread/cheesy-garlic-bread-1.jpeg
 ----
 recipe_url: /recipe/cheesy-garlic-bread
+#### recipe ####
+recipe_title: Teriyaki Chicken
+----
+author: Ira Horecka
+----
+author_url: /author/ira-horecka
+----
+origin: Japan
+----
+origin_img_url: /images/flags/japan/30px-20px.png
+----
+meal: Lunch / Dinner
+----
+difficulty: Easy
+----
+about: Teriyaki chicken is one of the simpler dishes you can make with boneless chicken thighs. Why not impress your friends with a classic home-cooked Japanese dish?
+----
+img_url: /images/recipes/teriyaki-chicken/teriyaki-chicken-1.jpeg
+----
+img_thumbnail_url: /images/recipes/teriyaki-chicken/teriyaki-chicken-1.jpeg
+----
+recipe_url: /recipe/teriyaki-chicken
