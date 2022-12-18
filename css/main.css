@@ -1,0 +1,111 @@
+:root {
+    --max-width: 1280px;
+    --text-black: rgba(0,0,0,.9);
+    --text-gray: rgb(100,100,100,1);
+    --pale-blue: rgba(13,110,253,0.2);
+}
+
+/* Required for Slick bug on mobile */
+* {
+    min-height: 0;
+    min-width: 0;
+}
+
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+body {
+    font-family: "LatoLatinWeb";
+    color: var(--text-gray);
+    background: rgb(255,255,255);
+}
+
+/*===== START Header =====*/
+
+.navbar {
+    box-shadow: 0px 5px 10px 1px rgba(0, 0, 0, 0.05);
+    min-height: 60px;
+    background-color: white;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+.navbar-content {
+    max-width: var(--max-width);
+}
+
+/* Allow hover navbar for drop-downs */
+.dropdown:hover .dropdown-menu {
+    margin-top: 0px;
+    display: block;
+}
+
+/* For both navbar and searchbar */
+.dropdown-item:focus,
+.dropdown-item:hover {
+    background-color: var(--pale-blue);
+    text-decoration: underline;
+}
+
+#navbar-nav-dropdown {
+    color: var(--text-black);
+}
+
+/*===== END Header =====*/
+
+/*===== START main =====*/
+
+main {
+    margin: 15px auto 0;
+    padding: 1rem;
+    max-width: var(--max-width);
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 576px) {
+    main {
+        margin: auto;
+    }
+}
+
+/* Dropdown results for search bar */
+main .dropdown-menu {
+    min-width: 0;
+    width: 100%;
+}
+
+span.anchor {
+    display: block;
+    visibility: hidden;
+    padding: 2rem 0 0;
+    margin: -2rem 0 0;
+}
+
+.img-profile {
+    flex-basis: 150px;
+}
+
+.img-profile-sm {
+    flex-basis: 75px;
+}
+
+.scroll-top {
+    padding-bottom: 4rem;
+}
+
+/*===== END main =====*/
+
+/*===== START Footer =====*/
+
+footer {
+    max-width: var(--max-width);
+    margin: auto;
+}
+
+/*===== END Footer =====*/

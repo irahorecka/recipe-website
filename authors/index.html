@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Authors | Recipe Website</title>
+  <link rel="icon" type="image/png" href="../images/logos/recipe-website-logo-32px.png?h=8acf1ede"/>
+  <link rel="stylesheet" href="../external/bootstrap-5.0.2/css/bootstrap.min.css?h=33f53934">
+  <link rel="stylesheet" href="../css/main.css?h=9c974c05">
+  <link rel="stylesheet" href="../css/latolatinfonts.css?h=718a7dc2">
+  <link rel="stylesheet" href="../css/fork-awesome/fork-awesome.min.css?h=11d227c1"><script src="../external/jquery-3.6.0.min.js?h=b82d238d"></script>
+  <script src="../external/bootstrap-5.0.2/js/bootstrap.bundle.min.js?h=70898d2c"></script>
+  <script src="../external/lunr-2.3.9.min.js?h=1d1ba011"></script><meta property="og:site_name" content="Recipe Website"/>
+  <meta property="og:title" content="Recipe Website - Fun and Simple Recipes"/>
+  <meta property="og:description" content="Recipe Website hosts fun and simple recipes."/>
+  <meta property="og:image" content="../images/logos/recipe-website-logo.png?h=5592df63"/>
+  <meta property="og:secure_url" content="../images/logos/recipe-website-logo.png?h=5592df63"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-sm navbar-light bg-light">
+      <div class="container-fluid px-3 navbar-content">
+        <a class="navbar-brand" href="../">
+          <img src="../images/logos/recipe-website-logo-32px.png?h=8acf1ede" alt="Home">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbar-nav" aria-controls="navbar-nav"
+                aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-nav">
+          <ul class="navbar-nav mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" href="../">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#"
+                 id="navbar-nav-dropdown" role="button"
+                 data-bs-toggle="dropdown" aria-expanded="false">
+                Menu
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbar-nav-dropdown">
+                <li><a class="dropdown-item" href="../breakfast/#content">Breakfast</a></li>
+                <li><a class="dropdown-item" href="../lunch/#content">Lunch</a></li>
+                <li><a class="dropdown-item" href="../dinner/#content">Dinner</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#content">Authors</a></li>
+                <li><a class="dropdown-item" href="../countries/#content">Countries</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="../about/#content">About</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div class="d-flex justify-content-center justify-content-md-between" style="min-height: 100vh;">
+      <!-- Side bar for desktop -->
+      <aside class="d-none d-md-block col-md-3 col-lg-2" aria-label="Sidebar">
+        <div class="sticky-top pt-5 px-3 px-lg-0">
+          <a href="../">
+            <div class="d-flex justify-content-center">
+              <img src="../images/logos/recipe-website-logo.png?h=5592df63" class="rounded" style="max-width:100%; max-height:100%; padding:2rem; padding-top:0">
+            </div>
+          </a>
+          <div class="d-flex justify-content-center border-bottom color-border-muted py-3 mt-3 mb-4">
+            <button class="btn btn-primary rounded w-100" type="button"> Surprise me! </button>
+          </div>
+          <div>
+            <input type="text" id="desktop-input" class="form-control" placeholder="🔎  Search website" autocomplete="off">
+          </div>
+          <div class="px-5 px-md-3">
+            <h3 class="text-left pt-2 pb-3"> Simple and cheap </h3>
+            <div class="pb-2">
+              <h5 class="text-left pb-1 text-decoration-underline"> Meal </h5>
+              <ul class="list-unstyled">
+                <li class="">
+                  <div class="width-full d-flex justify-content-left mt-1">
+                    <a href="../breakfast/#content"> Breakfast </a>
+                  </div>
+                </li>
+                <li class="">
+                  <div class="width-full d-flex justify-content-left mt-1">
+                    <a href="../lunch/#content"> Lunch </a>
+                  </div>
+                </li>
+                <li class="">
+                  <div class="width-full d-flex justify-content-left mt-1">
+                    <a href="../dinner/#content"> Dinner </a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h5 class="text-left pb-1 text-decoration-underline"> Categories </h5>
+              <ul class="list-unstyled">
+                <li class="">
+                  <div class="width-full mt-1">
+                    <a href="#content"> Authors </a>
+                  </div>
+                </li>
+                <li class="">
+                  <div class="width-full mt-1">
+                    <a href="../countries/#content"> Countries </a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </aside>
+      <div class="col-md-9 px-3">
+        <!-- Side bar for mobile -->
+        <div class="d-block d-md-none py-3">
+          <a href="../">
+            <div class="d-flex justify-content-center">
+              <img src="../images/logos/recipe-website-logo.png?h=5592df63" class="rounded" style="max-width:160px; max-height:160px;">
+            </div>
+          </a>
+          <div class="d-flex justify-content-center border-bottom color-border-muted py-3 my-3">
+            <button class="btn btn-primary rounded px-5" type="button"> Surprise me! </button>
+          </div>
+          <div>
+            <input type="text" id="mobile-input" class="form-control" placeholder="🔎  Search website" autocomplete="off">
+          </div>
+          <div class="px-4">
+            <h3 class="text-center pt-2 pb-3"> Simple and cheap </h3>
+            <div class="row">
+              <div class="col-6 pb-2">
+                <h5 class="text-left text-decoration-underline"> Meal </h5>
+                <ul class="row list-unstyled">
+                  <li class="col-12">
+                    <div class="width-full mt-2">
+                      <a href="../breakfast/#content"> Breakfast </a>
+                    </div>
+                  </li>
+                  <li class="col-12">
+                    <div class="width-full mt-2">
+                      <a href="../lunch/#content"> Lunch </a>
+                    </div>
+                  </li>
+                  <li class="col-12">
+                    <div class="width-full mt-2">
+                      <a href="../dinner/#content"> Dinner </a>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-6">
+                <h5 class="text-left text-decoration-underline"> Categories </h5>
+                <ul class="row list-unstyled">
+                  <li class="col-6">
+                    <div class="width-full mt-2">
+                      <a href="#content"> Authors </a>
+                    </div>
+                  </li>
+                  <li class="col-6">
+                    <div class="width-full mt-2">
+                      <a href="../countries/#content"> Countries </a>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <span id="content" class="anchor d-block d-md-none"></span>
+        <span class="anchor d-none d-md-block"></span>
+        <div class="container pt-5">
+          
+    <div class="row mb-5">
+      
+      <div class="col my-auto">
+        <h1 class="mb-0"> Authors </h1>
+      </div>
+      
+    </div>
+    <h2 class="mb-4">  </h2>
+    <p>
+      
+    </p>
+    <hr class="my-4">
+    <div class="container px-0">
+      <div class="row justify-content-between"><div class="justify-content-between col-12 col-sm-6">
+          <a href="../author/anna-axakova/#content" class="text-reset text-decoration-none">
+            <div class="col-12 border border-dark rounded p-3 my-3">
+              <div class="row">
+                <div class="col-5 col-lg-4 my-auto">
+                  <img src="../images/profiles/anna-profile.jpeg?h=c69e96d8" alt="Anna Axakova" class="img-profile-sm img-fluid rounded-circle border border-dark">
+                </div>
+                <div class="col-7 col-lg-8 my-auto">
+                  <!-- Adjust category title size conditional to its length -->
+                  <h4 class="col-12 mb-0"> Anna Axakova </h4>
+                  </div>
+              </div>
+            </div>
+          </a>
+        </div><div class="justify-content-between col-12 col-sm-6">
+          <a href="../author/ira-horecka/#content" class="text-reset text-decoration-none">
+            <div class="col-12 border border-dark rounded p-3 my-3">
+              <div class="row">
+                <div class="col-5 col-lg-4 my-auto">
+                  <img src="../images/profiles/ira-profile.png?h=11f00251" alt="Ira Horecka" class="img-profile-sm img-fluid rounded-circle border border-dark">
+                </div>
+                <div class="col-7 col-lg-8 my-auto">
+                  <!-- Adjust category title size conditional to its length -->
+                  <h4 class="col-12 mb-0"> Ira Horecka </h4>
+                  </div>
+              </div>
+            </div>
+          </a>
+        </div></div>
+    </div>
+
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="scroll-top text-center text-md-end px-3 pt-0">
+      <a href="#top"> Scroll to top </a>
+    </div>
+  </footer>
+  <script src="../js/autocomplete-search.js?h=c6c825e7"></script>
+  <script src="../js/lunr-search.js?h=0bd1013d"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $("a[href='#top']").click(function() {
+        $("html, body").animate({ scrollTop: 0 }, "slow");
+        return false;
+      });
+      
+      window.store = {
+          "authors": {"label": "Authors", "tags": [''], "url": "./", "class": "authors"},
+          "lunch": {"label": "Lunch", "tags": [''], "url": "../lunch/", "class": "lunch"},
+          "dinner": {"label": "Dinner", "tags": [''], "url": "../dinner/", "class": "dinner"},
+          "about": {"label": "About", "tags": [''], "url": "../about/", "class": "about"},
+          "countries": {"label": "Countries", "tags": [''], "url": "../countries/", "class": "countries"},
+          "breakfast": {"label": "Breakfast", "tags": [''], "url": "../breakfast/", "class": "breakfast"},
+          "ira-horecka": {"label": "Ira Horecka", "tags": ['student,', 'toronto'], "url": "../author/ira-horecka/", "class": "author"},
+          "anna-axakova": {"label": "Anna Axakova", "tags": ['student,', 'toronto'], "url": "../author/anna-axakova/", "class": "author"},
+          "russia": {"label": "Russia", "tags": [''], "url": "../country/russia/", "class": "country"},
+          "japan": {"label": "Japan", "tags": [''], "url": "../country/japan/", "class": "country"},
+          "india": {"label": "India", "tags": [''], "url": "../country/india/", "class": "country"},
+          "italy": {"label": "Italy", "tags": [''], "url": "../country/italy/", "class": "country"},
+          "mapo-tofu-jp": {"label": "Japanese Mapo Tofu", "tags": ['japan,', 'japanese,', 'tofu,', 'pork'], "url": "../recipe/mapo-tofu-jp/", "class": "recipe"},
+          "sausage-fried-rice": {"label": "Sausage Fried Rice", "tags": ['china,', 'chinese,', 'sausage,', 'rice,', 'fried,', 'fried', 'rice'], "url": "../recipe/sausage-fried-rice/", "class": "recipe"},
+          "cheesy-garlic-bread": {"label": "Cheesy Garlic Bread", "tags": ['america,', 'united', 'states,', 'garlic,', 'cheese,', 'appetizer,', 'party'], "url": "../recipe/cheesy-garlic-bread/", "class": "recipe"},
+          "garlic-bok-choy": {"label": "Garlic Bok Choy", "tags": ['china,', 'chinese,', 'garlic,', 'bok', 'choy,', 'healthy'], "url": "../recipe/garlic-bok-choy/", "class": "recipe"},
+          "teriyaki-chicken": {"label": "Teriyaki Chicken", "tags": ['japan,', 'japanese,', 'chicken,', 'teriyaki,', 'lunch,', 'dinner'], "url": "../recipe/teriyaki-chicken/", "class": "recipe"},
+          "shishito-saute": {"label": "Sautéed Shishito Peppers", "tags": ['japan,', 'japanese,', 'peppers,', 'saute,', 'healthy'], "url": "../recipe/shishito-saute/", "class": "recipe"},
+          "pelmeni": {"label": "Pelmeni", "tags": ['russia,', 'russian,', 'dumplings'], "url": "../recipe/pelmeni/", "class": "recipe"},
+          "okonomiyaki": {"label": "Okonomiyaki", "tags": ['japan,', 'japanese,', 'pancake'], "url": "../recipe/okonomiyaki/", "class": "recipe"},}
+    });
+  </script></body>
+</html>
