@@ -73,7 +73,7 @@
             </div>
           </a>
           <div class="d-flex justify-content-center border-bottom color-border-muted py-3 mt-3 mb-4">
-            <button id="random-recipe" class="btn btn-primary rounded w-100" type="button"> Surprise me! </button>
+            <button class="btn btn-primary rounded w-100" type="button" onclick="gotoRandomRecipe()"> Surprise me! </button>
           </div>
           <div>
             <input id="desktop-input" type="text" class="form-control" placeholder="🔎  Search website" autocomplete="off">
@@ -127,7 +127,7 @@
             </div>
           </a>
           <div class="d-flex justify-content-center border-bottom color-border-muted py-3 my-3">
-            <button class="btn btn-primary rounded px-5" type="button"> Surprise me! </button>
+            <button class="btn btn-primary rounded px-5" type="button" onclick="gotoRandomRecipe()"> Surprise me! </button>
           </div>
           <div>
             <input id="mobile-input" type="text" class="form-control" placeholder="🔎  Search website" autocomplete="off">
@@ -198,7 +198,7 @@
       });
       // Construct tags for Lunr search engine
       {% set endpoints = ['/', '/author', '/country', '/recipe'] %}
-      window.store = {
+      window.lunrSearchEndpoints = {
       {%- for endpoint in endpoints -%}
         {% set pages = site.query(endpoint).include_undiscoverable(false).all() %}
         {%- for page in pages -%}
@@ -214,18 +214,18 @@
       // Construct recipe endpoints for random recipe selector button
       // Don't allow current page to be in random recipe endpoint array
       {% set recipesPage = site.query('/recipe').include_undiscoverable(false).all() %}
-      const randomRecipeEndpoints = [
+      window.randomRecipeEndpoints = [
         {%- for page in recipesPage -%}
           {% if page._path|url != "./" %}
             "{{ page._path|url }}#content",
           {% endif %}
         {%- endfor -%}
       ];
-      $("button[id='random-recipe']").click(function() {
-        var random = randomRecipeEndpoints[Math.floor(Math.random() * randomRecipeEndpoints.length)];
-        window.location.href = random;
-      });
     });
+    function gotoRandomRecipe() {
+      var random = window.randomRecipeEndpoints[Math.floor(Math.random() * randomRecipeEndpoints.length)];
+      window.location.href = random;
+    }
   </script>
   {%- block text_js -%}
   {%- endblock -%}

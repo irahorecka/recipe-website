@@ -87,11 +87,11 @@ function updateSearch(e, ac) {
         this.field('tags', {
             boost: 5
         });
-        for (const key in window.store) {
+        for (const key in window.lunrSearchEndpoints) {
             this.add({
                 id: key,
-                label: window.store[key].label,
-                tags: window.store[key].tags,
+                label: window.lunrSearchEndpoints[key].label,
+                tags: window.lunrSearchEndpoints[key].tags,
             });
         }
     })
@@ -102,6 +102,6 @@ function updateSearch(e, ac) {
         return false;
     }
     ac.dropdown._menu.hidden = false;
-    updateResults(ac, results, window.store);
+    updateResults(ac, results, window.lunrSearchEndpoints);
     return true;
 }
