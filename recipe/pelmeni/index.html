@@ -36,14 +36,14 @@
                 aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbar-nav">
+        <div id="navbar-nav" class="collapse navbar-collapse">
           <ul class="navbar-nav mb-2 mb-lg-0">
             <li class="nav-item">
               <a class="nav-link active" href="../../">Home</a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#"
-                 id="navbar-nav-dropdown" role="button"
+              <a id="navbar-nav-dropdown" class="nav-link dropdown-toggle"
+                 href="#" role="button"
                  data-bs-toggle="dropdown" aria-expanded="false">
                 Menu
               </a>
@@ -75,10 +75,10 @@
             </div>
           </a>
           <div class="d-flex justify-content-center border-bottom color-border-muted py-3 mt-3 mb-4">
-            <button class="btn btn-primary rounded w-100" type="button"> Surprise me! </button>
+            <button id="random-recipe" class="btn btn-primary rounded w-100" type="button"> Surprise me! </button>
           </div>
           <div>
-            <input type="text" id="desktop-input" class="form-control" placeholder="🔎  Search website" autocomplete="off">
+            <input id="desktop-input" type="text" class="form-control" placeholder="🔎  Search website" autocomplete="off">
           </div>
           <div class="px-5 px-md-3">
             <h3 class="text-left pt-2 pb-3"> Simple and cheap </h3>
@@ -132,7 +132,7 @@
             <button class="btn btn-primary rounded px-5" type="button"> Surprise me! </button>
           </div>
           <div>
-            <input type="text" id="mobile-input" class="form-control" placeholder="🔎  Search website" autocomplete="off">
+            <input id="mobile-input" type="text" class="form-control" placeholder="🔎  Search website" autocomplete="off">
           </div>
           <div class="px-2">
             <h3 class="text-center pt-2 pb-3"> Simple and cheap </h3>
@@ -398,10 +398,12 @@
   <script src="../../js/lunr-search.js?h=0bd1013d"></script>
   <script type="text/javascript">
     $(document).ready(function() {
+      // 'Scroll to top' button functionality
       $("a[href='#top']").click(function() {
         $("html, body").animate({ scrollTop: 0 }, "slow");
         return false;
       });
+      // Construct tags for Lunr search engine
       
       window.store = {
           "authors": {"label": "Authors", "tags": [''], "url": "../../authors/", "class": "authors"},
@@ -424,6 +426,28 @@
           "shishito-saute": {"label": "Sautéed Shishito Peppers", "tags": ['japan,', 'japanese,', 'peppers,', 'saute,', 'healthy'], "url": "../shishito-saute/", "class": "recipe"},
           "pelmeni": {"label": "Pelmeni", "tags": ['russia,', 'russian,', 'dumplings'], "url": "./", "class": "recipe"},
           "okonomiyaki": {"label": "Okonomiyaki", "tags": ['japan,', 'japanese,', 'pancake'], "url": "../okonomiyaki/", "class": "recipe"},}
+      // Construct recipe endpoints for random recipe selector button
+      // Don't allow current page to be in random recipe endpoint array
+      
+      const randomRecipeEndpoints = [
+            "../mapo-tofu-jp/#content",
+          
+            "../sausage-fried-rice/#content",
+          
+            "../cheesy-garlic-bread/#content",
+          
+            "../garlic-bok-choy/#content",
+          
+            "../teriyaki-chicken/#content",
+          
+            "../shishito-saute/#content",
+          
+            "../okonomiyaki/#content",
+          ];
+      $("button[id='random-recipe']").click(function() {
+        var random = randomRecipeEndpoints[Math.floor(Math.random() * randomRecipeEndpoints.length)];
+        window.location.href = random;
+      });
     });
   </script>
 <script type="text/javascript">
