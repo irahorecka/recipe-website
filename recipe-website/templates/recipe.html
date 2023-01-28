@@ -24,7 +24,8 @@
         <div class="gallery slider-main">
           {%- for image in this.gallery.blocks -%}
             <figure itemprop="associatedMedia" class="main">
-              <a href="{{ image.url|asseturl }}" data-med="{{ image.url|asseturl }}"
+              <a href="{{ image.url|asseturl }}"
+                data-med="{{ image.url|asseturl }}"
                 data-caption="{{ image.description }}<br><em class='text-muted'>© The Recipe Website</em>"
                 data-size="1200x800"
                 data-med-size="900x600"
@@ -68,7 +69,8 @@
         <div class="gallery slider-main">
         {%- for image in this.gallery.blocks -%}
           <figure itemprop="associatedMedia" class="main">
-            <a href="{{ image.url|asseturl }}" data-med="{{ image.url|asseturl }}"
+            <a href="{{ image.url|asseturl }}"
+              data-med="{{ image.url|asseturl }}"
               data-caption="{{ image.description }}<br><em class='text-muted'>© The Recipe Website</em>"
               data-size="1200x800"
               data-med-size="900x600"
