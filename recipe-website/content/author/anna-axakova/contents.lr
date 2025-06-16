@@ -2,15 +2,15 @@ _template: index.html
 ---
 _model: index
 ---
-title: Anna Axakova
+title: Ira Horecka
 ---
-page_title: Anna Axakova
+page_title: Ira Horecka
 ---
-page_title_img_url: /images/profiles/anna-profile.jpeg
+page_title_img_url: /images/profiles/ira-profile.png
 ---
 is_img_url_profile: true
 ---
-page_header: Bio for Anna.
+page_header: Bio for Ira.
 ---
 page_body:
 ---
@@ -22,9 +22,9 @@ recipes:
 #### recipe ####
 recipe_title: Pelmeni
 ----
-author: Anna Axakova
+author: Ira Horecka
 ----
-author_url: /author/anna-axakova
+author_url: /author/ira-horecka
 ----
 origin: Russia
 ----

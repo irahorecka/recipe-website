@@ -34,7 +34,7 @@ This is a TODO.md file for the Recipe Website.
 - [x] Establish a good href ID link to page content (especially helpful for mobile devices)
 - [x] Add humans.txt page
 - [x] BUG :: Persistent lunr features even with wrong keyword
-  - E.g., Type 'Anna' --> (feaure) 'Anna Axakova' --> Delete 'Anna' then type '/' (no feature) --> Press ENTER --> Route to Anna's page
+  - E.g., Type 'Ira' --> (feaure) 'Ira Horecka' --> Delete 'Ira' then type '/' (no feature) --> Press ENTER --> Route to Ira's page
 - [x] BUG :: Incorrect placement of search dropdown menu if parsing failed in initial search followed by good search
   - E.g., Type '/Ira' --> (hidden feature) --> Delete '/Ira' then type 'Ira' (feature) --> 'Ira' in dropdown item located @ bottom of page
 - [x] Create model field for search tags for every contents.lr file
