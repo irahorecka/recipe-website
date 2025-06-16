@@ -132,3 +132,6 @@ dmypy.json
 Notes/
 .pptx
 .rtf
+
+# Personal
+.DS_Store/
